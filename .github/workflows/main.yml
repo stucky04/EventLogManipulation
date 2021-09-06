@@ -28,10 +28,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: pyinstall .exe file
         run: |
-          cd src
-          dir
           python -m pip install --upgrade pip
           pip install pyinstaller
+          cd src
+          dir
           pyinstaller --onefile --windowed gui.spec gui.py
           dir
 

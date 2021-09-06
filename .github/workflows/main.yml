@@ -29,6 +29,7 @@ jobs:
       - name: pyinstall .exe file
         run: |
           cd src
+          dir
           python -m pip install --upgrade pip
           pip install pyinstaller
           pyinstaller --onefile --windowed gui.spec gui.py

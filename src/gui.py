@@ -1,8 +1,9 @@
 from tkinter import *
 from functools import partial
 from tkinter import filedialog
+from traceback import print_exc
 
-from functionalities.LogManipulation import *
+from src.src.functionalities.LogManipulation import *
 
 window = Tk()
 window.title("Log Manipulator")
@@ -94,8 +95,15 @@ def do_modifications():
         log_obj.output_path = label_outputpath_entry.get()
         log_obj.input_path_to_insert_incorrect_issues = label_inputpath2_entry.get()
 
+        # get amount
+        if int(label_amountrel_entry.get()) != 0 and label_amountabs_entry.get() != "":
+            popup_message("specify either absolute OR relative amount")
+
         # set amount
-        log_obj.relative_amount = float(label_amountrel_entry.get())
+        if int(label_amountrel_entry.get()) != 0:
+            log_obj.relative_amount = float(label_amountrel_entry.get())/100
+        elif label_amountabs_entry.get() != "":
+            log_obj.absolute_amount = int(label_amountabs_entry.get())
 
         # read input file(s)
         log_obj.read_input_document()
@@ -113,6 +121,7 @@ def do_modifications():
         log_obj.write_output_document()
     except:
         popup_message("Some Error happened...")
+        print_exc()
         exit(1)
 
     # notice user

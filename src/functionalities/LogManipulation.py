@@ -9,6 +9,7 @@ class LogManipulation:
     input_path_to_insert_incorrect_issues = ""
     output_path = ""
     relative_amount = 0
+    absolute_amount = 0
     number_of_case_attributes_per_case = 3
 
     tree = None
@@ -33,9 +34,12 @@ class LogManipulation:
     # missing cases
     # randomly deletes specified amount of cases
     def insert_I1(self):
-        # calculate how many cases to remove
-        number_of_cases_to_remove = int(
-            self.relative_amount * len(self.root.findall(".//trace")))
+        if self.relative_amount != 0:
+            # calculate how many cases to remove
+            number_of_cases_to_remove = int(
+                self.relative_amount * len(self.root.findall(".//trace")))
+        else:
+            number_of_cases_to_remove = self.absolute_amount
 
         i = 0
         while i < number_of_cases_to_remove:
@@ -52,9 +56,12 @@ class LogManipulation:
     # missing events
     # randomly delete specified amount of events
     def insert_I2(self):
-        # calculate how many events to remove
-        number_of_events_to_remove = int(
-            self.relative_amount * len(self.root.findall(".//event")))
+        if self.relative_amount != 0:
+            # calculate how many events to remove
+            number_of_events_to_remove = int(
+                self.relative_amount * len(self.root.findall(".//event")))
+        else:
+            number_of_events_to_remove = self.absolute_amount
 
         i = 0
         while i < number_of_events_to_remove:
@@ -84,8 +91,11 @@ class LogManipulation:
             if element.tag != 'event':
                 number_of_case_attributes = number_of_case_attributes + 1
 
-        # calculate how many to remove
-        number_of_case_attributes_to_remove = int(self.relative_amount * number_of_case_attributes)
+        if self.relative_amount != "":
+            # calculate how many to remove
+            number_of_case_attributes_to_remove = int(self.relative_amount * number_of_case_attributes)
+        else:
+            number_of_case_attributes_to_remove = int(self.absolute_amount)
 
         i = 0
         while i < number_of_case_attributes_to_remove:
@@ -108,9 +118,12 @@ class LogManipulation:
     # missing position
     # pick random events and delete their timestamp, then move them to other traces at a random position
     def insert_I5(self):
-        # calculate how many events to modify
-        number_of_events_to_modify = int(
-            self.relative_amount * len(self.root.findall(".//event")))
+        if self.relative_amount != "":
+            # calculate how many events to modify
+            number_of_events_to_modify = int(
+                self.relative_amount * len(self.root.findall(".//event")))
+        else:
+            number_of_events_to_modify = self.absolute_amount
 
         i = 0
         while i < number_of_events_to_modify:
@@ -130,9 +143,12 @@ class LogManipulation:
     # missing activity names
     # randomly delete specified amount of activity names
     def insert_I6(self):
-        # calculate how many activity names to modify
-        number_to_delete = int(
-            self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
+        if self.relative_amount != "":
+            # calculate how many activity names to modify
+            number_to_delete = int(
+                self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
+        else:
+            number_to_delete = self.absolute_amount
 
         i = 0
         while i < number_to_delete:
@@ -144,8 +160,11 @@ class LogManipulation:
     # missing timestamps
     # randomly pick events and delte their timestamp
     def insert_I7(self):
-        # calculate how many activity names to modify
-        number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/date")))
+        if self.relative_amount != "":
+            # calculate how many activity names to modify
+            number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/date")))
+        else:
+            number_to_delete = self.absolute_amount
 
         i = 0
         while i < number_to_delete:
@@ -157,9 +176,12 @@ class LogManipulation:
     # missing resource
     # pick random 'org:resource' tags and delete them
     def insert_I8(self):
-        # calculate how many activity names to modify
-        number_to_delete = int(
-            self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
+        if self.relative_amount != "":
+            # calculate how many activity names to modify
+            number_to_delete = int(
+                self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
+        else:
+            number_to_delete = self.absolute_amount
 
         i = 0
         while i < number_to_delete:
@@ -171,8 +193,11 @@ class LogManipulation:
     # missing event attributes
     # pick random event attributes and delete them
     def insert_I9(self):
-        # calculate how many activity names to modify
-        number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/")))
+        if self.relative_amount != "":
+            # calculate how many activity names to modify
+            number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/")))
+        else:
+            number_to_delete = self.absolute_amount
 
         i = 0
         while i < number_to_delete:
@@ -184,8 +209,11 @@ class LogManipulation:
     # incorrect case
     # pick a random case from other process and insert it at the end of the regarded process
     def insert_I10(self):
-        # calculate how many cases to insert
-        number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        if self.relative_amount != "":
+            # calculate how many cases to insert
+            number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        else:
+            number_to_insert = self.absolute_amount
 
         i = 0
         while i < number_to_insert:
@@ -202,8 +230,11 @@ class LogManipulation:
     # incorrect event
     # pick random event from other process and insert it at a random case of the regarded process at random position
     def insert_I11(self):
-        # calculate how many cases to insert
-        number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        if self.relative_amount != "":
+            # calculate how many cases to insert
+            number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        else:
+            number_to_insert = self.absolute_amount
 
         i = 0
         while i < number_to_insert:
@@ -222,8 +253,11 @@ class LogManipulation:
     # incorrect relationship
     # pick a random event and move to another random trace at a random position
     def insert_I12(self):
-        # calculate how many events to move
-        number_to_move = int(self.relative_amount * len(self.root.findall(".//event")))
+        if self.relative_amount != "":
+            # calculate how many events to move
+            number_to_move = int(self.relative_amount * len(self.root.findall(".//event")))
+        else:
+            number_to_move = self.absolute_amount
 
         i = 0
         while i < number_to_move:
@@ -244,9 +278,12 @@ class LogManipulation:
     # pick a random case attribute and change to random value
     # case attributes: concept:name, variant:count, variant:index
     def insert_I13(self):
-        # calculate how many attributes to modify
-        number_to_modify = int(
-            self.relative_amount * len(self.root.findall(".//trace")) * self.number_of_case_attributes_per_case)
+        if self.relative_amount != "":
+            # calculate how many attributes to modify
+            number_to_modify = int(
+                self.relative_amount * len(self.root.findall(".//trace")) * self.number_of_case_attributes_per_case)
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -264,9 +301,12 @@ class LogManipulation:
     # incorrect position
     # pick event within a trace and move to other position within the SAME trace
     def insert_I14(self):
-        # calculate how many events to modify
-        number_of_events_to_modify = int(
-            self.relative_amount * len(self.root.findall(".//event")))
+        if self.relative_amount != "":
+            # calculate how many events to modify
+            number_of_events_to_modify = int(
+                self.relative_amount * len(self.root.findall(".//event")))
+        else:
+            number_of_events_to_modify = self.absolute_amount
 
         i = 0
         while i < number_of_events_to_modify:
@@ -283,9 +323,12 @@ class LogManipulation:
     # incorrect activity name
     # pick random event and set activity name to random string value
     def insert_I15(self):
-        # calculate how many activity names to modify
-        number_to_modify = int(
-            self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
+        if self.relative_amount != "":
+            # calculate how many activity names to modify
+            number_to_modify = int(
+                self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -297,8 +340,11 @@ class LogManipulation:
     # incorrect timestamp
     # pick random timestamp and change to random value
     def insert_I16(self):
-        # calculate how many timestamps to modify
-        number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
+        if self.relative_amount != "":
+            # calculate how many timestamps to modify
+            number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -310,9 +356,12 @@ class LogManipulation:
     # incorrect resource
     # pick random org:resource and change to random value
     def insert_I17(self):
-        # calculate how many resources to modify
-        number_to_modify = int(
-            self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
+        if self.relative_amount != "":
+            # calculate how many resources to modify
+            number_to_modify = int(
+                self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -323,9 +372,12 @@ class LogManipulation:
 
     # incorrect event attribute
     # pick random attribute within event and change to random value
-    def insert_I18(self):
-        # calculate how many attributes to modify
-        number_to_modify = int(self.relative_amount * len(self.root.findall(".//event/")))
+    def insert_I18(self):  #
+        if self.relative_amount != "":
+            # calculate how many attributes to modify
+            number_to_modify = int(self.relative_amount * len(self.root.findall(".//event/")))
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -359,8 +411,11 @@ class LogManipulation:
     # imprecise timestamp
     # pick random timestamp and cut off time and day of the
     def insert_I23(self):
-        # calculate how many timestamps to modify
-        number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
+        if self.relative_amount != "":
+            # calculate how many timestamps to modify
+            number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
+        else:
+            number_to_modify = self.absolute_amount
 
         i = 0
         while i < number_to_modify:
@@ -380,8 +435,11 @@ class LogManipulation:
 
     # imprecise case
     def insert_I26(self):
-        # calculate how many cases to insert
-        number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        if self.relative_amount != "":
+            # calculate how many cases to insert
+            number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
+        else:
+            number_to_insert = self.absolute_amount
 
         i = 0
         while i < number_to_insert:
@@ -397,8 +455,11 @@ class LogManipulation:
 
     # imprecise event
     def insert_I27(self):
-        # calculate how many events to insert
-        number_to_insert = int(self.relative_amount * len(self.root.findall(".//event")))
+        if self.relative_amount != "":
+            # calculate how many events to insert
+            number_to_insert = int(self.relative_amount * len(self.root.findall(".//event")))
+        else:
+            number_to_insert = self.absolute_amount
 
         i = 0
         while i < number_to_insert:

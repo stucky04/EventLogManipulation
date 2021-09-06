@@ -4,8 +4,8 @@
 block_cipher = None
 
 
-a = Analysis(['src\\gui.py'],
-             pathex=['C:\\Users\\Nico\\PycharmProjects\\MA_LogFiltering\\src'],
+a = Analysis(['gui.py'],
+             pathex=['C:\\Users\\Nico\\PycharmProjects\\MA_LogFiltering\\src\\src'],
              binaries=[],
              datas=[],
              hiddenimports=[],

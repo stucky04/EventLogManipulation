@@ -31,8 +31,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller
           cd src
-          dir
-          pyinstaller --onefile --windowed gui.spec gui.py
+          pyinstaller --onefile --windowed ./gui.py
           dir
 
       - name: create .exe artifacts

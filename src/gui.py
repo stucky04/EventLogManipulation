@@ -7,33 +7,33 @@ from src.src.functionalities.LogManipulation import *
 
 window = Tk()
 window.title("Log Manipulator")
-window.geometry('400x600')
+window.geometry('600x400')
 
 # fields
 
 # input file
 label_inputpath_text = Label(window, text="Input Path: ")
 label_inputpath_text.grid(column=0, row=0)
-label_inputpath_entry = Entry(window)
+label_inputpath_entry = Entry(window, width=60)
 label_inputpath_entry.grid(column=1, row=0)
 
 # input file 2 (needed for I10, I11, I26, I27
 label_inputpath2_text = Label(window, text="Input Path 2 *²: ")
 label_inputpath2_text.grid(column=0, row=1)
-label_inputpath2_entry = Entry(window)
+label_inputpath2_entry = Entry(window, width=60)
 label_inputpath2_entry.grid(column=1, row=1)
 
 # output file
 label_outputpath_text = Label(window, text="Output Path: ")
 label_outputpath_text.grid(column=0, row=2)
-label_outputpath_entry = Entry(window)
+label_outputpath_entry = Entry(window, width=60)
 label_outputpath_entry.grid(column=1, row=2)
 
 # dqis
 label_dqis_text = Label(window, text="DQI(s) to insert: ")
 label_dqis_text.grid(column=0, row=3)
 
-list_dqis = Listbox(window, selectmode="multiple")
+list_dqis = Listbox(window, selectmode="multiple", width=60)
 list_dqis.grid(column=1, row=3)
 
 i = 1
@@ -49,20 +49,20 @@ yscrollbar.config(command=list_dqis.yview)
 # amount of dqis
 label_amountabs_text = Label(window, text="Absolute* DQI(s): ")
 label_amountabs_text.grid(column=0, row=4)
-label_amountabs_entry = Entry(window)
+label_amountabs_entry = Entry(window, width=60)
 label_amountabs_entry.grid(column=1, row=4)
 
 label_amountrel_text = Label(window, text="Relative* DQI(s) in %: ")
 label_amountrel_text.grid(column=0, row=5)
-label_amountrel_entry = Spinbox(window, from_=0, to=100)
+label_amountrel_entry = Spinbox(window, from_=0, to=100, width=58)
 label_amountrel_entry.grid(column=1, row=5)
 
-label_infobox_text = Label(window, text="* specify either an \n absolute or a percentage- \n based rate for DQI")
-label_infobox_text.grid(column=0, row=6)
+label_infobox_text = Label(window, text="* specify either an absolute or a percentage-based rate for DQI")
+label_infobox_text.grid(column=0, columnspan=2, row=6)
 
 label_infobox_text2 = Label(window,
-                            text="*² for I10, I11, I26, I27 \n a second log file is \n needed from which random \n cases and events are \n inserted in the \n original log")
-label_infobox_text2.grid(column=0, row=7)
+                            text="*² for I10, I11, I26, I27 a second log file is needed from which \n random cases and events are inserted in the original log")
+label_infobox_text2.grid(column=0, columnspan=2, row=7)
 
 
 def browse_input_clicked(entry_field):

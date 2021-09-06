@@ -37,8 +37,7 @@ jobs:
         with:
           name: dist
           path: |
-            dist
+            dist/*.exe
 
-      - name: Fix file permissions
-          run: find . -type f -name '*.sh' -exec chmod +x {} \;
+
 

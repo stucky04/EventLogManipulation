@@ -2,7 +2,7 @@ from tkinter import *
 from functools import partial
 from tkinter import filedialog
 
-from functionalities.LogManipulation import *
+from src.functionalities.LogManipulation import *
 
 window = Tk()
 window.title("Log Manipulator")

@@ -6,7 +6,7 @@ from randomtimestamp import random_time
 
 class LogManipulation:
     input_path = ""
-    input_path_to_insert_incorrect_issues = "../../EventLogsIn/Hospital_Billing_RandomSample_1000Cases.xes"
+    input_path_to_insert_incorrect_issues = ""
     output_path = ""
     relative_amount = 0
     number_of_case_attributes_per_case = 3
@@ -417,6 +417,6 @@ class LogManipulation:
 if __name__ == '__main__':
     log_obj = LogManipulation()
     log_obj.relative_amount = 0.03
-    log_obj.input_path = "/EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes"
+    log_obj.input_path = "../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes"
     log_obj.read_input_document()
     log_obj.insert_I4()

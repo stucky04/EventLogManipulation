@@ -1,7 +1,7 @@
 import random
 import string
 from lxml import etree
-from randomtimestamp import random_time
+from randomtimestamp import random_time, random_date
 
 
 class LogManipulation:
@@ -25,6 +25,8 @@ class LogManipulation:
         # for random insertion: a second log from which cases and events are picked and inserted
         self.tree2 = etree.parse(self.input_path_to_insert_incorrect_issues)
         self.root2 = self.tree2.getroot()
+        #set seed value for random functions
+        random.seed(1)
 
     # write tree to log file again
     def write_output_document(self):
@@ -136,6 +138,10 @@ class LogManipulation:
             # move the event to another position within the trace
             trace = random_event.getparent()
             trace.remove(random_event)
+            #print("Trace Length: " + str(len(trace)))
+            #print(etree.tostring(trace, pretty_print=True).decode())
+            if len(trace) <= 3:
+                continue
             random_position_index = random.randrange(3, len(trace))
             trace.insert(random_position_index, random_event)
             i = i + 1
@@ -245,6 +251,8 @@ class LogManipulation:
             # pick a random case of original process and insert event at a random position
             all_cases = self.root.findall(".//trace")
             random_case = random.choice(all_cases)
+            if len(random_case) <= 3:
+                continue
             random_index = random.randrange(3, len(random_case))
             random_case.insert(random_index, random_event_different_process)
 
@@ -269,6 +277,8 @@ class LogManipulation:
             # pick a random other trace and insert there at random position
             all_traces = self.root.findall(".//trace")
             random_trace = random.choice(all_traces)
+            if len(random_trace) <= 3:
+                continue
             random_index = random.randrange(3, len(random_trace))
             random_trace.insert(random_index, random_event)
 
@@ -288,7 +298,7 @@ class LogManipulation:
         i = 0
         while i < number_to_modify:
             random_case_attribute = random.choice(self.root.findall(".//trace/"))
-            if self.tag == 'event':
+            if random_case_attribute.tag == 'event':
                 continue
             if random_case_attribute.tag == int:
                 random_int = random.choice(range(0, 1000))
@@ -315,6 +325,8 @@ class LogManipulation:
             # move the event to another position within the trace
             trace = random_event.getparent()
             trace.remove(random_event)
+            if len(trace) <= 3:
+                continue
             random_position_index = random.randrange(3, len(trace))
             trace.insert(random_position_index, random_event)
 
@@ -349,8 +361,8 @@ class LogManipulation:
         i = 0
         while i < number_to_modify:
             random_date_string = str(random_date()) + 'T' + str(random_time()) + '.000+02:00'
-            random_date = random.choice(self.tree.xpath(".//date"))
-            random_date.set('value', random_date_string)
+            random_date_attribute = random.choice(self.tree.xpath(".//date"))
+            random_date_attribute.set('value', random_date_string)
             i = i + 1
 
     # incorrect resource
@@ -367,7 +379,7 @@ class LogManipulation:
         while i < number_to_modify:
             random_int = random.choice(range(1000))
             random_resource = random.choice(self.tree.xpath(".//event/string[@key='org:resource']"))
-            random_resource.set('value', random_int)
+            random_resource.set('value', str(random_int))
             i = i + 1
 
     # incorrect event attribute
@@ -382,7 +394,7 @@ class LogManipulation:
         i = 0
         while i < number_to_modify:
             random_event_attribute = random.choice(self.root.findall(".//event/"))
-            if self.key == 'concept:name' or self.key == 'org:resource' or self.key == 'timestamp':
+            if random_event_attribute.get('key') == 'concept:name' or random_event_attribute.get('key') == 'org:resource' or random_event_attribute.get('key') == 'timestamp':
                 continue
 
             if random_event_attribute.tag == float or random_event_attribute.tag == int:
@@ -470,14 +482,36 @@ class LogManipulation:
             # pick a random case of original process and insert event at a random position
             all_cases = self.root.findall(".//trace")
             random_case = random.choice(all_cases)
+            if len(random_case) <= 3:
+                continue
             random_index = random.randrange(3, len(random_case))
             random_case.insert(random_index, random_event_different_process)
             i = i + 1
 
 
+def generate_all_logs():
+    relative_amounts = ["0.05", "0.10", "0.15"]
+    implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23,
+                           26, 27]
+    for percentage in relative_amounts:
+        log_obj = LogManipulation()
+        log_obj.relative_amount = float(percentage)
+        # log_obj.input_path = "../../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes"
+        # log_obj.read_input_document()
+        log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes")
+        log_obj.root = log_obj.tree.getroot()
+        log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_RandomSample_1000Cases.xes")
+        log_obj.root2 = log_obj.tree2.getroot()
+
+        for issue in implemented_methods:
+            method_call_string = "insert_I" + str(issue)
+            method_to_call = getattr(log_obj, method_call_string)
+            method_to_call()
+            file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
+            # print(file_name_string)
+            log_obj.output_path = file_name_string
+            log_obj.write_output_document()
+
+
 if __name__ == '__main__':
-    log_obj = LogManipulation()
-    log_obj.relative_amount = 0.03
-    log_obj.input_path = "../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes"
-    log_obj.read_input_document()
-    log_obj.insert_I4()
+    generate_all_logs()

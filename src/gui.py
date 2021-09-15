@@ -18,7 +18,7 @@ label_inputpath_entry = Entry(window, width=60)
 label_inputpath_entry.grid(column=1, row=0)
 
 # input file 2 (needed for I10, I11, I26, I27
-label_inputpath2_text = Label(window, text="Input Path 2 *²: ")
+label_inputpath2_text = Label(window, text="Input Path 2*²: ")
 label_inputpath2_text.grid(column=0, row=1)
 label_inputpath2_entry = Entry(window, width=60)
 label_inputpath2_entry.grid(column=1, row=1)
@@ -57,12 +57,22 @@ label_amountrel_text.grid(column=0, row=5)
 label_amountrel_entry = Spinbox(window, from_=0, to=100, width=58)
 label_amountrel_entry.grid(column=1, row=5)
 
+# seed value
+label_seed_text = Label(window, text="Seed Value*³: ")
+label_seed_text.grid(column=0, row=6)
+label_seed_entry = Entry(window, width=60)
+label_seed_entry.grid(column=1, row=6)
+
 label_infobox_text = Label(window, text="* specify either an absolute or a percentage-based rate for DQI")
-label_infobox_text.grid(column=0, columnspan=2, row=6)
+label_infobox_text.grid(column=0, columnspan=2, row=7)
 
 label_infobox_text2 = Label(window,
                             text="*² for I10, I11, I26, I27 a second log file is needed from which \n random cases and events are inserted in the original log")
-label_infobox_text2.grid(column=0, columnspan=2, row=7)
+label_infobox_text2.grid(column=0, columnspan=2, row=9)
+
+label_infobox_text3 = Label(window,
+                            text="*³ optional seed value for random operations")
+label_infobox_text3.grid(column=0, columnspan=2, row=10)
 
 
 def browse_input_clicked(entry_field):
@@ -104,6 +114,10 @@ def do_modifications():
             log_obj.relative_amount = float(label_amountrel_entry.get())/100
         elif label_amountabs_entry.get() != "":
             log_obj.absolute_amount = int(label_amountabs_entry.get())
+
+        # check if seed value given
+        if label_seed_entry.get() != "":
+            random.seed(label_seed_entry.get())
 
         # read input file(s)
         log_obj.read_input_document()

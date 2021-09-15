@@ -25,8 +25,6 @@ class LogManipulation:
         # for random insertion: a second log from which cases and events are picked and inserted
         self.tree2 = etree.parse(self.input_path_to_insert_incorrect_issues)
         self.root2 = self.tree2.getroot()
-        #set seed value for random functions
-        random.seed(1)
 
     # write tree to log file again
     def write_output_document(self):
@@ -46,12 +44,12 @@ class LogManipulation:
         i = 0
         while i < number_of_cases_to_remove:
             random_case = random.choice(self.root.findall(".//trace"))
-            try:
-                for child_node in random_case.getchildren():
-                    if child_node.get('key') == 'concept:name':
-                        print("...method insert_I1 ... removing case with name ... " + child_node.get('value'))
-            except:
-                print("error writing console log")
+            # try:
+            #     for child_node in random_case.getchildren():
+            #         if child_node.get('key') == 'concept:name':
+            #             print("...method insert_I1 ... removing case with name ... " + child_node.get('value'))
+            # except:
+            #     print("error writing console log")
             random_case.getparent().remove(random_case)
             i = i + 1
 
@@ -68,14 +66,14 @@ class LogManipulation:
         i = 0
         while i < number_of_events_to_remove:
             random_event = random.choice(self.root.findall(".//event"))
-            try:
-                for child_node in random_event.getchildren():
-                    if child_node.get('key') == 'concept:name':
-                        print("...method insert_I2 ... removing event with name ... " + child_node.get(
-                            'value') + " ... from case with name ... " + random_event.getparent().getchildren()[0].get(
-                            'value'))
-            except:
-                print("error writing console log")
+            # try:
+            #     for child_node in random_event.getchildren():
+            #         if child_node.get('key') == 'concept:name':
+            #             print("...method insert_I2 ... removing event with name ... " + child_node.get(
+            #                 'value') + " ... from case with name ... " + random_event.getparent().getchildren()[0].get(
+            #                 'value'))
+            # except:
+            #     print("error writing console log")
 
             random_event.getparent().remove(random_event)
             i = i + 1
@@ -104,13 +102,13 @@ class LogManipulation:
             random_child = random.choice(all_trace_children)
             if random_child.tag == 'event':
                 continue
-            try:
-                print("...method insert_I4 ... removing case attribute ... " + random_child.get(
-                    'key') + " ... from case with name ... " + random_child.getparent().getchildren()[
-                          0].get(
-                    'value'))
-            except:
-                print("error writing console log")
+            # try:
+            #     print("...method insert_I4 ... removing case attribute ... " + random_child.get(
+            #         'key') + " ... from case with name ... " + random_child.getparent().getchildren()[
+            #               0].get(
+            #         'value'))
+            # except:
+            #     print("error writing console log")
             try:
                 random_child.getparent().remove(random_child)
                 i = i + 1
@@ -138,8 +136,8 @@ class LogManipulation:
             # move the event to another position within the trace
             trace = random_event.getparent()
             trace.remove(random_event)
-            #print("Trace Length: " + str(len(trace)))
-            #print(etree.tostring(trace, pretty_print=True).decode())
+            # print("Trace Length: " + str(len(trace)))
+            # print(etree.tostring(trace, pretty_print=True).decode())
             if len(trace) <= 3:
                 continue
             random_position_index = random.randrange(3, len(trace))
@@ -224,8 +222,13 @@ class LogManipulation:
         i = 0
         while i < number_to_insert:
             # pick a random case from a different process
-            all_traces_different_process = self.root2.findall(".//trace")
-            random_case_different_process = random.choice(all_traces_different_process)
+            try:
+                all_traces_different_process = self.root2.findall(".//trace")
+                random_case_different_process = random.choice(all_traces_different_process)
+                print("random choice successful " + str(i))
+            except:
+                print("error selecting random trace")
+                continue
 
             # insert this case at the end of the regarded process
             index_to_insert_at = len(self.root)
@@ -245,8 +248,11 @@ class LogManipulation:
         i = 0
         while i < number_to_insert:
             # pick a random event from a different process
-            all_events_different_process = self.root2.findall(".//event")
-            random_event_different_process = random.choice(all_events_different_process)
+            try:
+                all_events_different_process = self.root2.findall(".//event")
+                random_event_different_process = random.choice(all_events_different_process)
+            except:
+                continue
 
             # pick a random case of original process and insert event at a random position
             all_cases = self.root.findall(".//trace")
@@ -394,7 +400,8 @@ class LogManipulation:
         i = 0
         while i < number_to_modify:
             random_event_attribute = random.choice(self.root.findall(".//event/"))
-            if random_event_attribute.get('key') == 'concept:name' or random_event_attribute.get('key') == 'org:resource' or random_event_attribute.get('key') == 'timestamp':
+            if random_event_attribute.get('key') == 'concept:name' or random_event_attribute.get(
+                    'key') == 'org:resource' or random_event_attribute.get('key') == 'timestamp':
                 continue
 
             if random_event_attribute.tag == float or random_event_attribute.tag == int:
@@ -476,8 +483,11 @@ class LogManipulation:
         i = 0
         while i < number_to_insert:
             # pick a random event from a different process
-            all_events_different_process = self.root2.findall(".//event")
-            random_event_different_process = random.choice(all_events_different_process)
+            try:
+                all_events_different_process = self.root2.findall(".//event")
+                random_event_different_process = random.choice(all_events_different_process)
+            except:
+                continue
 
             # pick a random case of original process and insert event at a random position
             all_cases = self.root.findall(".//trace")
@@ -486,29 +496,42 @@ class LogManipulation:
                 continue
             random_index = random.randrange(3, len(random_case))
             random_case.insert(random_index, random_event_different_process)
+            print("inserted " + str(i))
             i = i + 1
 
 
 def generate_all_logs():
     relative_amounts = ["0.05", "0.10", "0.15"]
+    relative_amounts = ["0.15"]
     implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23,
                            26, 27]
+    implemented_methods = [ 23,
+                           26, 27]
+
+    log_obj = LogManipulation()
+    log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000.xes")
+    log_obj.root = log_obj.tree.getroot()
+    log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_Full.xes")
+    log_obj.root2 = log_obj.tree2.getroot()
+
     for percentage in relative_amounts:
-        log_obj = LogManipulation()
         log_obj.relative_amount = float(percentage)
-        # log_obj.input_path = "../../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes"
-        # log_obj.read_input_document()
-        log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_RandomSample1000.xes")
-        log_obj.root = log_obj.tree.getroot()
-        log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_RandomSample_1000Cases.xes")
-        log_obj.root2 = log_obj.tree2.getroot()
+
+        # set seed value for random functions
+        random.seed(1)
+
+        # log_obj.insert_I27()
+        # file_name_string = "../EventLogsOut/" + "i" + "27" + "_" + percentage[2:] + "percent.xes"
+        # log_obj.output_path = file_name_string
+        # log_obj.write_output_document()
 
         for issue in implemented_methods:
             method_call_string = "insert_I" + str(issue)
+            print(method_call_string)
             method_to_call = getattr(log_obj, method_call_string)
             method_to_call()
             file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
-            # print(file_name_string)
+            print(file_name_string)
             log_obj.output_path = file_name_string
             log_obj.write_output_document()
 

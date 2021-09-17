@@ -111,7 +111,7 @@ def do_modifications():
 
         # set amount
         if int(label_amountrel_entry.get()) != 0:
-            log_obj.relative_amount = float(label_amountrel_entry.get())/100
+            log_obj.relative_amount = float(label_amountrel_entry.get()) / 100
         elif label_amountabs_entry.get() != "":
             log_obj.absolute_amount = int(label_amountabs_entry.get())
 
@@ -133,6 +133,9 @@ def do_modifications():
 
         # write output file again
         log_obj.write_output_document()
+
+        # add statistics at top of file as a comment
+        log_obj.add_statistics_to_log(log_obj.output_path)
     except:
         popup_message("Some Error happened...")
         print_exc()
@@ -153,6 +156,6 @@ label_outputpath_button = Button(window, text="Browse", command=partial(browse_o
 label_outputpath_button.grid(column=2, row=2)
 
 start_button = Button(window, text="Start", command=do_modifications)
-start_button.grid(column=2, row=5)
+start_button.grid(column=2, row=6)
 
 window.mainloop()

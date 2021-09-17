@@ -1,5 +1,7 @@
+import os
 import random
 import string
+import statistics
 from lxml import etree
 from randomtimestamp import random_time, random_date
 
@@ -499,42 +501,102 @@ class LogManipulation:
             print("inserted " + str(i))
             i = i + 1
 
+    # method adds all statistics at the top of given document as a comment
+    def add_statistics_to_log(path):
+        log = etree.parse(path)
+        root = log.getroot()
+
+        all_events = root.findall(".//event")
+        number_of_events = len(all_events)
+
+        all_traces = root.findall(".//trace")
+        number_of_cases = len(all_traces)
+
+        all_trace_lengths = []
+        for case in all_traces:
+            all_trace_lengths.append(len(case.getchildren()) - 3)
+        avg_trace_length = statistics.mean(all_trace_lengths)
+
+        all_case_attributes = []
+        for case in all_traces:
+            for case_attribute in case:
+                if case_attribute.tag != "event":
+                    concat = case_attribute.tag + ": " + case_attribute.get('key')
+                    if concat not in all_case_attributes:
+                        all_case_attributes.append(concat)
+        list_of_case_attributes = all_case_attributes
+
+        all_event_attributes = []
+        for event in all_events:
+            for event_attribute in event:
+                concat = event_attribute.tag + ": " + event_attribute.get('key')
+                if concat not in all_event_attributes:
+                    all_event_attributes.append(concat)
+        list_of_event_attributes = all_event_attributes
+
+        root.addprevious(etree.Comment("Statistics calculated by Log Manipulator: \n" +
+                                       "    number of cases: " + str(number_of_cases) + "\n" +
+                                       "    number of events: " + str(number_of_events) + "\n" +
+                                       "    average trace length: " + str(avg_trace_length) + "\n" +
+                                       "    used case attributes: " + str(list_of_case_attributes) + "\n" +
+                                       "    used event attributes: " + str(list_of_event_attributes) + "\n"))
+        log.write(path, pretty_print=True)
+
 
 def generate_all_logs():
     relative_amounts = ["0.05", "0.10", "0.15"]
-    relative_amounts = ["0.15"]
     implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23,
                            26, 27]
-    implemented_methods = [ 23,
+    implemented_methods = [23,
                            26, 27]
 
     log_obj = LogManipulation()
-    log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000.xes")
-    log_obj.root = log_obj.tree.getroot()
     log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_Full.xes")
     log_obj.root2 = log_obj.tree2.getroot()
 
-    for percentage in relative_amounts:
-        log_obj.relative_amount = float(percentage)
+    random.seed(1)
 
-        # set seed value for random functions
-        random.seed(1)
+    for issue in implemented_methods:
+        log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
+        log_obj.root = log_obj.tree.getroot()
+        for percentage in relative_amounts:
+            log_obj.relative_amount = float(percentage)
 
-        # log_obj.insert_I27()
-        # file_name_string = "../EventLogsOut/" + "i" + "27" + "_" + percentage[2:] + "percent.xes"
-        # log_obj.output_path = file_name_string
-        # log_obj.write_output_document()
-
-        for issue in implemented_methods:
             method_call_string = "insert_I" + str(issue)
             print(method_call_string)
             method_to_call = getattr(log_obj, method_call_string)
             method_to_call()
-            file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
+            file_name_string = "../EventLogsOut2/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
             print(file_name_string)
             log_obj.output_path = file_name_string
             log_obj.write_output_document()
 
 
+def change_default_delay_values():
+    directory = "../EventLogsOut"
+    for filename in os.listdir(directory):
+        path = os.path.join(directory, filename)
+        tree = etree.parse(path)
+        root = tree.getroot()
+        all_delay_send_attributes = root.findall(".//event/float[@key='delay_send']")
+        all_delay_judge_attributes = root.findall(".//event/float[@key='delay_judge']")
+        all_delay_prefecture_attributes = root.findall(".//event/float[@key='delay_prefecture']")
+
+        for attribute in all_delay_send_attributes:
+            if float(attribute.get('value')) == -99.0:
+                attribute.set('value', '0.0')
+
+        for attribute in all_delay_judge_attributes:
+            if float(attribute.get('value')) == -99.0:
+                attribute.set('value', '0.0')
+
+        for attribute in all_delay_prefecture_attributes:
+            if float(attribute.get('value')) == -99.0:
+                attribute.set('value', '0.0')
+
+        new_path = "../EventLogsOutDefaultDelay0/" + filename
+        tree.write(new_path, pretty_print=True)
+
+
 if __name__ == '__main__':
-    generate_all_logs()
+    print("test")

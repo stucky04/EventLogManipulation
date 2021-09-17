@@ -566,7 +566,7 @@ def generate_all_logs():
             print(method_call_string)
             method_to_call = getattr(log_obj, method_call_string)
             method_to_call()
-            file_name_string = "../EventLogsOut2/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
+            file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
             print(file_name_string)
             log_obj.output_path = file_name_string
             log_obj.write_output_document()

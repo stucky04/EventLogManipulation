@@ -2,5 +2,5 @@ src/__pycache__
 src/functionalities/__pycache__
 /build/gui
 src/EventLogsIn
-src/EventLogsOut2
+src/EventLogsIn/Hospital_Billing_Full.xes
 

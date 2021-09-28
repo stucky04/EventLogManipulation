@@ -547,8 +547,10 @@ def generate_all_logs():
     relative_amounts = ["0.05", "0.10", "0.15"]
     implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23,
                            26, 27]
-    implemented_methods = [23,
-                           26, 27]
+
+    # for specific logs only
+    implemented_methods = [1]
+    relative_amounts = ["0.15"]
 
     log_obj = LogManipulation()
     log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_Full.xes")
@@ -599,4 +601,5 @@ def change_default_delay_values():
 
 
 if __name__ == '__main__':
+    generate_all_logs()
     print("test")

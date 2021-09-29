@@ -1,8 +1,6 @@
 from tkinter import *
 from functools import partial
 from tkinter import filedialog
-from traceback import print_exc
-
 from src.src.functionalities.LogManipulation import *
 
 window = Tk()
@@ -127,18 +125,28 @@ def do_modifications():
 
         # call all needed insert... methods
         for item in selected_items:
-            concat_method_name = "insert_" + item
-            method_to_call = getattr(log_obj, concat_method_name)
-            method_to_call()
+            method_call_string = "insert_" + item
+            issue = int(item[1:])
+            if issue in range(1, 10):
+                method_to_call = getattr(missing, method_call_string)
+            elif issue in range(10, 19):
+                method_to_call = getattr(incorrect, method_call_string)
+            elif issue in range(19, 26):
+                method_to_call = getattr(imprecise, method_call_string)
+            else:
+                method_to_call = getattr(irrelevant, method_call_string)
+
+            method_to_call(log_obj)
 
         # write output file again
         log_obj.write_output_document()
+        log_obj.create_log_file(log_obj.output_path)
 
         # add statistics at top of file as a comment
-        log_obj.add_statistics_to_log(log_obj.output_path)
-    except:
+        LogManipulation.add_statistics_to_log(log_obj, log_obj.output_path)
+    except Exception as e:
         popup_message("Some Error happened...")
-        print_exc()
+        print(e)
         exit(1)
 
     # notice user

@@ -47,6 +47,7 @@ list_dqis = Listbox(window, selectmode="multiple", width=60)
 list_dqis.grid(column=1, row=3)
 
 # read the dqi description file and load implemented method names and their descriptions into gui
+module_names_dict = {}
 try:
     description_file_tree = etree.parse("functionalities/dqi/dqi_descriptions")
     description_file_root = description_file_tree.getroot()
@@ -55,6 +56,7 @@ try:
         if dqi.get('implemented') == "TRUE":
             concat_name_and_description = dqi.get('name') + "   (" + dqi.get('description_short') + ")"
             list_dqis.insert(END, concat_name_and_description)
+            module_names_dict[dqi.get('name')] = dqi.get('module')
 except Exception as e:
     popup_message("Some Error reading the DQI description file...")
     print(e)
@@ -138,16 +140,8 @@ def do_modifications():
             dqi_name = item.split(" ")[0]
             method_call_string = "insert_" + dqi_name
             print(method_call_string)
-            issue = int(dqi_name[1:])
-            if issue in range(1, 10):
-                method_to_call = getattr(missing, method_call_string)
-            elif issue in range(10, 19):
-                method_to_call = getattr(incorrect, method_call_string)
-            elif issue in range(19, 26):
-                method_to_call = getattr(imprecise, method_call_string)
-            else:
-                method_to_call = getattr(irrelevant, method_call_string)
-
+            module_name = module_names_dict.get(dqi_name)
+            method_to_call = getattr(eval(module_name), method_call_string)
             method_to_call(log_obj)
 
         # write output file again

@@ -4,10 +4,10 @@ import statistics
 from lxml import etree
 
 # import modules
-import src.src.functionalities.dqi.Missing as missing
-import src.src.functionalities.dqi.Irrelevant as irrelevant
-import src.src.functionalities.dqi.Imprecise as imprecise
-import src.src.functionalities.dqi.Incorrect as incorrect
+import src.src.functionalities.dqi.Missing as Missing
+import src.src.functionalities.dqi.Irrelevant as Irrelevant
+import src.src.functionalities.dqi.Imprecise as Imprecise
+import src.src.functionalities.dqi.Incorrect as Incorrect
 
 
 class LogManipulation:
@@ -116,13 +116,13 @@ def generate_all_logs():
             log_obj.relative_amount = float(percentage)
             method_call_string = "insert_I" + str(issue)
             if issue in range(1, 10):
-                method_to_call = getattr(missing, method_call_string)
+                method_to_call = getattr(Missing, method_call_string)
             elif issue in range(10, 19):
-                method_to_call = getattr(incorrect, method_call_string)
+                method_to_call = getattr(Incorrect, method_call_string)
             elif issue in range(19, 26):
-                method_to_call = getattr(imprecise, method_call_string)
+                method_to_call = getattr(Imprecise, method_call_string)
             else:
-                method_to_call = getattr(irrelevant, method_call_string)
+                method_to_call = getattr(Irrelevant, method_call_string)
 
             print(method_call_string)
             method_to_call(log_obj)

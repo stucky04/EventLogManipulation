@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dqi_documentation>
+    <dqi name="I1" description_short="missing case"
+         description_long="random deletion of a specified amount / percentage of cases" implemented="TRUE"/>
+    <dqi name="I2" description_short="missing event"
+         description_long="random deletion of a specified amount / percentage of events" implemented="TRUE"/>
+    <dqi name="I3" description_short="missing relationship" description_long="highly process specific"
+         implemented="FALSE"/>
+    <dqi name="I4" description_short="missing case attribute"
+         description_long="deletion of a specified amount / percentage of randomly chosen case attributes"
+         implemented="TRUE"/>
+    <dqi name="I5" description_short="missing position" description_long="select specified amount / percentage of events within a trace and delete their timestamp, then put the
+                events to another position within their trace" implemented="TRUE"/>
+    <dqi name="I6" description_short="missing activity name"
+         description_long="deletion of a specified amount / percentage of activity names in randomly chosen events"
+         implemented="TRUE"/>
+    <dqi name="I7" description_short="missing timestamp"
+         description_long="deletion of timestamps for a specified amount / percentage of randomly chosen events"
+         implemented="TRUE"/>
+    <dqi name="I8" description_short="missing resource" description_long="deletion of the org:resource attribute value in a specified amount / percentage of events and might
+                have no effect, as the resource perspective is not primarily focused on in the chosen process"
+         implemented="TRUE"/>
+    <dqi name="I9" description_short="missing event attribute"
+         description_long="deletion of the values of a specified amount / percentage of randomly chosen event attributes"
+         implemented="TRUE"/>
+    <dqi name="I10" description_short="incorrect case"
+         description_long="insert specified amount / percentage of cases from a different process" implemented="TRUE"/>
+    <dqi name="I11" description_short="incorrect event"
+         description_long="insert specified amount / percentage of events into a case that have not actually been executed"
+         implemented="TRUE"/>
+    <dqi name="I12" description_short="incorrect relationship"
+         description_long="move specified amount / percentage of events from their original trace to another trace"
+         implemented="TRUE"/>
+    <dqi name="I13" description_short="incorrect case attribute"
+         description_long="modify specified amount / percentage of case attribute values to random values of their data type"
+         implemented="TRUE"/>
+    <dqi name="I14" description_short="incorrect position"
+         description_long="move specified amount / percentage of events to another position within the trace"
+         implemented="TRUE"/>
+    <dqi name="I15" description_short="incorrect activity name"
+         description_long="modify specified amount / percentage of activity names to a random string value"
+         implemented="TRUE"/>
+    <dqi name="I16" description_short="incorrect timestamp"
+         description_long="modify specified amount / percentage of timestamps to random timestamp value"
+         implemented="TRUE"/>
+    <dqi name="I17" description_short="incorrect resource"
+         description_long="modify specified amount / percentage of org:resource to random value" implemented="TRUE"/>
+    <dqi name="I18" description_short="incorrect event attribute"
+         description_long="modify specified amount / percentage of event attribute to random value respecting its data type"
+         implemented="TRUE"/>
+    <dqi name="I19" description_short="imprecise relationship" description_long="highly process specific"
+         implemented="FALSE"/>
+    <dqi name="I20" description_short="imprecise case attribute" description_long="highly process specific"
+         implemented="FALSE"/>
+    <dqi name="I21" description_short="imprecise position" description_long="random selection of a specified amount / percentage of traces and deletion of the timestamps of all
+                events within these traces, refers to scenarios where timestamps are not available and the ordering of
+                activities is inferred by the ordering in which the events appear in the log, which especially leads to
+                problems when events appeared in parallel and the process mining algorithm assumes a sequential control
+                flow" implemented="TRUE"/>
+    <dqi name="I22" description_short="imprecise activity name" description_long="random selection of a specified amount / percentage of event name strings and only use the first word
+                of each as the new event name" implemented="TRUE"/>
+    <dqi name="I23" description_short="imprecise timestamp" description_long="modify specified amount / percentage of timestamps by removing time and the day of the date, so that
+                the resulting timestamp only contains year and month" implemented="TRUE"/>
+    <dqi name="I24" description_short="imprecise resource" description_long="not applicable due to the present resource perspective (only a single integer value), a generic
+                implementation would require domain knowledge about the resource perspective since this issue refers to
+                scenarios in which the resource captured is too coarse, e.g. a department name instead of a specific
+                employee" implemented="TRUE"/>
+    <dqi name="I25" description_short="imprecise event attribute" description_long="highly process specific"
+         implemented="FALSE"/>
+    <dqi name="I26" description_short="irrelevant case"
+         description_long="random insertion of a specified amount / percentage of cases from another process"
+         implemented="TRUE"/>
+    <dqi name="I27" description_short="irrelevant event"
+         description_long="random insertion of a specified amount / percentage of events from another process"
+         implemented="TRUE"/>
+</dqi_documentation>
+

@@ -7,6 +7,18 @@ window = Tk()
 window.title("Log Manipulator")
 window.geometry('600x400')
 
+
+# notification method
+def popup_message(msg):
+    popup = Tk()
+    popup.wm_title("Notification")
+    label = Label(popup, text=msg)
+    label.pack(side="top", fill="x", pady=10)
+    B1 = Button(popup, text="OK", command=popup.destroy)
+    B1.pack()
+    popup.mainloop()
+
+
 # fields
 
 # input file
@@ -34,11 +46,19 @@ label_dqis_text.grid(column=0, row=3)
 list_dqis = Listbox(window, selectmode="multiple", width=60)
 list_dqis.grid(column=1, row=3)
 
-i = 1
-while i <= 27:
-    item_string = "I" + str(i)
-    list_dqis.insert(END, item_string)
-    i = i + 1
+# read the dqi description file and load implemented method names and their descriptions into gui
+try:
+    description_file_tree = etree.parse("functionalities/dqi/dqi_descriptions")
+    description_file_root = description_file_tree.getroot()
+    all_dqis = description_file_root.findall(".//dqi")
+    for dqi in all_dqis:
+        if dqi.get('implemented') == "TRUE":
+            concat_name_and_description = dqi.get('name') + "   (" + dqi.get('description_short') + ")"
+            list_dqis.insert(END, concat_name_and_description)
+except Exception as e:
+    popup_message("Some Error reading the DQI description file...")
+    print(e)
+    exit(1)
 
 yscrollbar = Scrollbar(window)
 yscrollbar.grid(column=2, row=3, sticky='NSW')
@@ -83,16 +103,6 @@ def browse_output_clicked(entry_field):
     entry_field.insert(1, filename.name)
 
 
-def popup_message(msg):
-    popup = Tk()
-    popup.wm_title("Notification")
-    label = Label(popup, text=msg)
-    label.pack(side="top", fill="x", pady=10)
-    B1 = Button(popup, text="OK", command=popup.destroy)
-    B1.pack()
-    popup.mainloop()
-
-
 def do_modifications():
     try:
         # log manipulation object
@@ -125,8 +135,10 @@ def do_modifications():
 
         # call all needed insert... methods
         for item in selected_items:
-            method_call_string = "insert_" + item
-            issue = int(item[1:])
+            dqi_name = item.split(" ")[0]
+            method_call_string = "insert_" + dqi_name
+            print(method_call_string)
+            issue = int(dqi_name[1:])
             if issue in range(1, 10):
                 method_to_call = getattr(missing, method_call_string)
             elif issue in range(10, 19):

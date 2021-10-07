@@ -2,6 +2,7 @@ from tkinter import *
 from functools import partial
 from tkinter import filedialog
 from src.src.functionalities.LogManipulation import *
+from pathlib import Path
 
 window = Tk()
 window.title("Log Manipulator")
@@ -45,6 +46,7 @@ label_dqis_text.grid(column=0, row=3)
 
 list_dqis = Listbox(window, selectmode="multiple", width=60)
 list_dqis.grid(column=1, row=3)
+
 
 # read the dqi description file and load implemented method names and their descriptions into gui
 module_names_dict = {}

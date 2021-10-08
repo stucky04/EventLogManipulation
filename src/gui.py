@@ -1,4 +1,6 @@
+import tkinter
 from tkinter import *
+from tkinter import ttk
 from functools import partial
 from tkinter import filedialog
 from src.src.functionalities.LogManipulation import *
@@ -29,7 +31,7 @@ label_inputpath_entry = Entry(window, width=60)
 label_inputpath_entry.grid(column=1, row=0)
 
 # input file 2 (needed for I10, I11, I26, I27
-label_inputpath2_text = Label(window, text="Input Path 2*²: ")
+label_inputpath2_text = Label(window, text="Input Path 2*: ")
 label_inputpath2_text.grid(column=0, row=1)
 label_inputpath2_entry = Entry(window, width=60)
 label_inputpath2_entry.grid(column=1, row=1)
@@ -46,7 +48,6 @@ label_dqis_text.grid(column=0, row=3)
 
 list_dqis = Listbox(window, selectmode="multiple", width=60)
 list_dqis.grid(column=1, row=3)
-
 
 # read the dqi description file and load implemented method names and their descriptions into gui
 module_names_dict = {}
@@ -69,15 +70,28 @@ yscrollbar.grid(column=2, row=3, sticky='NSW')
 yscrollbar.config(command=list_dqis.yview)
 
 # amount of dqis
-label_amountabs_text = Label(window, text="Absolute* DQI(s): ")
-label_amountabs_text.grid(column=0, row=4)
-label_amountabs_entry = Entry(window, width=60)
-label_amountabs_entry.grid(column=1, row=4)
+# label_amountabs_text = Label(window, text="Absolute* DQI(s): ")
+# label_amountabs_text.grid(column=0, row=4)
+# label_amountabs_entry = Entry(window, width=60)
+# label_amountabs_entry.grid(column=1, row=4)
+#
+# label_amountrel_text = Label(window, text="Relative* DQI(s) in %: ")
+# label_amountrel_text.grid(column=0, row=5)
+# label_amountrel_entry = Spinbox(window, from_=0, to=100, width=58)
+# label_amountrel_entry.grid(column=1, row=5)
 
-label_amountrel_text = Label(window, text="Relative* DQI(s) in %: ")
-label_amountrel_text.grid(column=0, row=5)
-label_amountrel_entry = Spinbox(window, from_=0, to=100, width=58)
-label_amountrel_entry.grid(column=1, row=5)
+# test combobox
+label_amount_text = Label(window, text="Amount DQI(s)*²: ")
+label_amount_text.grid(column=0, row=4)
+
+frame = tkinter.Frame(window)
+frame.grid(column=1, row=4)
+label_amount_entry = Entry(frame, width=28)
+
+label_amount_entry.grid(column=0, row=0)
+combo_box = ttk.Combobox(frame,
+                         values=["absolute", "percentage"], width=28)
+combo_box.grid(column=1, row=0)
 
 # seed value
 label_seed_text = Label(window, text="Seed Value*³: ")
@@ -85,12 +99,12 @@ label_seed_text.grid(column=0, row=6)
 label_seed_entry = Entry(window, width=60)
 label_seed_entry.grid(column=1, row=6)
 
-label_infobox_text = Label(window, text="* specify either an absolute or a percentage-based rate for DQI")
-label_infobox_text.grid(column=0, columnspan=2, row=7)
+label_infobox_text = Label(window, text="*² specify either an absolute or a percentage-based rate for DQI")
+label_infobox_text.grid(column=0, columnspan=2, row=9)
 
 label_infobox_text2 = Label(window,
-                            text="*² for I10, I11, I26, I27 a second log file is needed from which \n random cases and events are inserted in the original log")
-label_infobox_text2.grid(column=0, columnspan=2, row=9)
+                            text="* for I10, I11, I26, I27 a second log file is needed from which \n random cases and events are inserted in the original log")
+label_infobox_text2.grid(column=0, columnspan=2, row=7)
 
 label_infobox_text3 = Label(window,
                             text="*³ optional seed value for random operations")
@@ -118,14 +132,17 @@ def do_modifications():
         log_obj.input_path_to_insert_incorrect_issues = label_inputpath2_entry.get()
 
         # get amount
-        if int(label_amountrel_entry.get()) != 0 and label_amountabs_entry.get() != "":
-            popup_message("specify either absolute OR relative amount")
+        if int(
+                label_amount_entry.get()) == 0 or label_amount_entry.get() == "" or not label_amount_entry.get().isdecimal():
+            popup_message("specify a valid value")
 
         # set amount
-        if int(label_amountrel_entry.get()) != 0:
-            log_obj.relative_amount = float(label_amountrel_entry.get()) / 100
-        elif label_amountabs_entry.get() != "":
-            log_obj.absolute_amount = int(label_amountabs_entry.get())
+        if combo_box.get() == "relative" and int(label_amount_entry.get()) in range(0, 100):
+            log_obj.relative_amount = float(label_amount_entry.get()) / 100
+        elif combo_box.get() == "absolute" and int(label_amount_entry.get()) > 0:
+            log_obj.absolute_amount = int(label_amount_entry.get())
+        else:
+            popup_message("specify a valid value")
 
         # check if seed value given
         if label_seed_entry.get() != "":

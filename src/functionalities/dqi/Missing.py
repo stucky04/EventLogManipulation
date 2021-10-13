@@ -1,5 +1,5 @@
 import random
-
+import src.src.functionalities.LogManipulation
 
 # missing cases
 # randomly deletes specified amount of cases
@@ -8,6 +8,7 @@ def insert_I1(self):
         # calculate how many cases to remove
         number_of_cases_to_remove = int(
             self.relative_amount * len(self.root.findall(".//trace")))
+        print(len(self.root.findall(".//trace")))
     else:
         number_of_cases_to_remove = self.absolute_amount
 
@@ -67,7 +68,7 @@ def insert_I4(self):
     else:
         number_of_case_attributes_to_remove = int(self.absolute_amount)
 
-    log_message = "\nMethod insert_I3: \n----------------------------------------------------------------------------\n"
+    log_message = "\nMethod insert_I4: \n----------------------------------------------------------------------------\n"
     self.log_documentation = self.log_documentation + log_message
     i = 0
     while i < number_of_case_attributes_to_remove:
@@ -164,6 +165,17 @@ def insert_I7(self):
         random_event_timestamp.getparent().remove(random_event_timestamp)
         log_message = "removed timestamp of event '" + event_name + "' within case " + trace_name + "\n"
         self.log_documentation = self.log_documentation + log_message
+
+        if event_name == "Create Fine" or event_name == "Send Fine":
+            # remove delay_send from Create_Fine
+            self.remove_delay("delay_send", event.getparent(), trace_name)
+        elif event_name == "Insert Fine Notification" or event_name == "Appeal to Judge":
+            # remove delay_judge from Insert Fine Notification
+            self.remove_delay("delay_judge", event.getparent(), trace_name)
+        elif event_name == "Insert Fine Notification" or event_name == "Insert Date Appeal to Prefecture":
+            # remove delay_prefecture from Insert Fine Notification
+            self.remove_delay("delay_prefecture", event.getparent(), trace_name)
+
         i = i + 1
 
 
@@ -206,10 +218,22 @@ def insert_I9(self):
     while i < number_to_delete:
         random_event_attribute = random.choice(self.root.findall(".//event/"))
         event = random_event_attribute.getparent()
-        event_attribute_name = self.get_name(random_event_attribute)
+        event_attribute_name = random_event_attribute.get('key')
         event_name = self.get_name(event)
         trace_name = self.get_name(event.getparent())
         random_event_attribute.getparent().remove(random_event_attribute)
         log_message = "removed event attribute '" + event_attribute_name + "' of event '" + event_name + "' within case " + trace_name + "\n"
         self.log_documentation = self.log_documentation + log_message
+
+        if event_attribute_name == "time:timestamp":
+            if event_name == "Create Fine" or event_name == "Send Fine":
+                # remove delay_send from Create_Fine
+                self.remove_delay("delay_send", event.getparent(), trace_name)
+            elif event_name == "Insert Fine Notification" or event_name == "Appeal to Judge":
+                # remove delay_judge from Insert Fine Notification
+                self.remove_delay("delay_judge", event.getparent(), trace_name)
+            elif event_name == "Insert Fine Notification" or event_name == "Insert Date Appeal to Prefecture":
+                # remove delay_prefecture from Insert Fine Notification
+                self.remove_delay("delay_prefecture", event.getparent(), trace_name)
+
         i = i + 1

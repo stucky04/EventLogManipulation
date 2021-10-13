@@ -93,15 +93,23 @@ class LogManipulation:
         f.close()
         self.log_documentation = ""
 
+    def remove_delay(self, delay_x, trace_node, trace_name):
+        for event in trace_node:
+            for attribute in event:
+                if attribute.get('key') == delay_x:
+                    event.remove(attribute)
+                    log_message = "removed " + delay_x + " from case " + trace_name + " \n"
+                    self.log_documentation = self.log_documentation + log_message
+
 
 def generate_all_logs():
     relative_amounts = ["0.05", "0.10", "0.15"]
-    implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23,
+    implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23,
                            26, 27]
 
     # for specific logs only TODO I9, I18, I27 very time-consuming, "event attribute" operations
-    # implemented_methods = [1,2]
-    relative_amounts = ["0.01"]
+    # implemented_methods = [18]
+    # relative_amounts = ["0.05"]
 
     log_obj = LogManipulation()
     log_obj.tree2 = etree.parse("../EventLogsIn/Hospital_Billing_Full.xes")
@@ -110,9 +118,10 @@ def generate_all_logs():
     random.seed(1)
 
     for issue in implemented_methods:
-        log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
-        log_obj.root = log_obj.tree.getroot()
+        #log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
         for percentage in relative_amounts:
+            log_obj.tree = etree.parse("../Logs_Alizadeh_Sample20/Fit1_Sample20.xes")
+            log_obj.root = log_obj.tree.getroot()
             log_obj.relative_amount = float(percentage)
             method_call_string = "insert_I" + str(issue)
             if issue in range(1, 10):
@@ -126,8 +135,8 @@ def generate_all_logs():
 
             print(method_call_string)
             method_to_call(log_obj)
-            file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
-            log_file_name_string = "../EventLogsOut/" + "i" + str(issue) + "_" + percentage[2:] + "percent"
+            file_name_string = "../TestDir/" + "i" + str(issue) + "_" + percentage[2:] + "percent.xes"
+            log_file_name_string = "../TestDir/" + "i" + str(issue) + "_" + percentage[2:] + "percent"
             print(file_name_string)
             log_obj.output_path = file_name_string
             log_obj.write_output_document()
@@ -160,6 +169,33 @@ def change_default_delay_values():
         tree.write(new_path, pretty_print=True)
 
 
+def sample_x_distinct_traces(x):
+    log_obj = LogManipulation()
+    log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
+    log_obj.root = log_obj.tree.getroot()
+    all_traces = log_obj.root.findall(".//trace")
+    all_traces_list = []
+    trace_id_list = []
+    for trace in all_traces:
+        single_event_list = []
+        trace_id = log_obj.get_name(trace)
+        for event in trace:
+            event_name = log_obj.get_name(event)
+            single_event_list.append(event_name)
+        if not single_event_list in all_traces_list and len(all_traces_list) < 20:
+            all_traces_list.append(single_event_list)
+            trace_id_list.append(trace_id)
+
+    for trace in all_traces:
+        if log_obj.get_name(trace) not in trace_id_list:
+            log_obj.root.remove(trace)
+
+    print(all_traces_list)
+    print(len(all_traces_list))
+    print(trace_id_list)
+    log_obj.tree.write("sample.xes", pretty_print=True)
+
+
 if __name__ == '__main__':
     generate_all_logs()
-    print("test")
+    #print("test")

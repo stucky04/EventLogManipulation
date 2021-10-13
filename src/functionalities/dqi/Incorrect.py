@@ -123,7 +123,7 @@ def insert_I13(self):
             continue
         if random_case_attribute.tag == "int":
             random_int = random.choice(range(0, 1000))
-            random_case_attribute.set('value', random_int)
+            random_case_attribute.set('value', str(random_int))
         elif random_case_attribute.tag == "string":
             random_string = ''.join(random.choices(string.ascii_lowercase, k=10))
             random_case_attribute.set('value', random_string)
@@ -201,13 +201,29 @@ def insert_I16(self):
         random_date_string = str(random_date()) + 'T' + str(random_time()) + '.000+02:00'
         random_date_attribute = random.choice(self.tree.xpath(".//date"))
         # check if timestamp is within an event or trace timestamp
+        event_node = None
         if random_date_attribute.getparent().tag == 'event':
             case_name = self.get_name(random_date_attribute.getparent().getparent())
+            event_node = random_date_attribute.getparent()
         else:
             case_name = self.get_name(random_date_attribute.getparent())
         random_date_attribute.set('value', random_date_string)
         log_message = "modified timestamp to random value within case " + case_name + "\n"
         self.log_documentation = self.log_documentation + log_message
+
+        if event_node is not None:
+            event_name = self.get_name(event_node)
+            trace_name = self.get_name(event_node.getparent())
+            if event_name == "Create Fine" or event_name == "Send Fine":
+                # remove delay_send from Create_Fine
+                self.remove_delay("delay_send", event_node.getparent(), trace_name)
+            elif event_name == "Insert Fine Notification" or event_name == "Appeal to Judge":
+                # remove delay_judge from Insert Fine Notification
+                self.remove_delay("delay_judge", event_node.getparent(), trace_name)
+            elif event_name == "Insert Fine Notification" or event_name == "Insert Date Appeal to Prefecture":
+                # remove delay_prefecture from Insert Fine Notification
+                self.remove_delay("delay_prefecture", event_node.getparent(), trace_name)
+
         i = i + 1
 
 
@@ -237,7 +253,7 @@ def insert_I17(self):
 
 # incorrect event attribute
 # pick random attribute within event and change to random value
-def insert_I18(self):  #
+def insert_I18(self):
     if self.relative_amount != "":
         # calculate how many attributes to modify
         number_to_modify = int(self.relative_amount * len(self.root.findall(".//event/")))
@@ -252,9 +268,8 @@ def insert_I18(self):  #
         event_name = self.get_name(random_event_attribute.getparent())
         case_name = self.get_name(random_event_attribute.getparent().getparent())
         if random_event_attribute.get('key') == 'concept:name' or random_event_attribute.get(
-                'key') == 'org:resource' or random_event_attribute.get('key') == 'timestamp':
+                'key') == 'org:resource' or random_event_attribute.get('key') == 'time:timestamp':
             continue
-
         if random_event_attribute.tag == float or random_event_attribute.tag == int:
             random_int = random.choice(range(0, 1000))
             random_event_attribute.set('value', random_int)

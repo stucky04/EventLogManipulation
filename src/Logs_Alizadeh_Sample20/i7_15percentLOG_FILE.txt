@@ -1,0 +1,26 @@
+
+Method insert_I7: 
+----------------------------------------------------------------------------
+removed timestamp of event 'Payment' within case N40669
+removed timestamp of event 'Send Fine' within case S152386
+removed delay_send from case S152386 
+removed timestamp of event 'Send Fine' within case N43873
+removed delay_send from case N43873 
+removed timestamp of event 'Payment' within case S62391
+removed timestamp of event 'Add penalty' within case S147012
+removed timestamp of event 'Add penalty' within case N48226
+removed timestamp of event 'Payment' within case C17798
+removed timestamp of event 'Send for Credit Collection' within case S174071
+removed timestamp of event 'Appeal to Judge' within case V18910
+removed delay_judge from case V18910 
+removed timestamp of event 'Create Fine' within case V9224
+removed delay_send from case V9224 
+removed timestamp of event 'Add penalty' within case V18910
+removed timestamp of event 'Send Fine' within case C17798
+removed delay_send from case C17798 
+removed timestamp of event 'Create Fine' within case S61468
+removed delay_send from case S61468 
+removed timestamp of event 'Payment' within case S48459
+removed timestamp of event 'Payment' within case S126633
+removed timestamp of event 'Create Fine' within case A28368
+removed delay_send from case A28368 

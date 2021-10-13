@@ -1,0 +1,29 @@
+
+Method insert_I23: 
+----------------------------------------------------------------------------
+modified timestamp within case V9224
+removed delay_send from case V9224 
+modified timestamp within case S174071
+removed delay_judge from case S174071 
+modified timestamp within case A28368
+modified timestamp within case S152386
+removed delay_send from case S152386 
+modified timestamp within case N48226
+modified timestamp within case C21281
+modified timestamp within case S152386
+modified timestamp within case C15625
+removed delay_judge from case C15625 
+modified timestamp within case S48459
+removed delay_send from case S48459 
+modified timestamp within case S62391
+removed delay_send from case S62391 
+modified timestamp within case C17798
+removed delay_judge from case C17798 
+modified timestamp within case C21281
+removed delay_send from case C21281 
+modified timestamp within case A28368
+removed delay_judge from case A28368 
+modified timestamp within case C17798
+modified timestamp within case S147012
+removed delay_send from case S147012 
+modified timestamp within case S48459

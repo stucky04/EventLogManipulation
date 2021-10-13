@@ -1,0 +1,8 @@
+
+Method insert_I2: 
+----------------------------------------------------------------------------
+removed event 'Payment' from case C21281
+removed event 'Insert Fine Notification' from case N48226
+removed event 'Send Fine' from case C15625
+removed event 'Send Fine' from case S126633
+removed event 'Payment' from case S147012

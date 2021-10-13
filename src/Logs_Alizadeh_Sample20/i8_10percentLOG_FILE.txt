@@ -1,0 +1,5 @@
+
+Method insert_I8: 
+----------------------------------------------------------------------------
+removed resource attribute of event 'Create Fine' within case V18910
+removed resource attribute of event 'Create Fine' within case S92113

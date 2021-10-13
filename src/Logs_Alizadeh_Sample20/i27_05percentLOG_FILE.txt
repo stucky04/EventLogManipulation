@@ -1,0 +1,8 @@
+
+Method insert_I27: 
+----------------------------------------------------------------------------
+inserted random event from foreign process in case S85066
+inserted random event from foreign process in case C17798
+inserted random event from foreign process in case A25436
+inserted random event from foreign process in case N48226
+inserted random event from foreign process in case N48226

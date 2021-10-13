@@ -1,0 +1,8 @@
+
+Method insert_I6: 
+----------------------------------------------------------------------------
+removed event name of event 'Send Fine' within case S152386
+removed event name of event 'Send Fine' within case C17798
+removed event name of event 'Payment' within case S48459
+removed event name of event 'Send for Credit Collection' within case A25436
+removed event name of event 'Insert Fine Notification' within case S174071

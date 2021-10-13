@@ -1,0 +1,19 @@
+
+Method insert_I14: 
+----------------------------------------------------------------------------
+moved event 'Add penalty' to another position within the same case S165283
+moved event 'Send for Credit Collection' to another position within the same case A25436
+moved event 'Payment' to another position within the same case S92113
+moved event 'Insert Fine Notification' to another position within the same case A28368
+moved event 'Create Fine' to another position within the same case A28368
+moved event 'Add penalty' to another position within the same case S152386
+moved event 'Payment' to another position within the same case C21281
+moved event 'Payment' to another position within the same case N48226
+moved event 'Add penalty' to another position within the same case S174071
+moved event 'Payment' to another position within the same case C15625
+moved event 'Insert Fine Notification' to another position within the same case C21281
+moved event 'Add penalty' to another position within the same case S126633
+moved event 'Payment' to another position within the same case C17798
+moved event 'Create Fine' to another position within the same case S126633
+moved event 'Payment' to another position within the same case S147012
+moved event 'Send for Credit Collection' to another position within the same case A25436

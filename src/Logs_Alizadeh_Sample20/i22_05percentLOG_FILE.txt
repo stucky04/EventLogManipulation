@@ -1,0 +1,8 @@
+
+Method insert_I22: 
+----------------------------------------------------------------------------
+modified event name of event 'Payment' within case S126633
+modified event name of event 'Create Fine' within case S48459
+modified event name of event 'Insert Fine Notification' within case C17798
+modified event name of event 'Payment' within case S147012
+modified event name of event 'Create Fine' within case S126633

@@ -1,0 +1,13 @@
+
+Method insert_I6: 
+----------------------------------------------------------------------------
+removed event name of event 'Add penalty' within case A28368
+removed event name of event 'Create Fine' within case S61468
+removed event name of event 'Insert Fine Notification' within case S174071
+removed event name of event 'Payment' within case S165283
+removed event name of event 'Add penalty' within case C17798
+removed event name of event 'Payment' within case S85066
+removed event name of event 'Payment' within case C17798
+removed event name of event 'Send Fine' within case V18910
+removed event name of event 'Insert Fine Notification' within case S152386
+removed event name of event 'Send Fine' within case C21281

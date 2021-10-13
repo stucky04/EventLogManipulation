@@ -1,0 +1,6 @@
+
+Method insert_I3: 
+----------------------------------------------------------------------------
+removed attribute 'variant:count' from case C15625
+removed attribute 'variant:count' from case V18910
+removed attribute 'variant:index' from case S152386

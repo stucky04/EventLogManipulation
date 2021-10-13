@@ -1,0 +1,35 @@
+
+Method insert_I18: 
+----------------------------------------------------------------------------
+modified event attribute within event 'Payment' within case S126633
+modified event attribute within event 'Insert Fine Notification' within case S147012
+modified event attribute within event 'Payment' within case S126633
+modified event attribute within event 'Create Fine' within case A25436
+modified event attribute within event 'Payment' within case V9224
+modified event attribute within event 'Create Fine' within case V9224
+modified event attribute within event 'Payment' within case C15625
+modified event attribute within event 'Create Fine' within case C21281
+modified event attribute within event 'Create Fine' within case C21281
+modified event attribute within event 'Insert Fine Notification' within case S152386
+modified event attribute within event 'Appeal to Judge' within case C17798
+modified event attribute within event 'Create Fine' within case S174071
+modified event attribute within event 'Create Fine' within case N40669
+modified event attribute within event 'Payment' within case C21281
+modified event attribute within event 'Send Fine' within case S174071
+modified event attribute within event 'Send Fine' within case N48226
+modified event attribute within event 'Send Fine' within case C15625
+modified event attribute within event 'Payment' within case S147012
+modified event attribute within event 'Insert Fine Notification' within case A28368
+modified event attribute within event 'Add penalty' within case V9224
+modified event attribute within event 'Create Fine' within case C17798
+modified event attribute within event 'Create Fine' within case S62391
+modified event attribute within event 'Create Fine' within case S92113
+modified event attribute within event 'Create Fine' within case S174071
+modified event attribute within event 'Create Fine' within case V9224
+modified event attribute within event 'Insert Fine Notification' within case S152386
+modified event attribute within event 'Create Fine' within case S85066
+modified event attribute within event 'Add penalty' within case S147012
+modified event attribute within event 'Insert Fine Notification' within case C15625
+modified event attribute within event 'Insert Fine Notification' within case A28368
+modified event attribute within event 'Create Fine' within case C17798
+modified event attribute within event 'Create Fine' within case S165283

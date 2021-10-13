@@ -1,0 +1,6 @@
+
+Method insert_I11: 
+----------------------------------------------------------------------------
+inserted random event 'BILLED' from foreign process in case V18910
+inserted random event 'BILLED' from foreign process in case V18910
+inserted random event 'FIN' from foreign process in case N43873

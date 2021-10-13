@@ -1,0 +1,6 @@
+
+Method insert_I17: 
+----------------------------------------------------------------------------
+modified resource in event 'Create Fine' within case C15625
+modified resource in event 'Create Fine' within case S61468
+modified resource in event 'Appeal to Judge' within case V18910

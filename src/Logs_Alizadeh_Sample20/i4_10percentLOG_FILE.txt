@@ -1,0 +1,9 @@
+
+Method insert_I3: 
+----------------------------------------------------------------------------
+removed attribute 'concept:name' from case S126633
+removed attribute 'variant:index' from case V18910
+removed attribute 'concept:name' from case A25436
+removed attribute 'variant:count' from case N48226
+removed attribute 'concept:name' from case S152386
+removed attribute 'variant:count' from case A28368

@@ -1,0 +1,19 @@
+
+Method insert_I5: 
+----------------------------------------------------------------------------
+removed timestamp and moved event 'Payment' within case C17798
+removed timestamp and moved event 'Insert Fine Notification' within case S147012
+removed timestamp and moved event 'Send Fine' within case V18910
+removed timestamp and moved event 'Send Fine' within case S61468
+removed timestamp and moved event 'Payment' within case S147012
+removed timestamp and moved event 'Payment' within case C15625
+removed timestamp and moved event 'Create Fine' within case A28368
+removed timestamp and moved event 'Send for Credit Collection' within case S174071
+removed timestamp and moved event 'Create Fine' within case S165283
+removed timestamp and moved event 'Insert Fine Notification' within case S147012
+removed timestamp and moved event 'Create Fine' within case A28368
+removed timestamp and moved event 'Payment' within case C15625
+removed timestamp and moved event 'Send Fine' within case C15625
+removed timestamp and moved event 'Payment' within case S62391
+removed timestamp and moved event 'Create Fine' within case S92113
+removed timestamp and moved event 'Add penalty' within case N48226

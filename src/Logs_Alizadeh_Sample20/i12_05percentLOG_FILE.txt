@@ -1,0 +1,8 @@
+
+Method insert_I12: 
+----------------------------------------------------------------------------
+moved event 'Send Fine' from case C21281 to case S165283
+moved event 'Payment' from case A25436 to case S92113
+moved event 'Payment' from case C21281 to case N48226
+moved event 'Insert Fine Notification' from case N48226 to case V9224
+moved event 'Send Fine' from case C15625 to case S62391

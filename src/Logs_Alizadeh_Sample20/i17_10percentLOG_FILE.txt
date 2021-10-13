@@ -1,0 +1,5 @@
+
+Method insert_I17: 
+----------------------------------------------------------------------------
+modified resource in event 'Create Fine' within case N40669
+modified resource in event 'Create Fine' within case V18910

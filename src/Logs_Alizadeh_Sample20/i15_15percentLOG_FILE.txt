@@ -1,0 +1,19 @@
+
+Method insert_I15: 
+----------------------------------------------------------------------------
+modified event name of event 'Create Fine' within case S92113
+modified event name of event 'Payment' within case S85066
+modified event name of event 'Send Fine' within case N48226
+modified event name of event 'Create Fine' within case S126633
+modified event name of event 'Send Fine' within case C15625
+modified event name of event 'Payment' within case C21281
+modified event name of event 'Insert Fine Notification' within case C15625
+modified event name of event 'Create Fine' within case N40669
+modified event name of event 'Send Fine' within case N40669
+modified event name of event 'Create Fine' within case S48459
+modified event name of event 'Payment' within case S147012
+modified event name of event 'trvtzreusb' within case S48459
+modified event name of event 'Payment' within case A25436
+modified event name of event 'Payment' within case S61468
+modified event name of event 'ltvfhskdfo' within case S61468
+modified event name of event 'Add penalty' within case A25436

@@ -1,0 +1,13 @@
+
+Method insert_I2: 
+----------------------------------------------------------------------------
+removed event 'Payment' from case C21281
+removed event 'Send for Credit Collection' from case S174071
+removed event 'Create Fine' from case N40669
+removed event 'Add penalty' from case C15625
+removed event 'Send Fine' from case S152386
+removed event 'Payment' from case S62391
+removed event 'Send for Credit Collection' from case N48226
+removed event 'Send for Credit Collection' from case A25436
+removed event 'Appeal to Judge' from case C17798
+removed event 'Payment' from case C17798

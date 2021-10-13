@@ -1,0 +1,12 @@
+
+Method insert_I3: 
+----------------------------------------------------------------------------
+removed attribute 'variant:index' from case S48459
+removed attribute 'variant:index' from case C17798
+removed attribute 'variant:index' from case A25436
+removed attribute 'variant:index' from case S147012
+removed attribute 'variant:count' from case A25436
+removed attribute 'variant:index' from case S61468
+removed attribute 'variant:count' from case A28368
+removed attribute 'variant:count' from case N40669
+removed attribute 'concept:name' from case V9224

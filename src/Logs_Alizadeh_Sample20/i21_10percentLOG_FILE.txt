@@ -1,0 +1,11 @@
+
+Method insert_I21: 
+----------------------------------------------------------------------------
+removed timestamps of events within case S48459
+removed delay_send from case S48459 
+removed delay_judge from case S48459 
+removed delay_prefecture from case S48459 
+removed timestamps of events within case A25436
+removed delay_send from case A25436 
+removed delay_judge from case A25436 
+removed delay_prefecture from case A25436 

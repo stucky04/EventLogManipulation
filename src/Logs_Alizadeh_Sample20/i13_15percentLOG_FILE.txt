@@ -1,0 +1,12 @@
+
+Method insert_I13: 
+----------------------------------------------------------------------------
+modified attribute 'variant:count' within case S85066
+modified attribute 'concept:name' within case A25436
+modified attribute 'concept:name' within case S48459
+modified attribute 'concept:name' within case S152386
+modified attribute 'variant:index' within case V18910
+modified attribute 'variant:count' within case C17798
+modified attribute 'variant:index' within case V9224
+modified attribute 'variant:count' within case V18910
+modified attribute 'variant:index' within case V18910

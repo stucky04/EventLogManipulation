@@ -1,0 +1,19 @@
+
+Method insert_I2: 
+----------------------------------------------------------------------------
+removed event 'Create Fine' from case S92113
+removed event 'Payment' from case S126633
+removed event 'Add penalty' from case N48226
+removed event 'Insert Fine Notification' from case V18910
+removed event 'Payment' from case C21281
+removed event 'Payment' from case C17798
+removed event 'Payment' from case S48459
+removed event 'Send Fine' from case A25436
+removed event 'Payment' from case N40669
+removed event 'Send Fine' from case S147012
+removed event 'Insert Fine Notification' from case S152386
+removed event 'Send Fine' from case S152386
+removed event 'Send for Credit Collection' from case S152386
+removed event 'Insert Fine Notification' from case C21281
+removed event 'Create Fine' from case A25436
+removed event 'Create Fine' from case S152386

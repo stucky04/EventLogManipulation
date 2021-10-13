@@ -1,0 +1,13 @@
+
+Method insert_I15: 
+----------------------------------------------------------------------------
+modified event name of event 'Send for Credit Collection' within case A25436
+modified event name of event 'Payment' within case S174071
+modified event name of event 'Insert Fine Notification' within case S147012
+modified event name of event 'Insert Fine Notification' within case V18910
+modified event name of event 'Payment' within case S85066
+modified event name of event 'Create Fine' within case S147012
+modified event name of event 'Create Fine' within case N40669
+modified event name of event 'Payment' within case C17798
+modified event name of event 'Payment' within case S48459
+modified event name of event 'Add penalty' within case C21281

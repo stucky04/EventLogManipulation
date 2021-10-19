@@ -3,4 +3,6 @@
 src/EventLogsIn
 src/EventLogsIn/Hospital_Billing_Full.xes
 src/EventLogsOut_BACKUP
+src/build/
+src/TestDir
 

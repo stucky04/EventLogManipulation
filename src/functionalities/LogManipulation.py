@@ -104,11 +104,11 @@ class LogManipulation:
 
 def generate_all_logs():
     relative_amounts = ["0.05", "0.10", "0.15"]
-    implemented_methods = [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23,
-                           26, 27]
+    implemented_methods = [1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 21, 22, 23,
+                           26]
 
     # for specific logs only TODO I9, I18, I27 very time-consuming, "event attribute" operations
-    # implemented_methods = [18]
+    implemented_methods = [27]
     # relative_amounts = ["0.05"]
 
     log_obj = LogManipulation()
@@ -118,9 +118,9 @@ def generate_all_logs():
     random.seed(1)
 
     for issue in implemented_methods:
-        #log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
         for percentage in relative_amounts:
-            log_obj.tree = etree.parse("../Logs_Alizadeh_Sample20/Fit1_Sample20.xes")
+            # log_obj.tree = etree.parse("../Logs_Alizadeh_Sample20/Fit1_Sample20.xes")
+            log_obj.tree = etree.parse("../EventLogsIn/03_RTF_Log_Initial_Filtered_Sample10000_DefaultDelays0.xes")
             log_obj.root = log_obj.tree.getroot()
             log_obj.relative_amount = float(percentage)
             method_call_string = "insert_I" + str(issue)
@@ -197,5 +197,11 @@ def sample_x_distinct_traces(x):
 
 
 if __name__ == '__main__':
-    generate_all_logs()
-    #print("test")
+    log_obj = LogManipulation()
+    directory = os.listdir("../TestDir")
+    for filename in directory:
+        if not filename.__contains__("LOG_FILE"):
+            #print(str(os.path.join(directory, filename)))
+            log_obj.add_statistics_to_log(os.path.join("../TestDir/", filename))
+            #print(filename)
+

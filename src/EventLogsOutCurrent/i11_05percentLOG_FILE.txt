@@ -1,0 +1,503 @@
+
+Method insert_I11: 
+----------------------------------------------------------------------------
+inserted random event 'RELEASE' from foreign process in case A46294
+inserted random event 'RELEASE' from foreign process in case N97709
+inserted random event 'RELEASE' from foreign process in case N38562
+inserted random event 'REOPEN' from foreign process in case S141576
+inserted random event 'RELEASE' from foreign process in case C19116
+inserted random event 'BILLED' from foreign process in case S132387
+inserted random event 'RELEASE' from foreign process in case S68880
+inserted random event 'RELEASE' from foreign process in case S82650
+inserted random event 'BILLED' from foreign process in case S47677
+inserted random event 'CODE OK' from foreign process in case N37269
+inserted random event 'CHANGE DIAGN' from foreign process in case N91460
+inserted random event 'NEW' from foreign process in case N44638
+inserted random event 'BILLED' from foreign process in case S154277
+inserted random event 'RELEASE' from foreign process in case S124298
+inserted random event 'BILLED' from foreign process in case N28047
+inserted random event 'BILLED' from foreign process in case S145710
+inserted random event 'CHANGE DIAGN' from foreign process in case A22834
+inserted random event 'CHANGE DIAGN' from foreign process in case S57530
+inserted random event 'NEW' from foreign process in case S164249
+inserted random event 'STORNO' from foreign process in case N65836
+inserted random event 'CHANGE DIAGN' from foreign process in case V4654
+inserted random event 'DELETE' from foreign process in case S59619
+inserted random event 'NEW' from foreign process in case N96284
+inserted random event 'RELEASE' from foreign process in case S178099
+inserted random event 'CODE OK' from foreign process in case N99360
+inserted random event 'RELEASE' from foreign process in case A4662
+inserted random event 'RELEASE' from foreign process in case S61816
+inserted random event 'NEW' from foreign process in case S176665
+inserted random event 'NEW' from foreign process in case P5095
+inserted random event 'RELEASE' from foreign process in case N54025
+inserted random event 'FIN' from foreign process in case S161459
+inserted random event 'NEW' from foreign process in case S177790
+inserted random event 'BILLED' from foreign process in case S66749
+inserted random event 'FIN' from foreign process in case A10994
+inserted random event 'RELEASE' from foreign process in case A2078
+inserted random event 'NEW' from foreign process in case S53536
+inserted random event 'CHANGE DIAGN' from foreign process in case N42825
+inserted random event 'NEW' from foreign process in case S157037
+inserted random event 'RELEASE' from foreign process in case C22656
+inserted random event 'NEW' from foreign process in case N42472
+inserted random event 'RELEASE' from foreign process in case S180257
+inserted random event 'FIN' from foreign process in case A9347
+inserted random event 'NEW' from foreign process in case C21221
+inserted random event 'RELEASE' from foreign process in case S142539
+inserted random event 'CODE OK' from foreign process in case N67158
+inserted random event 'CODE OK' from foreign process in case S67560
+inserted random event 'DELETE' from foreign process in case P3025
+inserted random event 'NEW' from foreign process in case S160832
+inserted random event 'FIN' from foreign process in case S80782
+inserted random event 'NEW' from foreign process in case S142004
+inserted random event 'FIN' from foreign process in case S156819
+inserted random event 'DELETE' from foreign process in case S176575
+inserted random event 'FIN' from foreign process in case A33977
+inserted random event 'CODE NOK' from foreign process in case A27181
+inserted random event 'CHANGE DIAGN' from foreign process in case S87134
+inserted random event 'CHANGE DIAGN' from foreign process in case S76314
+inserted random event 'RELEASE' from foreign process in case N53021
+inserted random event 'FIN' from foreign process in case S102756
+inserted random event 'BILLED' from foreign process in case S149079
+inserted random event 'BILLED' from foreign process in case P2562
+inserted random event 'BILLED' from foreign process in case S135010
+inserted random event 'RELEASE' from foreign process in case N25264
+inserted random event 'NEW' from foreign process in case A15745
+inserted random event 'RELEASE' from foreign process in case N45054
+inserted random event 'BILLED' from foreign process in case N73579
+inserted random event 'CODE OK' from foreign process in case S168254
+inserted random event 'BILLED' from foreign process in case S53539
+inserted random event 'NEW' from foreign process in case S175276
+inserted random event 'BILLED' from foreign process in case S64032
+inserted random event 'BILLED' from foreign process in case S77107
+inserted random event 'NEW' from foreign process in case N25725
+inserted random event 'BILLED' from foreign process in case N23622
+inserted random event 'CHANGE DIAGN' from foreign process in case S175855
+inserted random event 'FIN' from foreign process in case A40211
+inserted random event 'NEW' from foreign process in case S90076
+inserted random event 'RELEASE' from foreign process in case S144616
+inserted random event 'CODE OK' from foreign process in case S43189
+inserted random event 'BILLED' from foreign process in case S162320
+inserted random event 'NEW' from foreign process in case A18121
+inserted random event 'CODE NOK' from foreign process in case A21289
+inserted random event 'BILLED' from foreign process in case N85883
+inserted random event 'FIN' from foreign process in case S68173
+inserted random event 'RELEASE' from foreign process in case N51176
+inserted random event 'FIN' from foreign process in case S88035
+inserted random event 'BILLED' from foreign process in case N40669
+inserted random event 'REJECT' from foreign process in case N55531
+inserted random event 'NEW' from foreign process in case A4655
+inserted random event 'BILLED' from foreign process in case S147515
+inserted random event 'NEW' from foreign process in case S81718
+inserted random event 'FIN' from foreign process in case S64205
+inserted random event 'RELEASE' from foreign process in case S130241
+inserted random event 'CHANGE DIAGN' from foreign process in case A43647
+inserted random event 'RELEASE' from foreign process in case S183093
+inserted random event 'RELEASE' from foreign process in case N86522
+inserted random event 'CODE OK' from foreign process in case N25138
+inserted random event 'NEW' from foreign process in case N26323
+inserted random event 'NEW' from foreign process in case S95411
+inserted random event 'BILLED' from foreign process in case S110607
+inserted random event 'RELEASE' from foreign process in case A10781
+inserted random event 'DELETE' from foreign process in case S127440
+inserted random event 'NEW' from foreign process in case A17626
+inserted random event 'FIN' from foreign process in case S144347
+inserted random event 'BILLED' from foreign process in case N43162
+inserted random event 'RELEASE' from foreign process in case C17656
+inserted random event 'FIN' from foreign process in case N23933
+inserted random event 'NEW' from foreign process in case N85289
+inserted random event 'NEW' from foreign process in case N85299
+inserted random event 'RELEASE' from foreign process in case C10193
+inserted random event 'CODE OK' from foreign process in case A28211
+inserted random event 'NEW' from foreign process in case S167538
+inserted random event 'RELEASE' from foreign process in case S136079
+inserted random event 'RELEASE' from foreign process in case V7225
+inserted random event 'NEW' from foreign process in case S156465
+inserted random event 'FIN' from foreign process in case S157086
+inserted random event 'CODE OK' from foreign process in case A24127
+inserted random event 'NEW' from foreign process in case A24089
+inserted random event 'BILLED' from foreign process in case N101429
+inserted random event 'BILLED' from foreign process in case A38398
+inserted random event 'FIN' from foreign process in case P618
+inserted random event 'RELEASE' from foreign process in case N55390
+inserted random event 'RELEASE' from foreign process in case S152580
+inserted random event 'BILLED' from foreign process in case S45476
+inserted random event 'CODE OK' from foreign process in case P865
+inserted random event 'NEW' from foreign process in case S128526
+inserted random event 'BILLED' from foreign process in case S53619
+inserted random event 'CODE OK' from foreign process in case C14625
+inserted random event 'FIN' from foreign process in case S67149
+inserted random event 'NEW' from foreign process in case N70151
+inserted random event 'BILLED' from foreign process in case V18652
+inserted random event 'FIN' from foreign process in case C22330
+inserted random event 'CODE OK' from foreign process in case S68776
+inserted random event 'BILLED' from foreign process in case A13747
+inserted random event 'RELEASE' from foreign process in case V4035
+inserted random event 'FIN' from foreign process in case S97137
+inserted random event 'FIN' from foreign process in case S160591
+inserted random event 'CODE OK' from foreign process in case S154743
+inserted random event 'RELEASE' from foreign process in case S83660
+inserted random event 'NEW' from foreign process in case S67210
+inserted random event 'FIN' from foreign process in case S170942
+inserted random event 'RELEASE' from foreign process in case C13618
+inserted random event 'NEW' from foreign process in case A5585
+inserted random event 'CODE OK' from foreign process in case S85521
+inserted random event 'RELEASE' from foreign process in case S80848
+inserted random event 'BILLED' from foreign process in case S64485
+inserted random event 'NEW' from foreign process in case S180919
+inserted random event 'BILLED' from foreign process in case A13828
+inserted random event 'BILLED' from foreign process in case N29306
+inserted random event 'CODE OK' from foreign process in case S150636
+inserted random event 'NEW' from foreign process in case C17946
+inserted random event 'CODE NOK' from foreign process in case S136577
+inserted random event 'FIN' from foreign process in case N25747
+inserted random event 'FIN' from foreign process in case S105369
+inserted random event 'BILLED' from foreign process in case N34433
+inserted random event 'CHANGE DIAGN' from foreign process in case A23399
+inserted random event 'NEW' from foreign process in case C21564
+inserted random event 'BILLED' from foreign process in case S133505
+inserted random event 'CHANGE DIAGN' from foreign process in case S173778
+inserted random event 'RELEASE' from foreign process in case S161386
+inserted random event 'RELEASE' from foreign process in case S82753
+inserted random event 'CHANGE DIAGN' from foreign process in case S152440
+inserted random event 'REOPEN' from foreign process in case S55657
+inserted random event 'REOPEN' from foreign process in case S155775
+inserted random event 'RELEASE' from foreign process in case N94930
+inserted random event 'NEW' from foreign process in case V7327
+inserted random event 'FIN' from foreign process in case N91784
+inserted random event 'JOIN-PAT' from foreign process in case N33651
+inserted random event 'NEW' from foreign process in case S145746
+inserted random event 'FIN' from foreign process in case A5592
+inserted random event 'FIN' from foreign process in case A26022
+inserted random event 'BILLED' from foreign process in case S144556
+inserted random event 'RELEASE' from foreign process in case S166816
+inserted random event 'RELEASE' from foreign process in case S92324
+inserted random event 'FIN' from foreign process in case A38836
+inserted random event 'CHANGE DIAGN' from foreign process in case S184044
+inserted random event 'RELEASE' from foreign process in case N22174
+inserted random event 'FIN' from foreign process in case N38068
+inserted random event 'NEW' from foreign process in case A33816
+inserted random event 'RELEASE' from foreign process in case N43345
+inserted random event 'NEW' from foreign process in case S57221
+inserted random event 'FIN' from foreign process in case N29275
+inserted random event 'NEW' from foreign process in case N25873
+inserted random event 'CODE OK' from foreign process in case S64222
+inserted random event 'NEW' from foreign process in case S170419
+inserted random event 'RELEASE' from foreign process in case A28697
+inserted random event 'NEW' from foreign process in case C15343
+inserted random event 'RELEASE' from foreign process in case S105466
+inserted random event 'NEW' from foreign process in case S172609
+inserted random event 'NEW' from foreign process in case N38088
+inserted random event 'NEW' from foreign process in case S125880
+inserted random event 'NEW' from foreign process in case N76218
+inserted random event 'NEW' from foreign process in case A44041
+inserted random event 'RELEASE' from foreign process in case S168172
+inserted random event 'FIN' from foreign process in case S102444
+inserted random event 'RELEASE' from foreign process in case A42123
+inserted random event 'NEW' from foreign process in case S80582
+inserted random event 'BILLED' from foreign process in case S155724
+inserted random event 'FIN' from foreign process in case A32193
+inserted random event 'NEW' from foreign process in case V6524
+inserted random event 'FIN' from foreign process in case S143195
+inserted random event 'CHANGE DIAGN' from foreign process in case N27038
+inserted random event 'BILLED' from foreign process in case A12822
+inserted random event 'NEW' from foreign process in case V4054
+inserted random event 'NEW' from foreign process in case A36737
+inserted random event 'BILLED' from foreign process in case S104059
+inserted random event 'RELEASE' from foreign process in case N30121
+inserted random event 'BILLED' from foreign process in case S105178
+inserted random event 'BILLED' from foreign process in case S126064
+inserted random event 'NEW' from foreign process in case S88627
+inserted random event 'FIN' from foreign process in case A38715
+inserted random event 'RELEASE' from foreign process in case N39995
+inserted random event 'FIN' from foreign process in case N38850
+inserted random event 'BILLED' from foreign process in case S57457
+inserted random event 'NEW' from foreign process in case N98199
+inserted random event 'NEW' from foreign process in case N84112
+inserted random event 'NEW' from foreign process in case S50943
+inserted random event 'REOPEN' from foreign process in case S65216
+inserted random event 'BILLED' from foreign process in case S154122
+inserted random event 'FIN' from foreign process in case S168054
+inserted random event 'BILLED' from foreign process in case S141865
+inserted random event 'NEW' from foreign process in case S194021
+inserted random event 'NEW' from foreign process in case C10470
+inserted random event 'NEW' from foreign process in case S74507
+inserted random event 'FIN' from foreign process in case S65085
+inserted random event 'CHANGE DIAGN' from foreign process in case N91942
+inserted random event 'NEW' from foreign process in case S91479
+inserted random event 'RELEASE' from foreign process in case S59910
+inserted random event 'NEW' from foreign process in case N38467
+inserted random event 'REOPEN' from foreign process in case S156901
+inserted random event 'NEW' from foreign process in case N28599
+inserted random event 'RELEASE' from foreign process in case S74191
+inserted random event 'RELEASE' from foreign process in case S51400
+inserted random event 'CODE OK' from foreign process in case N78282
+inserted random event 'RELEASE' from foreign process in case N25260
+inserted random event 'CODE OK' from foreign process in case S48572
+inserted random event 'CHANGE DIAGN' from foreign process in case S170498
+inserted random event 'BILLED' from foreign process in case S58069
+inserted random event 'CHANGE DIAGN' from foreign process in case A26689
+inserted random event 'RELEASE' from foreign process in case A25595
+inserted random event 'NEW' from foreign process in case V18916
+inserted random event 'NEW' from foreign process in case S137786
+inserted random event 'FIN' from foreign process in case A30613
+inserted random event 'REJECT' from foreign process in case S77456
+inserted random event 'NEW' from foreign process in case N90878
+inserted random event 'BILLED' from foreign process in case S166671
+inserted random event 'RELEASE' from foreign process in case S119944
+inserted random event 'RELEASE' from foreign process in case S127361
+inserted random event 'NEW' from foreign process in case V11052
+inserted random event 'FIN' from foreign process in case A39613
+inserted random event 'BILLED' from foreign process in case N89095
+inserted random event 'NEW' from foreign process in case A22944
+inserted random event 'DELETE' from foreign process in case A41778
+inserted random event 'NEW' from foreign process in case A7023
+inserted random event 'CODE OK' from foreign process in case S56954
+inserted random event 'CODE OK' from foreign process in case S61572
+inserted random event 'BILLED' from foreign process in case S124305
+inserted random event 'CHANGE DIAGN' from foreign process in case S74600
+inserted random event 'RELEASE' from foreign process in case N29468
+inserted random event 'RELEASE' from foreign process in case S74083
+inserted random event 'BILLED' from foreign process in case A28477
+inserted random event 'CODE OK' from foreign process in case V5797
+inserted random event 'STORNO' from foreign process in case N29009
+inserted random event 'RELEASE' from foreign process in case S147552
+inserted random event 'NEW' from foreign process in case S176929
+inserted random event 'CODE OK' from foreign process in case S72818
+inserted random event 'RELEASE' from foreign process in case V6636
+inserted random event 'FIN' from foreign process in case C17240
+inserted random event 'BILLED' from foreign process in case V11318
+inserted random event 'NEW' from foreign process in case N23366
+inserted random event 'NEW' from foreign process in case S155121
+inserted random event 'NEW' from foreign process in case N44772
+inserted random event 'FIN' from foreign process in case C11897
+inserted random event 'CHANGE DIAGN' from foreign process in case S83240
+inserted random event 'FIN' from foreign process in case S82653
+inserted random event 'CODE OK' from foreign process in case C12210
+inserted random event 'NEW' from foreign process in case N34306
+inserted random event 'NEW' from foreign process in case S173158
+inserted random event 'RELEASE' from foreign process in case S88859
+inserted random event 'NEW' from foreign process in case S167427
+inserted random event 'NEW' from foreign process in case A21083
+inserted random event 'FIN' from foreign process in case S156126
+inserted random event 'NEW' from foreign process in case N33107
+inserted random event 'DELETE' from foreign process in case S184186
+inserted random event 'CODE OK' from foreign process in case P2210
+inserted random event 'BILLED' from foreign process in case S158681
+inserted random event 'NEW' from foreign process in case S144322
+inserted random event 'FIN' from foreign process in case N43003
+inserted random event 'CODE OK' from foreign process in case S77351
+inserted random event 'CHANGE DIAGN' from foreign process in case V4227
+inserted random event 'NEW' from foreign process in case N45552
+inserted random event 'NEW' from foreign process in case N93031
+inserted random event 'BILLED' from foreign process in case S130102
+inserted random event 'FIN' from foreign process in case S134969
+inserted random event 'RELEASE' from foreign process in case S57540
+inserted random event 'RELEASE' from foreign process in case P2614
+inserted random event 'FIN' from foreign process in case S131988
+inserted random event 'CODE OK' from foreign process in case N79603
+inserted random event 'NEW' from foreign process in case S140034
+inserted random event 'FIN' from foreign process in case A26939
+inserted random event 'NEW' from foreign process in case S62282
+inserted random event 'NEW' from foreign process in case V17169
+inserted random event 'BILLED' from foreign process in case N29303
+inserted random event 'CODE OK' from foreign process in case S136232
+inserted random event 'CODE NOK' from foreign process in case S161560
+inserted random event 'CODE OK' from foreign process in case N34745
+inserted random event 'BILLED' from foreign process in case S55924
+inserted random event 'FIN' from foreign process in case N89435
+inserted random event 'NEW' from foreign process in case N35874
+inserted random event 'CODE OK' from foreign process in case N26363
+inserted random event 'NEW' from foreign process in case S57449
+inserted random event 'CODE OK' from foreign process in case S159219
+inserted random event 'CHANGE DIAGN' from foreign process in case A10608
+inserted random event 'FIN' from foreign process in case A37652
+inserted random event 'CODE OK' from foreign process in case N64861
+inserted random event 'RELEASE' from foreign process in case S155943
+inserted random event 'BILLED' from foreign process in case N38843
+inserted random event 'BILLED' from foreign process in case S55092
+inserted random event 'NEW' from foreign process in case N24006
+inserted random event 'FIN' from foreign process in case S71728
+inserted random event 'BILLED' from foreign process in case N48376
+inserted random event 'NEW' from foreign process in case S125088
+inserted random event 'NEW' from foreign process in case C22395
+inserted random event 'CODE OK' from foreign process in case A28552
+inserted random event 'CODE OK' from foreign process in case A14486
+inserted random event 'BILLED' from foreign process in case S121086
+inserted random event 'NEW' from foreign process in case S98915
+inserted random event 'NEW' from foreign process in case S119468
+inserted random event 'FIN' from foreign process in case A14276
+inserted random event 'RELEASE' from foreign process in case A219
+inserted random event 'FIN' from foreign process in case S187114
+inserted random event 'BILLED' from foreign process in case S110137
+inserted random event 'CODE OK' from foreign process in case S72696
+inserted random event 'FIN' from foreign process in case S84323
+inserted random event 'FIN' from foreign process in case N35510
+inserted random event 'CHANGE DIAGN' from foreign process in case N37855
+inserted random event 'DELETE' from foreign process in case P2995
+inserted random event 'FIN' from foreign process in case N34212
+inserted random event 'RELEASE' from foreign process in case S145413
+inserted random event 'RELEASE' from foreign process in case S186076
+inserted random event 'FIN' from foreign process in case V4996
+inserted random event 'FIN' from foreign process in case A4726
+inserted random event 'NEW' from foreign process in case N78443
+inserted random event 'BILLED' from foreign process in case S58595
+inserted random event 'SET STATUS' from foreign process in case N21266
+inserted random event 'NEW' from foreign process in case S168190
+inserted random event 'RELEASE' from foreign process in case S155786
+inserted random event 'FIN' from foreign process in case N22116
+inserted random event 'RELEASE' from foreign process in case A33516
+inserted random event 'FIN' from foreign process in case S95629
+inserted random event 'NEW' from foreign process in case N32544
+inserted random event 'FIN' from foreign process in case P827
+inserted random event 'CODE OK' from foreign process in case N22072
+inserted random event 'REJECT' from foreign process in case N80442
+inserted random event 'BILLED' from foreign process in case S39573
+inserted random event 'CODE OK' from foreign process in case S43567
+inserted random event 'CHANGE DIAGN' from foreign process in case N64133
+inserted random event 'CHANGE DIAGN' from foreign process in case S183093
+inserted random event 'NEW' from foreign process in case N82286
+inserted random event 'REOPEN' from foreign process in case N39446
+inserted random event 'CHANGE DIAGN' from foreign process in case S58747
+inserted random event 'CODE OK' from foreign process in case S163850
+inserted random event 'BILLED' from foreign process in case S131010
+inserted random event 'DELETE' from foreign process in case S153258
+inserted random event 'NEW' from foreign process in case S53645
+inserted random event 'CODE OK' from foreign process in case S60075
+inserted random event 'CHANGE DIAGN' from foreign process in case S137976
+inserted random event 'CODE OK' from foreign process in case N32323
+inserted random event 'FIN' from foreign process in case A43773
+inserted random event 'RELEASE' from foreign process in case S166845
+inserted random event 'RELEASE' from foreign process in case S53542
+inserted random event 'CHANGE DIAGN' from foreign process in case V9224
+inserted random event 'RELEASE' from foreign process in case S70054
+inserted random event 'BILLED' from foreign process in case S141381
+inserted random event 'BILLED' from foreign process in case S165639
+inserted random event 'NEW' from foreign process in case N26617
+inserted random event 'FIN' from foreign process in case N43031
+inserted random event 'BILLED' from foreign process in case S129319
+inserted random event 'NEW' from foreign process in case N44638
+inserted random event 'CHANGE DIAGN' from foreign process in case S48955
+inserted random event 'FIN' from foreign process in case S114146
+inserted random event 'RELEASE' from foreign process in case S129716
+inserted random event 'CODE NOK' from foreign process in case S193799
+inserted random event 'CODE OK' from foreign process in case S182875
+inserted random event 'NEW' from foreign process in case S57214
+inserted random event 'FIN' from foreign process in case S73899
+inserted random event 'REJECT' from foreign process in case S66702
+inserted random event 'NEW' from foreign process in case N63065
+inserted random event 'FIN' from foreign process in case S185141
+inserted random event 'FIN' from foreign process in case V16996
+inserted random event 'DELETE' from foreign process in case N45719
+inserted random event 'REOPEN' from foreign process in case S77290
+inserted random event 'CODE OK' from foreign process in case N26323
+inserted random event 'CODE OK' from foreign process in case N61704
+inserted random event 'CODE OK' from foreign process in case N78236
+inserted random event 'FIN' from foreign process in case A32774
+inserted random event 'FIN' from foreign process in case S154086
+inserted random event 'NEW' from foreign process in case S158548
+inserted random event 'RELEASE' from foreign process in case S57214
+inserted random event 'NEW' from foreign process in case S77479
+inserted random event 'CODE OK' from foreign process in case N63301
+inserted random event 'NEW' from foreign process in case S157236
+inserted random event 'NEW' from foreign process in case S119283
+inserted random event 'CODE OK' from foreign process in case N65121
+inserted random event 'DELETE' from foreign process in case S72916
+inserted random event 'FIN' from foreign process in case S168190
+inserted random event 'DELETE' from foreign process in case N28288
+inserted random event 'CODE OK' from foreign process in case A14422
+inserted random event 'NEW' from foreign process in case C21024
+inserted random event 'FIN' from foreign process in case C14697
+inserted random event 'CODE OK' from foreign process in case S167604
+inserted random event 'BILLED' from foreign process in case S57186
+inserted random event 'RELEASE' from foreign process in case V6237
+inserted random event 'BILLED' from foreign process in case S161505
+inserted random event 'REOPEN' from foreign process in case S108500
+inserted random event 'RELEASE' from foreign process in case N23637
+inserted random event 'BILLED' from foreign process in case S155916
+inserted random event 'CODE OK' from foreign process in case S180257
+inserted random event 'NEW' from foreign process in case N86617
+inserted random event 'CODE OK' from foreign process in case S86125
+inserted random event 'NEW' from foreign process in case N91442
+inserted random event 'REOPEN' from foreign process in case S158512
+inserted random event 'CODE OK' from foreign process in case S47966
+inserted random event 'NEW' from foreign process in case N83178
+inserted random event 'BILLED' from foreign process in case N65356
+inserted random event 'RELEASE' from foreign process in case N23950
+inserted random event 'FIN' from foreign process in case S68557
+inserted random event 'RELEASE' from foreign process in case A22259
+inserted random event 'NEW' from foreign process in case A30253
+inserted random event 'CODE OK' from foreign process in case S103300
+inserted random event 'CODE OK' from foreign process in case A1886
+inserted random event 'CODE OK' from foreign process in case S70617
+inserted random event 'NEW' from foreign process in case S127582
+inserted random event 'RELEASE' from foreign process in case S158312
+inserted random event 'RELEASE' from foreign process in case S77788
+inserted random event 'NEW' from foreign process in case S73493
+inserted random event 'BILLED' from foreign process in case A23399
+inserted random event 'NEW' from foreign process in case S161273
+inserted random event 'CODE OK' from foreign process in case S184119
+inserted random event 'CHANGE DIAGN' from foreign process in case N100907
+inserted random event 'CODE OK' from foreign process in case S184976
+inserted random event 'CHANGE DIAGN' from foreign process in case S151111
+inserted random event 'NEW' from foreign process in case S170620
+inserted random event 'FIN' from foreign process in case A9874
+inserted random event 'BILLED' from foreign process in case A17632
+inserted random event 'FIN' from foreign process in case S53861
+inserted random event 'RELEASE' from foreign process in case N61719
+inserted random event 'CHANGE DIAGN' from foreign process in case N94356
+inserted random event 'RELEASE' from foreign process in case N26600
+inserted random event 'FIN' from foreign process in case P1417
+inserted random event 'NEW' from foreign process in case S54594
+inserted random event 'CODE OK' from foreign process in case N91460
+inserted random event 'CHANGE DIAGN' from foreign process in case C13824
+inserted random event 'BILLED' from foreign process in case A45398
+inserted random event 'NEW' from foreign process in case S124247
+inserted random event 'NEW' from foreign process in case S107334
+inserted random event 'REJECT' from foreign process in case S160709
+inserted random event 'NEW' from foreign process in case N53531
+inserted random event 'NEW' from foreign process in case S95411
+inserted random event 'CODE OK' from foreign process in case S58960
+inserted random event 'NEW' from foreign process in case N39990
+inserted random event 'CODE OK' from foreign process in case S93860
+inserted random event 'CODE OK' from foreign process in case A33105
+inserted random event 'NEW' from foreign process in case N35941
+inserted random event 'BILLED' from foreign process in case S57284
+inserted random event 'FIN' from foreign process in case A29921
+inserted random event 'CHANGE DIAGN' from foreign process in case N49712
+inserted random event 'CODE OK' from foreign process in case S102967
+inserted random event 'CHANGE DIAGN' from foreign process in case S86021
+inserted random event 'FIN' from foreign process in case N52751
+inserted random event 'DELETE' from foreign process in case N40712
+inserted random event 'NEW' from foreign process in case N66469
+inserted random event 'CODE OK' from foreign process in case A8413
+inserted random event 'BILLED' from foreign process in case S160497
+inserted random event 'NEW' from foreign process in case S138324
+inserted random event 'CHANGE DIAGN' from foreign process in case A21987
+inserted random event 'BILLED' from foreign process in case S61447
+inserted random event 'NEW' from foreign process in case A31719
+inserted random event 'FIN' from foreign process in case S103366
+inserted random event 'DELETE' from foreign process in case S160184
+inserted random event 'CHANGE DIAGN' from foreign process in case N77706
+inserted random event 'NEW' from foreign process in case S83540
+inserted random event 'BILLED' from foreign process in case N62561
+inserted random event 'CODE OK' from foreign process in case S58474
+inserted random event 'BILLED' from foreign process in case S134342
+inserted random event 'CODE OK' from foreign process in case S157600
+inserted random event 'BILLED' from foreign process in case N49040
+inserted random event 'BILLED' from foreign process in case N35152
+inserted random event 'RELEASE' from foreign process in case S162648
+inserted random event 'NEW' from foreign process in case A27971
+inserted random event 'BILLED' from foreign process in case N78229
+inserted random event 'RELEASE' from foreign process in case A10283
+inserted random event 'CODE OK' from foreign process in case S154299
+inserted random event 'RELEASE' from foreign process in case N25942
+inserted random event 'BILLED' from foreign process in case N90878
+inserted random event 'RELEASE' from foreign process in case N45132
+inserted random event 'FIN' from foreign process in case P2972
+inserted random event 'RELEASE' from foreign process in case S120567
+inserted random event 'CODE OK' from foreign process in case S155873
+inserted random event 'CHANGE DIAGN' from foreign process in case S160745
+inserted random event 'BILLED' from foreign process in case S132371
+inserted random event 'CHANGE DIAGN' from foreign process in case S55175

@@ -197,11 +197,19 @@ def sample_x_distinct_traces(x):
 
 
 if __name__ == '__main__':
+    # log_obj = LogManipulation()
+    # directory = os.listdir("../TestDir")
+    # for filename in directory:
+    #     if not filename.__contains__("LOG_FILE"):
+    #         #print(str(os.path.join(directory, filename)))
+    #         log_obj.add_statistics_to_log(os.path.join("../TestDir/", filename))
+    #         #print(filename)
+    path = "../TestDir/i15_10percent.xes"
     log_obj = LogManipulation()
-    directory = os.listdir("../TestDir")
-    for filename in directory:
-        if not filename.__contains__("LOG_FILE"):
-            #print(str(os.path.join(directory, filename)))
-            log_obj.add_statistics_to_log(os.path.join("../TestDir/", filename))
-            #print(filename)
+    log_obj.tree = etree.parse(path)
+    log_obj.root = log_obj.tree.getroot()
+    all_traces = log_obj.root.findall(".//trace")
+    for trace in all_traces:
+        if len(trace.getchildren()) > 20:
+            print("Trace: " + log_obj.get_name(trace) + " Length: " + str(len(trace.getchildren())))
 

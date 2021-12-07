@@ -30,13 +30,15 @@ class LogManipulation:
     root2 = None
 
     # read input file
-    def read_input_document(self):
+    def read_input_document(self, need_two_input_paths):
         # use these for lxml operations
         self.tree = etree.parse(self.input_path)
         self.root = self.tree.getroot()
-        # for random insertion: a second log from which cases and events are picked and inserted
-        self.tree2 = etree.parse(self.input_path_to_insert_incorrect_issues)
-        self.root2 = self.tree2.getroot()
+
+        if need_two_input_paths:
+            # for random insertion: a second log from which cases and events are picked and inserted
+            self.tree2 = etree.parse(self.input_path_to_insert_incorrect_issues)
+            self.root2 = self.tree2.getroot()
 
     # write tree to log file again
     def write_output_document(self):

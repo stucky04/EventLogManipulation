@@ -136,7 +136,7 @@ def do_modifications():
             popup_message("specify a valid value")
 
         # set amount
-        if combo_box.get() == "relative" and int(label_amount_entry.get()) in range(0, 100):
+        if combo_box.get() == "percentage" and int(label_amount_entry.get()) in range(0, 100):
             log_obj.relative_amount = float(label_amount_entry.get()) / 100
         elif combo_box.get() == "absolute" and int(label_amount_entry.get()) > 0:
             log_obj.absolute_amount = int(label_amount_entry.get())
@@ -147,11 +147,21 @@ def do_modifications():
         if label_seed_entry.get() != "":
             random.seed(label_seed_entry.get())
 
-        # read input file(s)
-        log_obj.read_input_document()
 
         # read listbox, which issues are selected?
         selected_items = [list_dqis.get(i) for i in list_dqis.curselection()]
+        if len(selected_items) == 0:
+            popup_message("please select a DQI")
+
+        # check if the user selected a dqi that requires two input paths
+        need_two_input_paths = False
+        for item in selected_items:
+            dqi_name = item.split(" ")[0]
+            if dqi_name in ["I10", "I11", "I26", "I27"]:
+                need_two_input_paths = True
+
+        # read input file(s)
+        log_obj.read_input_document(need_two_input_paths)
 
         # call all needed insert... methods
         for item in selected_items:
@@ -169,6 +179,7 @@ def do_modifications():
         # add statistics at top of file as a comment
         LogManipulation.add_statistics_to_log(log_obj, log_obj.output_path)
     except Exception as e:
+        print(e)
         popup_message("Some Error happened...")
         print(e)
         exit(1)

@@ -15,7 +15,7 @@ def insert_I20(self):
 
 
 def insert_I21(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many traces to modify
         number_to_modify = int(self.relative_amount * len(self.root.findall(".//trace")))
     else:
@@ -45,7 +45,7 @@ def insert_I21(self):
 
 
 def insert_I22(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_delete = int(
             self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
@@ -70,7 +70,7 @@ def insert_I22(self):
 # imprecise timestamp
 # pick random timestamp and cut off time and day of the timestamp string
 def insert_I23(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many timestamps to modify
         number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
     else:

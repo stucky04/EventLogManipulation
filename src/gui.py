@@ -23,7 +23,6 @@ def popup_message(msg):
 
 
 # fields
-
 # input file
 label_inputpath_text = Label(window, text="Input Path: ")
 label_inputpath_text.grid(column=0, row=0)

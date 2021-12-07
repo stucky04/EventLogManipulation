@@ -1,0 +1,4 @@
+
+Method insert_I4: 
+----------------------------------------------------------------------------
+removed attribute 'variant:count' from case S165283

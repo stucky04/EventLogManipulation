@@ -62,7 +62,7 @@ def insert_I4(self):
         if element.tag != 'event':
             number_of_case_attributes = number_of_case_attributes + 1
 
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many to remove
         number_of_case_attributes_to_remove = int(self.relative_amount * number_of_case_attributes)
     else:
@@ -87,7 +87,7 @@ def insert_I4(self):
 # missing position
 # pick random events and delete their timestamp, then move them to other traces at a random position
 def insert_I5(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many events to modify
         number_of_events_to_modify = int(
             self.relative_amount * len(self.root.findall(".//event")))
@@ -123,7 +123,7 @@ def insert_I5(self):
 # missing activity names
 # randomly delete specified amount of activity names
 def insert_I6(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_delete = int(
             self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
@@ -148,7 +148,7 @@ def insert_I6(self):
 # missing timestamps
 # randomly pick events and delte their timestamp
 def insert_I7(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/date")))
     else:
@@ -182,7 +182,7 @@ def insert_I7(self):
 # missing resource
 # pick random 'org:resource' tags and delete them
 def insert_I8(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_delete = int(
             self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
@@ -206,7 +206,7 @@ def insert_I8(self):
 # missing event attributes
 # pick random event attributes and delete them
 def insert_I9(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_delete = int(self.relative_amount * len(self.root.findall(".//event/")))
     else:

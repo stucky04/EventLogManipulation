@@ -1,0 +1,4 @@
+
+Method insert_I26: 
+----------------------------------------------------------------------------
+inserted random case from foreign process at the end of the log 

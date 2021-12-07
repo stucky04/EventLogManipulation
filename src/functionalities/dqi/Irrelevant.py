@@ -1,7 +1,7 @@
 import random
 # irrelevant case
 def insert_I26(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many cases to insert
         number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
     else:
@@ -26,7 +26,7 @@ def insert_I26(self):
 
 # irrelevant event
 def insert_I27(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many events to insert
         number_to_insert = int(self.relative_amount * len(self.root.findall(".//event")))
     else:

@@ -1,0 +1,1688 @@
+
+Method insert_I5: 
+----------------------------------------------------------------------------
+removed timestamp and moved event 'Payment' within case S89307
+removed timestamp and moved event 'Send for Credit Collection' within case S83981
+removed timestamp and moved event 'Create Fine' within case S57694
+removed timestamp and moved event 'Insert Fine Notification' within case C12210
+removed timestamp and moved event 'Send for Credit Collection' within case S175498
+removed timestamp and moved event 'Create Fine' within case N36207
+removed timestamp and moved event 'Add penalty' within case S153104
+removed timestamp and moved event 'Payment' within case S119898
+removed timestamp and moved event 'Send Fine' within case N23774
+removed timestamp and moved event 'Payment' within case S113167
+removed timestamp and moved event 'Send Fine' within case S60772
+removed timestamp and moved event 'Add penalty' within case N39900
+removed timestamp and moved event 'Add penalty' within case S151942
+removed timestamp and moved event 'Add penalty' within case N32712
+removed timestamp and moved event 'Insert Fine Notification' within case N38992
+removed timestamp and moved event 'Add penalty' within case S74700
+removed timestamp and moved event 'Payment' within case A9979
+removed timestamp and moved event 'Create Fine' within case S165661
+removed timestamp and moved event 'Add penalty' within case S65925
+removed timestamp and moved event 'Insert Fine Notification' within case P1331
+removed timestamp and moved event 'Insert Fine Notification' within case S157086
+removed timestamp and moved event 'Payment' within case A8431
+removed timestamp and moved event 'Payment' within case P243
+removed timestamp and moved event 'Create Fine' within case S149310
+removed timestamp and moved event 'Create Fine' within case S143136
+removed timestamp and moved event 'Insert Fine Notification' within case S176070
+removed timestamp and moved event 'Insert Fine Notification' within case V4965
+removed timestamp and moved event 'Send for Credit Collection' within case N22509
+removed timestamp and moved event 'Payment' within case A4691
+removed timestamp and moved event 'Create Fine' within case S125513
+removed timestamp and moved event 'Create Fine' within case N38353
+removed timestamp and moved event 'Create Fine' within case A23308
+removed timestamp and moved event 'Add penalty' within case S125513
+removed timestamp and moved event 'Payment' within case A43341
+removed timestamp and moved event 'Create Fine' within case S68990
+removed timestamp and moved event 'Create Fine' within case A13805
+removed timestamp and moved event 'Create Fine' within case A29921
+removed timestamp and moved event 'Create Fine' within case S169359
+removed timestamp and moved event 'Payment' within case N88410
+removed timestamp and moved event 'Insert Fine Notification' within case S50309
+removed timestamp and moved event 'Payment' within case S170023
+removed timestamp and moved event 'Create Fine' within case A23770
+removed timestamp and moved event 'Create Fine' within case S54898
+removed timestamp and moved event 'Create Fine' within case C11012
+removed timestamp and moved event 'Create Fine' within case A28080
+removed timestamp and moved event 'Payment' within case A20864
+removed timestamp and moved event 'Payment' within case A25301
+removed timestamp and moved event 'Send for Credit Collection' within case S167802
+removed timestamp and moved event 'Create Fine' within case N22312
+removed timestamp and moved event 'Insert Fine Notification' within case S53784
+removed timestamp and moved event 'Create Fine' within case N21917
+removed timestamp and moved event 'Payment' within case N50371
+removed timestamp and moved event 'Create Fine' within case N85256
+removed timestamp and moved event 'Insert Fine Notification' within case N25837
+removed timestamp and moved event 'Create Fine' within case S157307
+removed timestamp and moved event 'Add penalty' within case N31561
+removed timestamp and moved event 'Create Fine' within case S85797
+removed timestamp and moved event 'Create Fine' within case N28365
+removed timestamp and moved event 'Payment' within case S78114
+removed timestamp and moved event 'Payment' within case S76794
+removed timestamp and moved event 'Create Fine' within case S77627
+removed timestamp and moved event 'Payment' within case S72710
+removed timestamp and moved event 'Add penalty' within case N32387
+removed timestamp and moved event 'Insert Fine Notification' within case N40793
+removed timestamp and moved event 'Payment' within case N45717
+removed timestamp and moved event 'Create Fine' within case S145493
+removed timestamp and moved event 'Create Fine' within case S170620
+removed timestamp and moved event 'Create Fine' within case N90011
+removed timestamp and moved event 'Send Fine' within case A28368
+removed timestamp and moved event 'Create Fine' within case S165423
+removed timestamp and moved event 'Add penalty' within case S64261
+removed timestamp and moved event 'Insert Fine Notification' within case A15735
+removed timestamp and moved event 'Payment' within case N26617
+removed timestamp and moved event 'Create Fine' within case N33510
+removed timestamp and moved event 'Create Fine' within case N49581
+removed timestamp and moved event 'Send for Credit Collection' within case V17909
+removed timestamp and moved event 'Send for Credit Collection' within case V7932
+removed timestamp and moved event 'Send Fine' within case N51160
+removed timestamp and moved event 'Payment' within case N69872
+removed timestamp and moved event 'Payment' within case N61464
+removed timestamp and moved event 'Create Fine' within case S112646
+removed timestamp and moved event 'Payment' within case P2160
+removed timestamp and moved event 'Create Fine' within case S105985
+removed timestamp and moved event 'Send for Credit Collection' within case N23382
+removed timestamp and moved event 'Send Fine' within case C10866
+removed timestamp and moved event 'Add penalty' within case S136671
+removed timestamp and moved event 'Send Fine' within case V9936
+removed timestamp and moved event 'Add penalty' within case S174312
+removed timestamp and moved event 'Send for Credit Collection' within case S160888
+removed timestamp and moved event 'Send for Credit Collection' within case N36349
+removed timestamp and moved event 'Create Fine' within case A32462
+removed timestamp and moved event 'Payment' within case A42313
+removed timestamp and moved event 'Insert Fine Notification' within case V11216
+removed timestamp and moved event 'Create Fine' within case N23882
+removed timestamp and moved event 'Create Fine' within case N32542
+removed timestamp and moved event 'Insert Fine Notification' within case S74522
+removed timestamp and moved event 'Create Fine' within case C21281
+removed timestamp and moved event 'Insert Fine Notification' within case S166620
+removed timestamp and moved event 'Send for Credit Collection' within case S93054
+removed timestamp and moved event 'Send for Credit Collection' within case S77433
+removed timestamp and moved event 'Create Fine' within case S43451
+removed timestamp and moved event 'Create Fine' within case A22928
+removed timestamp and moved event 'Send Fine' within case N43031
+removed timestamp and moved event 'Add penalty' within case N30280
+removed timestamp and moved event 'Payment' within case S103597
+removed timestamp and moved event 'Insert Fine Notification' within case N48376
+removed timestamp and moved event 'Payment' within case N88215
+removed timestamp and moved event 'Payment' within case N88132
+removed timestamp and moved event 'Send for Credit Collection' within case V19041
+removed timestamp and moved event 'Send Fine' within case V9779
+removed timestamp and moved event 'Create Fine' within case A23886
+removed timestamp and moved event 'Add penalty' within case S77756
+removed timestamp and moved event 'Create Fine' within case S154013
+removed timestamp and moved event 'Payment' within case S50655
+removed timestamp and moved event 'Send Fine' within case N45679
+removed timestamp and moved event 'Send Fine' within case V4165
+removed timestamp and moved event 'Create Fine' within case A40811
+removed timestamp and moved event 'Send Fine' within case S125297
+removed timestamp and moved event 'Add penalty' within case S43567
+removed timestamp and moved event 'Create Fine' within case S189471
+removed timestamp and moved event 'Create Fine' within case N96441
+removed timestamp and moved event 'Send Fine' within case V10100
+removed timestamp and moved event 'Create Fine' within case S64921
+removed timestamp and moved event 'Payment' within case N52949
+removed timestamp and moved event 'Add penalty' within case N65255
+removed timestamp and moved event 'Create Fine' within case S77619
+removed timestamp and moved event 'Send Fine' within case N27710
+removed timestamp and moved event 'Send Fine' within case S122589
+removed timestamp and moved event 'Payment' within case S128423
+removed timestamp and moved event 'Insert Fine Notification' within case S178013
+removed timestamp and moved event 'Payment' within case P66
+removed timestamp and moved event 'Insert Fine Notification' within case S155902
+removed timestamp and moved event 'Send Fine' within case V8106
+removed timestamp and moved event 'Create Fine' within case N64667
+removed timestamp and moved event 'Insert Fine Notification' within case N29778
+removed timestamp and moved event 'Create Fine' within case N23367
+removed timestamp and moved event 'Add penalty' within case S120344
+removed timestamp and moved event 'Payment' within case A3651
+removed timestamp and moved event 'Send Fine' within case N26230
+removed timestamp and moved event 'Create Fine' within case C14922
+removed timestamp and moved event 'Send Fine' within case N24648
+removed timestamp and moved event 'Insert Fine Notification' within case N30886
+removed timestamp and moved event 'Send Fine' within case S39593
+removed timestamp and moved event 'Payment' within case A19032
+removed timestamp and moved event 'Send for Credit Collection' within case C16045
+removed timestamp and moved event 'Send Fine' within case N40306
+removed timestamp and moved event 'Add penalty' within case S72113
+removed timestamp and moved event 'Create Fine' within case N90379
+removed timestamp and moved event 'Payment' within case S128085
+removed timestamp and moved event 'Send Fine' within case S74295
+removed timestamp and moved event 'Payment' within case S61727
+removed timestamp and moved event 'Send for Credit Collection' within case S83078
+removed timestamp and moved event 'Send for Credit Collection' within case S156218
+removed timestamp and moved event 'Create Fine' within case S61816
+removed timestamp and moved event 'Create Fine' within case S54613
+removed timestamp and moved event 'Create Fine' within case N102708
+removed timestamp and moved event 'Send Fine' within case N22685
+removed timestamp and moved event 'Send for Credit Collection' within case S155025
+removed timestamp and moved event 'Send for Credit Collection' within case S68538
+removed timestamp and moved event 'Add penalty' within case S147012
+removed timestamp and moved event 'Send for Credit Collection' within case S152402
+removed timestamp and moved event 'Insert Fine Notification' within case N25138
+removed timestamp and moved event 'Payment' within case S107334
+removed timestamp and moved event 'Payment' within case A8806
+removed timestamp and moved event 'Insert Fine Notification' within case V8106
+removed timestamp and moved event 'Send for Credit Collection' within case A42876
+removed timestamp and moved event 'Create Fine' within case S145028
+removed timestamp and moved event 'Send Fine' within case S155786
+removed timestamp and moved event 'Send Fine' within case A14642
+removed timestamp and moved event 'Insert Fine Notification' within case S158120
+removed timestamp and moved event 'Create Fine' within case P780
+removed timestamp and moved event 'Send Fine' within case S127012
+removed timestamp and moved event 'Insert Fine Notification' within case S78817
+removed timestamp and moved event 'Create Fine' within case A11992
+removed timestamp and moved event 'Create Fine' within case A11529
+removed timestamp and moved event 'Create Fine' within case S153177
+removed timestamp and moved event 'Insert Fine Notification' within case S126631
+removed timestamp and moved event 'Send for Credit Collection' within case S66274
+removed timestamp and moved event 'Insert Fine Notification' within case N28623
+removed timestamp and moved event 'Send Fine' within case S77788
+removed timestamp and moved event 'Payment' within case S179020
+removed timestamp and moved event 'Insert Fine Notification' within case S147991
+removed timestamp and moved event 'Send Fine' within case S53881
+removed timestamp and moved event 'Insert Fine Notification' within case S54530
+removed timestamp and moved event 'Send Fine' within case S68152
+removed timestamp and moved event 'Add penalty' within case S77524
+removed timestamp and moved event 'Create Fine' within case A17031
+removed timestamp and moved event 'Insert Fine Notification' within case A29039
+removed timestamp and moved event 'Create Fine' within case N35828
+removed timestamp and moved event 'Send for Credit Collection' within case S52453
+removed timestamp and moved event 'Payment' within case S118426
+removed timestamp and moved event 'Send for Credit Collection' within case N44160
+removed timestamp and moved event 'Insert Fine Notification' within case S176251
+removed timestamp and moved event 'Send Fine' within case A23630
+removed timestamp and moved event 'Insert Fine Notification' within case C21587
+removed timestamp and moved event 'Payment' within case V9370
+removed timestamp and moved event 'Send Fine' within case C18034
+removed timestamp and moved event 'Send for Credit Collection' within case C18132
+removed timestamp and moved event 'Insert Fine Notification' within case A25534
+removed timestamp and moved event 'Insert Fine Notification' within case S77415
+removed timestamp and moved event 'Create Fine' within case V16199
+removed timestamp and moved event 'Send for Credit Collection' within case V4231
+removed timestamp and moved event 'Create Fine' within case S72843
+removed timestamp and moved event 'Create Fine' within case N86530
+removed timestamp and moved event 'Send Fine' within case S64796
+removed timestamp and moved event 'Add penalty' within case N37306
+removed timestamp and moved event 'Insert Fine Notification' within case N33564
+removed timestamp and moved event 'Insert Fine Notification' within case A30613
+removed timestamp and moved event 'Payment' within case S62229
+removed timestamp and moved event 'Create Fine' within case A33855
+removed timestamp and moved event 'Send Fine' within case A13837
+removed timestamp and moved event 'Send Fine' within case N45252
+removed timestamp and moved event 'Payment' within case A28013
+removed timestamp and moved event 'Send Fine' within case A29101
+removed timestamp and moved event 'Send for Credit Collection' within case N23950
+removed timestamp and moved event 'Payment' within case S132086
+removed timestamp and moved event 'Add penalty' within case S152162
+removed timestamp and moved event 'Create Fine' within case N21861
+removed timestamp and moved event 'Insert Fine Notification' within case S77433
+removed timestamp and moved event 'Create Fine' within case S50624
+removed timestamp and moved event 'Insert Fine Notification' within case S62168
+removed timestamp and moved event 'Payment' within case A43368
+removed timestamp and moved event 'Create Fine' within case V10958
+removed timestamp and moved event 'Add penalty' within case A27403
+removed timestamp and moved event 'Create Fine' within case S55450
+removed timestamp and moved event 'Create Fine' within case N55522
+removed timestamp and moved event 'Payment' within case N78534
+removed timestamp and moved event 'Add penalty' within case N23774
+removed timestamp and moved event 'Create Fine' within case S104011
+removed timestamp and moved event 'Send for Credit Collection' within case S61014
+removed timestamp and moved event 'Add penalty' within case N34808
+removed timestamp and moved event 'Create Fine' within case S172429
+removed timestamp and moved event 'Add penalty' within case S126957
+removed timestamp and moved event 'Create Fine' within case A23770
+removed timestamp and moved event 'Insert Fine Notification' within case S168205
+removed timestamp and moved event 'Send Fine' within case S75860
+removed timestamp and moved event 'Create Fine' within case S174026
+removed timestamp and moved event 'Insert Fine Notification' within case N36011
+removed timestamp and moved event 'Create Fine' within case S171011
+removed timestamp and moved event 'Create Fine' within case N28468
+removed timestamp and moved event 'Send Fine' within case A31843
+removed timestamp and moved event 'Create Fine' within case N43458
+removed timestamp and moved event 'Create Fine' within case S175715
+removed timestamp and moved event 'Create Fine' within case A4356
+removed timestamp and moved event 'Payment' within case S167125
+removed timestamp and moved event 'Add penalty' within case A13185
+removed timestamp and moved event 'Insert Fine Notification' within case N22531
+removed timestamp and moved event 'Create Fine' within case N77861
+removed timestamp and moved event 'Create Fine' within case N38574
+removed timestamp and moved event 'Create Fine' within case S132760
+removed timestamp and moved event 'Insert Fine Notification' within case N25660
+removed timestamp and moved event 'Insert Fine Notification' within case S75460
+removed timestamp and moved event 'Payment' within case S112608
+removed timestamp and moved event 'Send Fine' within case S78817
+removed timestamp and moved event 'Payment' within case S162423
+removed timestamp and moved event 'Payment' within case S57689
+removed timestamp and moved event 'Add penalty' within case S47960
+removed timestamp and moved event 'Create Fine' within case S44935
+removed timestamp and moved event 'Create Fine' within case A28127
+removed timestamp and moved event 'Payment' within case S98741
+removed timestamp and moved event 'Create Fine' within case N33651
+removed timestamp and moved event 'Send Fine' within case S50057
+removed timestamp and moved event 'Payment' within case S120700
+removed timestamp and moved event 'Insert Fine Notification' within case N32286
+removed timestamp and moved event 'Insert Fine Notification' within case S173537
+removed timestamp and moved event 'Create Fine' within case N60010
+removed timestamp and moved event 'Create Fine' within case S68300
+removed timestamp and moved event 'Payment' within case S105768
+removed timestamp and moved event 'Create Fine' within case A26188
+removed timestamp and moved event 'Send for Credit Collection' within case V8035
+removed timestamp and moved event 'Create Fine' within case N31216
+removed timestamp and moved event 'Create Fine' within case S173599
+removed timestamp and moved event 'Insert Fine Notification' within case S78817
+removed timestamp and moved event 'Insert Fine Notification' within case A25228
+removed timestamp and moved event 'Send Fine' within case C21569
+removed timestamp and moved event 'Payment' within case S158153
+removed timestamp and moved event 'Create Fine' within case S47817
+removed timestamp and moved event 'Create Fine' within case S75990
+removed timestamp and moved event 'Insert Fine Notification' within case S168744
+removed timestamp and moved event 'Insert Fine Notification' within case N33996
+removed timestamp and moved event 'Payment' within case S64783
+removed timestamp and moved event 'Create Fine' within case S167226
+removed timestamp and moved event 'Create Fine' within case A14210
+removed timestamp and moved event 'Add penalty' within case N33374
+removed timestamp and moved event 'Payment' within case S182456
+removed timestamp and moved event 'Payment' within case N90503
+removed timestamp and moved event 'Create Fine' within case S175337
+removed timestamp and moved event 'Create Fine' within case A7081
+removed timestamp and moved event 'Send for Credit Collection' within case N47946
+removed timestamp and moved event 'Send for Credit Collection' within case S74388
+removed timestamp and moved event 'Payment' within case S145086
+removed timestamp and moved event 'Payment' within case N44185
+removed timestamp and moved event 'Create Fine' within case N31237
+removed timestamp and moved event 'Send Fine' within case V11167
+removed timestamp and moved event 'Payment' within case A9649
+removed timestamp and moved event 'Create Fine' within case N25873
+removed timestamp and moved event 'Add penalty' within case N25753
+removed timestamp and moved event 'Payment' within case V8334
+removed timestamp and moved event 'Create Fine' within case A23956
+removed timestamp and moved event 'Payment' within case A473
+removed timestamp and moved event 'Insert Fine Notification' within case A14286
+removed timestamp and moved event 'Create Fine' within case S53539
+removed timestamp and moved event 'Payment' within case V8209
+removed timestamp and moved event 'Payment' within case C15183
+removed timestamp and moved event 'Add penalty' within case S164518
+removed timestamp and moved event 'Send for Credit Collection' within case S123214
+removed timestamp and moved event 'Add penalty' within case N34469
+removed timestamp and moved event 'Send for Credit Collection' within case S167277
+removed timestamp and moved event 'Create Fine' within case S175913
+removed timestamp and moved event 'Payment' within case S123376
+removed timestamp and moved event 'Insert Fine Notification' within case V4901
+removed timestamp and moved event 'Send Fine' within case V8125
+removed timestamp and moved event 'Insert Fine Notification' within case S86021
+removed timestamp and moved event 'Add penalty' within case A33843
+removed timestamp and moved event 'Payment' within case S175160
+removed timestamp and moved event 'Payment' within case S71460
+removed timestamp and moved event 'Create Fine' within case S189922
+removed timestamp and moved event 'Send for Credit Collection' within case C20624
+removed timestamp and moved event 'Add penalty' within case V4654
+removed timestamp and moved event 'Insert Fine Notification' within case V18532
+removed timestamp and moved event 'Create Fine' within case S109193
+removed timestamp and moved event 'Send for Credit Collection' within case A37205
+removed timestamp and moved event 'Send for Credit Collection' within case N21861
+removed timestamp and moved event 'Send Fine' within case S152248
+removed timestamp and moved event 'Create Fine' within case A31778
+removed timestamp and moved event 'Insert Fine Notification' within case S56890
+removed timestamp and moved event 'Add penalty' within case N30564
+removed timestamp and moved event 'Payment' within case S130874
+removed timestamp and moved event 'Create Fine' within case S44842
+removed timestamp and moved event 'Send Fine' within case S123964
+removed timestamp and moved event 'Create Fine' within case N41735
+removed timestamp and moved event 'Create Fine' within case V15625
+removed timestamp and moved event 'Payment' within case S113482
+removed timestamp and moved event 'Create Fine' within case N37261
+removed timestamp and moved event 'Add penalty' within case N26363
+removed timestamp and moved event 'Add penalty' within case S50231
+removed timestamp and moved event 'Send Fine' within case S41167
+removed timestamp and moved event 'Create Fine' within case A42301
+removed timestamp and moved event 'Send for Credit Collection' within case V8106
+removed timestamp and moved event 'Insert Fine Notification' within case S160788
+removed timestamp and moved event 'Add penalty' within case N26403
+removed timestamp and moved event 'Payment' within case A32346
+removed timestamp and moved event 'Add penalty' within case N45387
+removed timestamp and moved event 'Insert Fine Notification' within case N42273
+removed timestamp and moved event 'Create Fine' within case A12912
+removed timestamp and moved event 'Add penalty' within case S156916
+removed timestamp and moved event 'Send Fine' within case S49778
+removed timestamp and moved event 'Insert Fine Notification' within case P2489
+removed timestamp and moved event 'Send Fine' within case S135010
+removed timestamp and moved event 'Payment' within case N101919
+removed timestamp and moved event 'Send Fine' within case S122364
+removed timestamp and moved event 'Create Fine' within case S190081
+removed timestamp and moved event 'Send Fine' within case P1111
+removed timestamp and moved event 'Add penalty' within case S172261
+removed timestamp and moved event 'Payment' within case N22289
+removed timestamp and moved event 'Payment' within case N96361
+removed timestamp and moved event 'Send for Credit Collection' within case V17436
+removed timestamp and moved event 'Payment' within case S39041
+removed timestamp and moved event 'Add penalty' within case S173584
+removed timestamp and moved event 'Send Fine' within case C12329
+removed timestamp and moved event 'Insert Fine Notification' within case S57327
+removed timestamp and moved event 'Add penalty' within case S71866
+removed timestamp and moved event 'Create Fine' within case S50719
+removed timestamp and moved event 'Send Fine' within case P85
+removed timestamp and moved event 'Send Fine' within case S71866
+removed timestamp and moved event 'Create Fine' within case V6673
+removed timestamp and moved event 'Payment' within case N91432
+removed timestamp and moved event 'Payment' within case S110809
+removed timestamp and moved event 'Create Fine' within case P241
+removed timestamp and moved event 'Insert Fine Notification' within case N33411
+removed timestamp and moved event 'Payment' within case S96714
+removed timestamp and moved event 'Send Fine' within case S123793
+removed timestamp and moved event 'Create Fine' within case P423
+removed timestamp and moved event 'Create Fine' within case A19144
+removed timestamp and moved event 'Create Fine' within case V9370
+removed timestamp and moved event 'Send for Credit Collection' within case S54199
+removed timestamp and moved event 'Send for Credit Collection' within case S61561
+removed timestamp and moved event 'Insert Fine Notification' within case S55152
+removed timestamp and moved event 'Create Fine' within case N93494
+removed timestamp and moved event 'Insert Fine Notification' within case S61190
+removed timestamp and moved event 'Add penalty' within case V11392
+removed timestamp and moved event 'Payment' within case N40822
+removed timestamp and moved event 'Payment' within case S133503
+removed timestamp and moved event 'Payment' within case A43524
+removed timestamp and moved event 'Send Fine' within case N29587
+removed timestamp and moved event 'Create Fine' within case S139052
+removed timestamp and moved event 'Create Fine' within case C16701
+removed timestamp and moved event 'Payment' within case S154567
+removed timestamp and moved event 'Send for Credit Collection' within case N36538
+removed timestamp and moved event 'Send for Credit Collection' within case S98544
+removed timestamp and moved event 'Send Fine' within case N19952
+removed timestamp and moved event 'Insert Fine Notification' within case S58755
+removed timestamp and moved event 'Insert Fine Notification' within case N21387
+removed timestamp and moved event 'Send for Credit Collection' within case S123089
+removed timestamp and moved event 'Send Fine' within case N42445
+removed timestamp and moved event 'Create Fine' within case S136050
+removed timestamp and moved event 'Send Fine' within case S157585
+removed timestamp and moved event 'Create Fine' within case S85533
+removed timestamp and moved event 'Send for Credit Collection' within case S52556
+removed timestamp and moved event 'Create Fine' within case N80602
+removed timestamp and moved event 'Add penalty' within case V11191
+removed timestamp and moved event 'Create Fine' within case S126479
+removed timestamp and moved event 'Send for Credit Collection' within case S175646
+removed timestamp and moved event 'Create Fine' within case N51373
+removed timestamp and moved event 'Payment' within case S161862
+removed timestamp and moved event 'Add penalty' within case S151346
+removed timestamp and moved event 'Create Fine' within case S151962
+removed timestamp and moved event 'Payment' within case A3016
+removed timestamp and moved event 'Create Fine' within case A33105
+removed timestamp and moved event 'Payment' within case S48955
+removed timestamp and moved event 'Payment' within case N84134
+removed timestamp and moved event 'Payment' within case S193799
+removed timestamp and moved event 'Create Fine' within case N93655
+removed timestamp and moved event 'Create Fine' within case A4682
+removed timestamp and moved event 'Send for Credit Collection' within case S73266
+removed timestamp and moved event 'Payment' within case S172775
+removed timestamp and moved event 'Add penalty' within case S61794
+removed timestamp and moved event 'Send Fine' within case N25500
+removed timestamp and moved event 'Send Fine' within case S76392
+removed timestamp and moved event 'Send Fine' within case N39830
+removed timestamp and moved event 'Insert Fine Notification' within case S171559
+removed timestamp and moved event 'Create Fine' within case P2444
+removed timestamp and moved event 'Insert Fine Notification' within case N45153
+removed timestamp and moved event 'Create Fine' within case S146785
+removed timestamp and moved event 'Create Fine' within case N41283
+removed timestamp and moved event 'Create Fine' within case N73638
+removed timestamp and moved event 'Insert Fine Notification' within case N38992
+removed timestamp and moved event 'Create Fine' within case S51154
+removed timestamp and moved event 'Create Fine' within case S61648
+removed timestamp and moved event 'Insert Fine Notification' within case S160528
+removed timestamp and moved event 'Create Fine' within case S152524
+removed timestamp and moved event 'Payment' within case N71097
+removed timestamp and moved event 'Payment' within case N62187
+removed timestamp and moved event 'Send Fine' within case S51487
+removed timestamp and moved event 'Create Fine' within case S158818
+removed timestamp and moved event 'Create Fine' within case S128977
+removed timestamp and moved event 'Insert Fine Notification' within case N22798
+removed timestamp and moved event 'Create Fine' within case S168393
+removed timestamp and moved event 'Send for Credit Collection' within case S37945
+removed timestamp and moved event 'Insert Fine Notification' within case S59324
+removed timestamp and moved event 'Add penalty' within case S153618
+removed timestamp and moved event 'Send Fine' within case S77850
+removed timestamp and moved event 'Create Fine' within case S180023
+removed timestamp and moved event 'Create Fine' within case A17453
+removed timestamp and moved event 'Create Fine' within case A21181
+removed timestamp and moved event 'Create Fine' within case S44912
+removed timestamp and moved event 'Insert Fine Notification' within case A29795
+removed timestamp and moved event 'Add penalty' within case A26857
+removed timestamp and moved event 'Create Fine' within case A43469
+removed timestamp and moved event 'Send Fine' within case S145589
+removed timestamp and moved event 'Add penalty' within case S178199
+removed timestamp and moved event 'Payment' within case N83189
+removed timestamp and moved event 'Create Fine' within case S45135
+removed timestamp and moved event 'Insert Fine Notification' within case N32466
+removed timestamp and moved event 'Payment' within case N63801
+removed timestamp and moved event 'Create Fine' within case N33871
+removed timestamp and moved event 'Create Fine' within case N53475
+removed timestamp and moved event 'Send Fine' within case N30172
+removed timestamp and moved event 'Add penalty' within case V9807
+removed timestamp and moved event 'Payment' within case S128997
+removed timestamp and moved event 'Payment' within case A24737
+removed timestamp and moved event 'Payment' within case N65121
+removed timestamp and moved event 'Insert Fine Notification' within case S68713
+removed timestamp and moved event 'Send Fine' within case N34176
+removed timestamp and moved event 'Create Fine' within case S96184
+removed timestamp and moved event 'Payment' within case S113873
+removed timestamp and moved event 'Payment' within case A39379
+removed timestamp and moved event 'Create Fine' within case N77947
+removed timestamp and moved event 'Insert Fine Notification' within case N51326
+removed timestamp and moved event 'Payment' within case A44483
+removed timestamp and moved event 'Insert Fine Notification' within case S151346
+removed timestamp and moved event 'Payment' within case S55305
+removed timestamp and moved event 'Add penalty' within case N30209
+removed timestamp and moved event 'Send for Credit Collection' within case S175426
+removed timestamp and moved event 'Create Fine' within case S122103
+removed timestamp and moved event 'Send for Credit Collection' within case V6799
+removed timestamp and moved event 'Send for Credit Collection' within case S148103
+removed timestamp and moved event 'Send for Credit Collection' within case S174026
+removed timestamp and moved event 'Add penalty' within case N44649
+removed timestamp and moved event 'Create Fine' within case N32380
+removed timestamp and moved event 'Insert Fine Notification' within case S154167
+removed timestamp and moved event 'Create Fine' within case C17217
+removed timestamp and moved event 'Insert Fine Notification' within case S57284
+removed timestamp and moved event 'Send for Credit Collection' within case A23590
+removed timestamp and moved event 'Send Fine' within case N38443
+removed timestamp and moved event 'Send Fine' within case N29709
+removed timestamp and moved event 'Send for Credit Collection' within case S177269
+removed timestamp and moved event 'Create Fine' within case S56207
+removed timestamp and moved event 'Add penalty' within case N36864
+removed timestamp and moved event 'Send for Credit Collection' within case A25534
+removed timestamp and moved event 'Create Fine' within case A45794
+removed timestamp and moved event 'Create Fine' within case N99360
+removed timestamp and moved event 'Add penalty' within case N27318
+removed timestamp and moved event 'Payment' within case A34966
+removed timestamp and moved event 'Send Fine' within case N33304
+removed timestamp and moved event 'Insert Fine Notification' within case N25260
+removed timestamp and moved event 'Payment' within case N45271
+removed timestamp and moved event 'Payment' within case S168565
+removed timestamp and moved event 'Add penalty' within case A28087
+removed timestamp and moved event 'Insert Fine Notification' within case N45579
+removed timestamp and moved event 'Payment' within case S57763
+removed timestamp and moved event 'Create Fine' within case N22677
+removed timestamp and moved event 'Create Fine' within case S144276
+removed timestamp and moved event 'Payment' within case S47677
+removed timestamp and moved event 'Insert Fine Notification' within case S87858
+removed timestamp and moved event 'Insert Fine Notification' within case S158237
+removed timestamp and moved event 'Create Fine' within case N41977
+removed timestamp and moved event 'Create Fine' within case A27222
+removed timestamp and moved event 'Payment' within case A27708
+removed timestamp and moved event 'Payment' within case N90048
+removed timestamp and moved event 'Send Fine' within case N23914
+removed timestamp and moved event 'Insert Fine Notification' within case N50210
+removed timestamp and moved event 'Send for Credit Collection' within case P2972
+removed timestamp and moved event 'Create Fine' within case S149679
+removed timestamp and moved event 'Create Fine' within case A10757
+removed timestamp and moved event 'Insert Fine Notification' within case S83578
+removed timestamp and moved event 'Add penalty' within case N33651
+removed timestamp and moved event 'Insert Fine Notification' within case N30564
+removed timestamp and moved event 'Create Fine' within case S45152
+removed timestamp and moved event 'Add penalty' within case S73051
+removed timestamp and moved event 'Send for Credit Collection' within case S88761
+removed timestamp and moved event 'Create Fine' within case S65349
+removed timestamp and moved event 'Create Fine' within case V6057
+removed timestamp and moved event 'Insert Fine Notification' within case N28369
+removed timestamp and moved event 'Send for Credit Collection' within case V10959
+removed timestamp and moved event 'Add penalty' within case V4722
+removed timestamp and moved event 'Send for Credit Collection' within case N45132
+removed timestamp and moved event 'Create Fine' within case A27747
+removed timestamp and moved event 'Add penalty' within case S71595
+removed timestamp and moved event 'Insert Fine Notification' within case C12258
+removed timestamp and moved event 'Insert Fine Notification' within case S137404
+removed timestamp and moved event 'Send for Credit Collection' within case S156760
+removed timestamp and moved event 'Send for Credit Collection' within case S85626
+removed timestamp and moved event 'Send Fine' within case P2198
+removed timestamp and moved event 'Send Fine' within case S75521
+removed timestamp and moved event 'Add penalty' within case N27644
+removed timestamp and moved event 'Create Fine' within case S123192
+removed timestamp and moved event 'Add penalty' within case N64133
+removed timestamp and moved event 'Create Fine' within case S55657
+removed timestamp and moved event 'Create Fine' within case N24636
+removed timestamp and moved event 'Send Fine' within case S77789
+removed timestamp and moved event 'Add penalty' within case N27553
+removed timestamp and moved event 'Add penalty' within case V19240
+removed timestamp and moved event 'Insert Fine Notification' within case N34306
+removed timestamp and moved event 'Add penalty' within case S59531
+removed timestamp and moved event 'Send Fine' within case S54613
+removed timestamp and moved event 'Payment' within case N44936
+removed timestamp and moved event 'Add penalty' within case S61208
+removed timestamp and moved event 'Insert Fine Notification' within case S57890
+removed timestamp and moved event 'Insert Fine Notification' within case S73497
+removed timestamp and moved event 'Send for Credit Collection' within case N50382
+removed timestamp and moved event 'Add penalty' within case S132950
+removed timestamp and moved event 'Insert Fine Notification' within case S63997
+removed timestamp and moved event 'Create Fine' within case N55464
+removed timestamp and moved event 'Create Fine' within case A1606
+removed timestamp and moved event 'Payment' within case S117675
+removed timestamp and moved event 'Payment' within case S55844
+removed timestamp and moved event 'Insert Fine Notification' within case A27182
+removed timestamp and moved event 'Payment' within case S56921
+removed timestamp and moved event 'Insert Fine Notification' within case A28219
+removed timestamp and moved event 'Send Fine' within case S73663
+removed timestamp and moved event 'Create Fine' within case N36192
+removed timestamp and moved event 'Add penalty' within case S56977
+removed timestamp and moved event 'Add penalty' within case P71
+removed timestamp and moved event 'Send Fine' within case S154928
+removed timestamp and moved event 'Payment' within case A43451
+removed timestamp and moved event 'Send Fine' within case C12748
+removed timestamp and moved event 'Insert Fine Notification' within case S174093
+removed timestamp and moved event 'Send Fine' within case P2522
+removed timestamp and moved event 'Create Fine' within case S144613
+removed timestamp and moved event 'Create Fine' within case S134014
+removed timestamp and moved event 'Send for Credit Collection' within case S73086
+removed timestamp and moved event 'Send for Credit Collection' within case S155900
+removed timestamp and moved event 'Add penalty' within case S111967
+removed timestamp and moved event 'Create Fine' within case S75550
+removed timestamp and moved event 'Send Fine' within case S55729
+removed timestamp and moved event 'Send Fine' within case N26636
+removed timestamp and moved event 'Send Fine' within case A31652
+removed timestamp and moved event 'Send for Credit Collection' within case N42278
+removed timestamp and moved event 'Payment' within case A43368
+removed timestamp and moved event 'Create Fine' within case S136488
+removed timestamp and moved event 'Send Fine' within case N33879
+removed timestamp and moved event 'Send Fine' within case S72247
+removed timestamp and moved event 'Send for Credit Collection' within case S168509
+removed timestamp and moved event 'Create Fine' within case C19572
+removed timestamp and moved event 'Add penalty' within case S53508
+removed timestamp and moved event 'Add penalty' within case V3877
+removed timestamp and moved event 'Add penalty' within case P2645
+removed timestamp and moved event 'Send for Credit Collection' within case A24501
+removed timestamp and moved event 'Create Fine' within case A317
+removed timestamp and moved event 'Send for Credit Collection' within case V4731
+removed timestamp and moved event 'Create Fine' within case A46352
+removed timestamp and moved event 'Create Fine' within case S159057
+removed timestamp and moved event 'Send Fine' within case C17240
+removed timestamp and moved event 'Payment' within case N56700
+removed timestamp and moved event 'Insert Fine Notification' within case A43026
+removed timestamp and moved event 'Send Fine' within case S177744
+removed timestamp and moved event 'Insert Fine Notification' within case S75267
+removed timestamp and moved event 'Create Fine' within case S160929
+removed timestamp and moved event 'Send for Credit Collection' within case N33144
+removed timestamp and moved event 'Create Fine' within case N25660
+removed timestamp and moved event 'Add penalty' within case N45387
+removed timestamp and moved event 'Payment' within case S83147
+removed timestamp and moved event 'Add penalty' within case V11052
+removed timestamp and moved event 'Create Fine' within case S91393
+removed timestamp and moved event 'Payment' within case A10971
+removed timestamp and moved event 'Create Fine' within case S51572
+removed timestamp and moved event 'Create Fine' within case N45414
+removed timestamp and moved event 'Add penalty' within case V7299
+removed timestamp and moved event 'Send for Credit Collection' within case C17650
+removed timestamp and moved event 'Create Fine' within case S163292
+removed timestamp and moved event 'Create Fine' within case S143338
+removed timestamp and moved event 'Insert Fine Notification' within case N29468
+removed timestamp and moved event 'Send Fine' within case P1545
+removed timestamp and moved event 'Send for Credit Collection' within case V9627
+removed timestamp and moved event 'Add penalty' within case S148909
+removed timestamp and moved event 'Send for Credit Collection' within case S160531
+removed timestamp and moved event 'Send for Credit Collection' within case S51178
+removed timestamp and moved event 'Create Fine' within case S104572
+removed timestamp and moved event 'Add penalty' within case S169136
+removed timestamp and moved event 'Create Fine' within case A37294
+removed timestamp and moved event 'Payment' within case S60561
+removed timestamp and moved event 'Send Fine' within case S160164
+removed timestamp and moved event 'Send Fine' within case S161992
+removed timestamp and moved event 'Send Fine' within case A31778
+removed timestamp and moved event 'Create Fine' within case S79517
+removed timestamp and moved event 'Send for Credit Collection' within case S125921
+removed timestamp and moved event 'Create Fine' within case S142276
+removed timestamp and moved event 'Payment' within case N95916
+removed timestamp and moved event 'Payment' within case S166960
+removed timestamp and moved event 'Payment' within case A15278
+removed timestamp and moved event 'Payment' within case S138791
+removed timestamp and moved event 'Payment' within case S90360
+removed timestamp and moved event 'Add penalty' within case C19887
+removed timestamp and moved event 'Create Fine' within case S44842
+removed timestamp and moved event 'Payment' within case N79127
+removed timestamp and moved event 'Create Fine' within case S61816
+removed timestamp and moved event 'Payment' within case N32936
+removed timestamp and moved event 'Create Fine' within case S181833
+removed timestamp and moved event 'Insert Fine Notification' within case N29009
+removed timestamp and moved event 'Create Fine' within case S136201
+removed timestamp and moved event 'Send for Credit Collection' within case N29115
+removed timestamp and moved event 'Add penalty' within case S123781
+removed timestamp and moved event 'Create Fine' within case A35206
+removed timestamp and moved event 'Payment' within case N25306
+removed timestamp and moved event 'Payment' within case S168957
+removed timestamp and moved event 'Send Fine' within case S153108
+removed timestamp and moved event 'Add penalty' within case N60952
+removed timestamp and moved event 'Insert Fine Notification' within case V5228
+removed timestamp and moved event 'Payment' within case N44022
+removed timestamp and moved event 'Add penalty' within case S60956
+removed timestamp and moved event 'Create Fine' within case N24583
+removed timestamp and moved event 'Add penalty' within case S61615
+removed timestamp and moved event 'Send for Credit Collection' within case S125875
+removed timestamp and moved event 'Create Fine' within case N61560
+removed timestamp and moved event 'Payment' within case S122512
+removed timestamp and moved event 'Send for Credit Collection' within case N33946
+removed timestamp and moved event 'Payment' within case S118153
+removed timestamp and moved event 'Insert Fine Notification' within case N40697
+removed timestamp and moved event 'Send Fine' within case N23694
+removed timestamp and moved event 'Create Fine' within case S159405
+removed timestamp and moved event 'Add penalty' within case S159538
+removed timestamp and moved event 'Create Fine' within case N26572
+removed timestamp and moved event 'Payment' within case S115294
+removed timestamp and moved event 'Send Fine' within case A30037
+removed timestamp and moved event 'Send Fine' within case N42693
+removed timestamp and moved event 'Create Fine' within case A25275
+removed timestamp and moved event 'Add penalty' within case C22002
+removed timestamp and moved event 'Add penalty' within case A14467
+removed timestamp and moved event 'Send for Credit Collection' within case N44772
+removed timestamp and moved event 'Create Fine' within case S52126
+removed timestamp and moved event 'Send for Credit Collection' within case N40040
+removed timestamp and moved event 'Send Fine' within case S169062
+removed timestamp and moved event 'Send for Credit Collection' within case A19026
+removed timestamp and moved event 'Send for Credit Collection' within case S54199
+removed timestamp and moved event 'Send Fine' within case A14032
+removed timestamp and moved event 'Add penalty' within case S164291
+removed timestamp and moved event 'Add penalty' within case S65475
+removed timestamp and moved event 'Send for Credit Collection' within case A20806
+removed timestamp and moved event 'Send Fine' within case S58149
+removed timestamp and moved event 'Insert Fine Notification' within case A15503
+removed timestamp and moved event 'Create Fine' within case S172691
+removed timestamp and moved event 'Send Fine' within case N33996
+removed timestamp and moved event 'Payment' within case N42425
+removed timestamp and moved event 'Insert Fine Notification' within case S55028
+removed timestamp and moved event 'Send Fine' within case A15709
+removed timestamp and moved event 'Insert Fine Notification' within case A32796
+removed timestamp and moved event 'Add penalty' within case P2633
+removed timestamp and moved event 'Send for Credit Collection' within case S50628
+removed timestamp and moved event 'Insert Fine Notification' within case A43282
+removed timestamp and moved event 'Create Fine' within case N39481
+removed timestamp and moved event 'Create Fine' within case N26052
+removed timestamp and moved event 'Insert Fine Notification' within case N25584
+removed timestamp and moved event 'Send for Credit Collection' within case S50628
+removed timestamp and moved event 'Create Fine' within case S154649
+removed timestamp and moved event 'Create Fine' within case S163988
+removed timestamp and moved event 'Create Fine' within case S181289
+removed timestamp and moved event 'Add penalty' within case S49125
+removed timestamp and moved event 'Create Fine' within case S92113
+removed timestamp and moved event 'Payment' within case S78403
+removed timestamp and moved event 'Add penalty' within case C22413
+removed timestamp and moved event 'Create Fine' within case S79945
+removed timestamp and moved event 'Payment' within case S120050
+removed timestamp and moved event 'Create Fine' within case S127991
+removed timestamp and moved event 'Create Fine' within case S156116
+removed timestamp and moved event 'Create Fine' within case A12252
+removed timestamp and moved event 'Create Fine' within case S126227
+removed timestamp and moved event 'Send for Credit Collection' within case S147571
+removed timestamp and moved event 'Add penalty' within case V4074
+removed timestamp and moved event 'Insert Fine Notification' within case A25534
+removed timestamp and moved event 'Create Fine' within case A32746
+removed timestamp and moved event 'Insert Fine Notification' within case A14210
+removed timestamp and moved event 'Create Fine' within case N38209
+removed timestamp and moved event 'Payment' within case V8092
+removed timestamp and moved event 'Payment' within case S175847
+removed timestamp and moved event 'Create Fine' within case C20561
+removed timestamp and moved event 'Payment' within case N82281
+removed timestamp and moved event 'Create Fine' within case S111247
+removed timestamp and moved event 'Create Fine' within case S161929
+removed timestamp and moved event 'Add penalty' within case S51487
+removed timestamp and moved event 'Create Fine' within case N85688
+removed timestamp and moved event 'Send Fine' within case A14829
+removed timestamp and moved event 'Create Fine' within case N93483
+removed timestamp and moved event 'Send for Credit Collection' within case V9285
+removed timestamp and moved event 'Add penalty' within case A31596
+removed timestamp and moved event 'Create Fine' within case S52162
+removed timestamp and moved event 'Insert Fine Notification' within case N40592
+removed timestamp and moved event 'Create Fine' within case S73326
+removed timestamp and moved event 'Create Fine' within case S142711
+removed timestamp and moved event 'Send for Credit Collection' within case N24411
+removed timestamp and moved event 'Add penalty' within case N31191
+removed timestamp and moved event 'Send Fine' within case N23887
+removed timestamp and moved event 'Send for Credit Collection' within case S167554
+removed timestamp and moved event 'Send Fine' within case S74758
+removed timestamp and moved event 'Add penalty' within case A14829
+removed timestamp and moved event 'Send Fine' within case S166151
+removed timestamp and moved event 'Add penalty' within case N29445
+removed timestamp and moved event 'Insert Fine Notification' within case S55924
+removed timestamp and moved event 'Create Fine' within case S170496
+removed timestamp and moved event 'Insert Fine Notification' within case A16497
+removed timestamp and moved event 'Create Fine' within case N92340
+removed timestamp and moved event 'Payment' within case N63760
+removed timestamp and moved event 'Send Fine' within case N40848
+removed timestamp and moved event 'Send for Credit Collection' within case N24412
+removed timestamp and moved event 'Send for Credit Collection' within case A27971
+removed timestamp and moved event 'Payment' within case S123067
+removed timestamp and moved event 'Payment' within case S122564
+removed timestamp and moved event 'Add penalty' within case S165735
+removed timestamp and moved event 'Send for Credit Collection' within case S157968
+removed timestamp and moved event 'Payment' within case S186835
+removed timestamp and moved event 'Add penalty' within case V7912
+removed timestamp and moved event 'Add penalty' within case N51316
+removed timestamp and moved event 'Create Fine' within case N85247
+removed timestamp and moved event 'Payment' within case V8209
+removed timestamp and moved event 'Add penalty' within case S147681
+removed timestamp and moved event 'Payment' within case S103300
+removed timestamp and moved event 'Send for Credit Collection' within case N30394
+removed timestamp and moved event 'Send Fine' within case N44207
+removed timestamp and moved event 'Send Fine' within case S63463
+removed timestamp and moved event 'Create Fine' within case A33979
+removed timestamp and moved event 'Send Fine' within case P1371
+removed timestamp and moved event 'Send Fine' within case A14812
+removed timestamp and moved event 'Create Fine' within case S123798
+removed timestamp and moved event 'Add penalty' within case A14361
+removed timestamp and moved event 'Create Fine' within case S143596
+removed timestamp and moved event 'Send Fine' within case S126497
+removed timestamp and moved event 'Create Fine' within case S180023
+removed timestamp and moved event 'Add penalty' within case S158983
+removed timestamp and moved event 'Payment' within case N77046
+removed timestamp and moved event 'Insert Fine Notification' within case N36604
+removed timestamp and moved event 'Create Fine' within case N31165
+removed timestamp and moved event 'Create Fine' within case S77269
+removed timestamp and moved event 'Create Fine' within case A43056
+removed timestamp and moved event 'Add penalty' within case S162719
+removed timestamp and moved event 'Send Fine' within case N39990
+removed timestamp and moved event 'Send for Credit Collection' within case N21931
+removed timestamp and moved event 'Create Fine' within case S106828
+removed timestamp and moved event 'Payment' within case A27700
+removed timestamp and moved event 'Add penalty' within case S78533
+removed timestamp and moved event 'Send Fine' within case S175259
+removed timestamp and moved event 'Create Fine' within case N29083
+removed timestamp and moved event 'Create Fine' within case N42445
+removed timestamp and moved event 'Send Fine' within case A30752
+removed timestamp and moved event 'Send Fine' within case S73051
+removed timestamp and moved event 'Add penalty' within case N28417
+removed timestamp and moved event 'Payment' within case N92366
+removed timestamp and moved event 'Create Fine' within case S157640
+removed timestamp and moved event 'Create Fine' within case S120879
+removed timestamp and moved event 'Create Fine' within case S160448
+removed timestamp and moved event 'Create Fine' within case A17567
+removed timestamp and moved event 'Payment' within case A1286
+removed timestamp and moved event 'Add penalty' within case S158818
+removed timestamp and moved event 'Insert Fine Notification' within case S97020
+removed timestamp and moved event 'Add penalty' within case S169279
+removed timestamp and moved event 'Create Fine' within case V7526
+removed timestamp and moved event 'Create Fine' within case N43820
+removed timestamp and moved event 'Create Fine' within case P2874
+removed timestamp and moved event 'Payment' within case A26365
+removed timestamp and moved event 'Add penalty' within case S159555
+removed timestamp and moved event 'Create Fine' within case S61732
+removed timestamp and moved event 'Payment' within case A15503
+removed timestamp and moved event 'Create Fine' within case A17626
+removed timestamp and moved event 'Payment' within case S165423
+removed timestamp and moved event 'Payment' within case S155132
+removed timestamp and moved event 'Add penalty' within case S126194
+removed timestamp and moved event 'Add penalty' within case P2450
+removed timestamp and moved event 'Payment' within case S63242
+removed timestamp and moved event 'Send for Credit Collection' within case S147822
+removed timestamp and moved event 'Add penalty' within case S124415
+removed timestamp and moved event 'Create Fine' within case A14642
+removed timestamp and moved event 'Create Fine' within case N36247
+removed timestamp and moved event 'Send Fine' within case S75521
+removed timestamp and moved event 'Send for Credit Collection' within case N25314
+removed timestamp and moved event 'Create Fine' within case S162508
+removed timestamp and moved event 'Insert Fine Notification' within case S165170
+removed timestamp and moved event 'Send for Credit Collection' within case S63579
+removed timestamp and moved event 'Send for Credit Collection' within case N33913
+removed timestamp and moved event 'Payment' within case N101948
+removed timestamp and moved event 'Payment' within case A32150
+removed timestamp and moved event 'Send for Credit Collection' within case S169062
+removed timestamp and moved event 'Create Fine' within case N81034
+removed timestamp and moved event 'Add penalty' within case A34684
+removed timestamp and moved event 'Payment' within case S177844
+removed timestamp and moved event 'Create Fine' within case S79573
+removed timestamp and moved event 'Create Fine' within case V10015
+removed timestamp and moved event 'Send Fine' within case A28363
+removed timestamp and moved event 'Create Fine' within case A44584
+removed timestamp and moved event 'Create Fine' within case S56207
+removed timestamp and moved event 'Create Fine' within case C21024
+removed timestamp and moved event 'Send Fine' within case S62612
+removed timestamp and moved event 'Payment' within case A4217
+removed timestamp and moved event 'Create Fine' within case S126654
+removed timestamp and moved event 'Send for Credit Collection' within case A14334
+removed timestamp and moved event 'Send for Credit Collection' within case N25662
+removed timestamp and moved event 'Create Fine' within case A36675
+removed timestamp and moved event 'Add penalty' within case S135684
+removed timestamp and moved event 'Add penalty' within case S52884
+removed timestamp and moved event 'Send Fine' within case N37080
+removed timestamp and moved event 'Create Fine' within case S60754
+removed timestamp and moved event 'Payment' within case S185339
+removed timestamp and moved event 'Create Fine' within case N26902
+removed timestamp and moved event 'Payment' within case N81666
+removed timestamp and moved event 'Add penalty' within case N51339
+removed timestamp and moved event 'Create Fine' within case A13732
+removed timestamp and moved event 'Payment' within case N43873
+removed timestamp and moved event 'Payment' within case N78382
+removed timestamp and moved event 'Insert Fine Notification' within case V7150
+removed timestamp and moved event 'Payment' within case S68841
+removed timestamp and moved event 'Insert Fine Notification' within case A34013
+removed timestamp and moved event 'Create Fine' within case N87219
+removed timestamp and moved event 'Create Fine' within case P1011
+removed timestamp and moved event 'Insert Fine Notification' within case S56399
+removed timestamp and moved event 'Send for Credit Collection' within case N36192
+removed timestamp and moved event 'Create Fine' within case A44760
+removed timestamp and moved event 'Send Fine' within case S175365
+removed timestamp and moved event 'Payment' within case N63801
+removed timestamp and moved event 'Payment' within case N39555
+removed timestamp and moved event 'Create Fine' within case N27318
+removed timestamp and moved event 'Create Fine' within case N83109
+removed timestamp and moved event 'Send Fine' within case N36230
+removed timestamp and moved event 'Create Fine' within case P2444
+removed timestamp and moved event 'Add penalty' within case S166710
+removed timestamp and moved event 'Create Fine' within case S61051
+removed timestamp and moved event 'Send for Credit Collection' within case N33649
+removed timestamp and moved event 'Send for Credit Collection' within case N38209
+removed timestamp and moved event 'Add penalty' within case S164317
+removed timestamp and moved event 'Send Fine' within case S135482
+removed timestamp and moved event 'Add penalty' within case N42556
+removed timestamp and moved event 'Payment' within case S128873
+removed timestamp and moved event 'Payment' within case S117229
+removed timestamp and moved event 'Create Fine' within case V4632
+removed timestamp and moved event 'Create Fine' within case S131455
+removed timestamp and moved event 'Payment' within case C18502
+removed timestamp and moved event 'Create Fine' within case S156844
+removed timestamp and moved event 'Send for Credit Collection' within case N44903
+removed timestamp and moved event 'Add penalty' within case S50315
+removed timestamp and moved event 'Send Fine' within case N39112
+removed timestamp and moved event 'Add penalty' within case S70985
+removed timestamp and moved event 'Payment' within case S121985
+removed timestamp and moved event 'Create Fine' within case S172960
+removed timestamp and moved event 'Insert Fine Notification' within case S56709
+removed timestamp and moved event 'Add penalty' within case S165650
+removed timestamp and moved event 'Insert Fine Notification' within case N33011
+removed timestamp and moved event 'Add penalty' within case S62619
+removed timestamp and moved event 'Create Fine' within case V19000
+removed timestamp and moved event 'Send Fine' within case N40669
+removed timestamp and moved event 'Create Fine' within case N43409
+removed timestamp and moved event 'Add penalty' within case S71460
+removed timestamp and moved event 'Add penalty' within case S66609
+removed timestamp and moved event 'Create Fine' within case C14625
+removed timestamp and moved event 'Send for Credit Collection' within case N23874
+removed timestamp and moved event 'Payment' within case P5714
+removed timestamp and moved event 'Payment' within case S148288
+removed timestamp and moved event 'Create Fine' within case N46326
+removed timestamp and moved event 'Create Fine' within case N51358
+removed timestamp and moved event 'Create Fine' within case S63809
+removed timestamp and moved event 'Add penalty' within case A29375
+removed timestamp and moved event 'Create Fine' within case A34966
+removed timestamp and moved event 'Create Fine' within case P2450
+removed timestamp and moved event 'Send for Credit Collection' within case S69336
+removed timestamp and moved event 'Add penalty' within case A14491
+removed timestamp and moved event 'Send Fine' within case S171135
+removed timestamp and moved event 'Insert Fine Notification' within case S155368
+removed timestamp and moved event 'Create Fine' within case N45821
+removed timestamp and moved event 'Add penalty' within case N27118
+removed timestamp and moved event 'Send for Credit Collection' within case S178013
+removed timestamp and moved event 'Create Fine' within case P1417
+removed timestamp and moved event 'Payment' within case V11216
+removed timestamp and moved event 'Create Fine' within case N54998
+removed timestamp and moved event 'Payment' within case S115492
+removed timestamp and moved event 'Create Fine' within case C21430
+removed timestamp and moved event 'Send Fine' within case N45679
+removed timestamp and moved event 'Create Fine' within case N98939
+removed timestamp and moved event 'Send Fine' within case A15709
+removed timestamp and moved event 'Send for Credit Collection' within case V19130
+removed timestamp and moved event 'Add penalty' within case S147012
+removed timestamp and moved event 'Insert Fine Notification' within case N23858
+removed timestamp and moved event 'Send for Credit Collection' within case N46087
+removed timestamp and moved event 'Create Fine' within case N66637
+removed timestamp and moved event 'Add penalty' within case N38414
+removed timestamp and moved event 'Send Fine' within case S134990
+removed timestamp and moved event 'Payment' within case A5111
+removed timestamp and moved event 'Insert Fine Notification' within case A27529
+removed timestamp and moved event 'Send for Credit Collection' within case S49998
+removed timestamp and moved event 'Payment' within case S147502
+removed timestamp and moved event 'Payment' within case S163413
+removed timestamp and moved event 'Add penalty' within case N25316
+removed timestamp and moved event 'Insert Fine Notification' within case N23858
+removed timestamp and moved event 'Insert Fine Notification' within case A26042
+removed timestamp and moved event 'Send Fine' within case P2450
+removed timestamp and moved event 'Add penalty' within case C11107
+removed timestamp and moved event 'Create Fine' within case S152954
+removed timestamp and moved event 'Insert Fine Notification' within case S54757
+removed timestamp and moved event 'Send for Credit Collection' within case C11704
+removed timestamp and moved event 'Send Fine' within case S170898
+removed timestamp and moved event 'Send for Credit Collection' within case S162644
+removed timestamp and moved event 'Create Fine' within case P1651
+removed timestamp and moved event 'Create Fine' within case N45132
+removed timestamp and moved event 'Create Fine' within case N101662
+removed timestamp and moved event 'Create Fine' within case S51572
+removed timestamp and moved event 'Payment' within case N39919
+removed timestamp and moved event 'Create Fine' within case S43271
+removed timestamp and moved event 'Payment' within case S159949
+removed timestamp and moved event 'Insert Fine Notification' within case S155890
+removed timestamp and moved event 'Send Fine' within case N43393
+removed timestamp and moved event 'Send for Credit Collection' within case S77269
+removed timestamp and moved event 'Create Fine' within case S132850
+removed timestamp and moved event 'Send Fine' within case S57137
+removed timestamp and moved event 'Create Fine' within case A2091
+removed timestamp and moved event 'Add penalty' within case N31207
+removed timestamp and moved event 'Create Fine' within case S114334
+removed timestamp and moved event 'Add penalty' within case S172261
+removed timestamp and moved event 'Create Fine' within case S104599
+removed timestamp and moved event 'Payment' within case S135628
+removed timestamp and moved event 'Create Fine' within case S189954
+removed timestamp and moved event 'Create Fine' within case S84885
+removed timestamp and moved event 'Send Fine' within case A33855
+removed timestamp and moved event 'Payment' within case A15633
+removed timestamp and moved event 'Add penalty' within case S48711
+removed timestamp and moved event 'Payment' within case S135100
+removed timestamp and moved event 'Create Fine' within case A11096
+removed timestamp and moved event 'Payment' within case S62521
+removed timestamp and moved event 'Create Fine' within case S92973
+removed timestamp and moved event 'Insert Fine Notification' within case S163325
+removed timestamp and moved event 'Add penalty' within case S73874
+removed timestamp and moved event 'Create Fine' within case S131566
+removed timestamp and moved event 'Add penalty' within case S58669
+removed timestamp and moved event 'Send for Credit Collection' within case N65250
+removed timestamp and moved event 'Send for Credit Collection' within case S162414
+removed timestamp and moved event 'Send Fine' within case A30562
+removed timestamp and moved event 'Payment' within case N41082
+removed timestamp and moved event 'Payment' within case S181289
+removed timestamp and moved event 'Payment' within case N58392
+removed timestamp and moved event 'Payment' within case S176902
+removed timestamp and moved event 'Create Fine' within case S169494
+removed timestamp and moved event 'Create Fine' within case S56865
+removed timestamp and moved event 'Create Fine' within case V18912
+removed timestamp and moved event 'Send for Credit Collection' within case S149159
+removed timestamp and moved event 'Add penalty' within case C22395
+removed timestamp and moved event 'Add penalty' within case S61062
+removed timestamp and moved event 'Add penalty' within case S123925
+removed timestamp and moved event 'Insert Fine Notification' within case N36448
+removed timestamp and moved event 'Payment' within case N23065
+removed timestamp and moved event 'Create Fine' within case S66303
+removed timestamp and moved event 'Create Fine' within case S137112
+removed timestamp and moved event 'Create Fine' within case N27536
+removed timestamp and moved event 'Send Fine' within case S59324
+removed timestamp and moved event 'Create Fine' within case S110064
+removed timestamp and moved event 'Insert Fine Notification' within case S55374
+removed timestamp and moved event 'Send Fine' within case S168008
+removed timestamp and moved event 'Send Fine' within case A33855
+removed timestamp and moved event 'Create Fine' within case P3817
+removed timestamp and moved event 'Create Fine' within case N48493
+removed timestamp and moved event 'Payment' within case S179663
+removed timestamp and moved event 'Insert Fine Notification' within case N51339
+removed timestamp and moved event 'Add penalty' within case N28435
+removed timestamp and moved event 'Payment' within case A43928
+removed timestamp and moved event 'Create Fine' within case A7471
+removed timestamp and moved event 'Payment' within case A39613
+removed timestamp and moved event 'Send for Credit Collection' within case S154098
+removed timestamp and moved event 'Add penalty' within case A26725
+removed timestamp and moved event 'Payment' within case A40748
+removed timestamp and moved event 'Create Fine' within case N25423
+removed timestamp and moved event 'Create Fine' within case N32039
+removed timestamp and moved event 'Create Fine' within case S149909
+removed timestamp and moved event 'Create Fine' within case A38006
+removed timestamp and moved event 'Create Fine' within case S100342
+removed timestamp and moved event 'Create Fine' within case N27040
+removed timestamp and moved event 'Payment' within case S133485
+removed timestamp and moved event 'Add penalty' within case S161075
+removed timestamp and moved event 'Create Fine' within case A41778
+removed timestamp and moved event 'Insert Fine Notification' within case A14326
+removed timestamp and moved event 'Add penalty' within case P2633
+removed timestamp and moved event 'Payment' within case N65402
+removed timestamp and moved event 'Insert Fine Notification' within case P1785
+removed timestamp and moved event 'Create Fine' within case S149224
+removed timestamp and moved event 'Send for Credit Collection' within case A27221
+removed timestamp and moved event 'Send for Credit Collection' within case C18677
+removed timestamp and moved event 'Create Fine' within case S157791
+removed timestamp and moved event 'Send for Credit Collection' within case P26
+removed timestamp and moved event 'Create Fine' within case N40669
+removed timestamp and moved event 'Create Fine' within case S182203
+removed timestamp and moved event 'Insert Fine Notification' within case A32458
+removed timestamp and moved event 'Create Fine' within case S190081
+removed timestamp and moved event 'Send Fine' within case C13606
+removed timestamp and moved event 'Create Fine' within case S172195
+removed timestamp and moved event 'Payment' within case N62140
+removed timestamp and moved event 'Send for Credit Collection' within case S73051
+removed timestamp and moved event 'Add penalty' within case S88969
+removed timestamp and moved event 'Create Fine' within case S183711
+removed timestamp and moved event 'Add penalty' within case S158237
+removed timestamp and moved event 'Insert Fine Notification' within case C22433
+removed timestamp and moved event 'Create Fine' within case N24006
+removed timestamp and moved event 'Add penalty' within case C21262
+removed timestamp and moved event 'Create Fine' within case S77290
+removed timestamp and moved event 'Payment' within case A19144
+removed timestamp and moved event 'Create Fine' within case S66224
+removed timestamp and moved event 'Send for Credit Collection' within case S152618
+removed timestamp and moved event 'Add penalty' within case C19633
+removed timestamp and moved event 'Send for Credit Collection' within case N38088
+removed timestamp and moved event 'Send Fine' within case S157442
+removed timestamp and moved event 'Send for Credit Collection' within case S55473
+removed timestamp and moved event 'Add penalty' within case A20806
+removed timestamp and moved event 'Insert Fine Notification' within case V10126
+removed timestamp and moved event 'Create Fine' within case S74550
+removed timestamp and moved event 'Create Fine' within case S68538
+removed timestamp and moved event 'Add penalty' within case S156293
+removed timestamp and moved event 'Create Fine' within case N45190
+removed timestamp and moved event 'Create Fine' within case C21144
+removed timestamp and moved event 'Add penalty' within case S63509
+removed timestamp and moved event 'Send Fine' within case S51244
+removed timestamp and moved event 'Payment' within case S43451
+removed timestamp and moved event 'Payment' within case N40421
+removed timestamp and moved event 'Insert Fine Notification' within case A26184
+removed timestamp and moved event 'Send for Credit Collection' within case N30114
+removed timestamp and moved event 'Send for Credit Collection' within case N30453
+removed timestamp and moved event 'Send Fine' within case S145564
+removed timestamp and moved event 'Add penalty' within case A17330
+removed timestamp and moved event 'Send Fine' within case S171342
+removed timestamp and moved event 'Create Fine' within case S113502
+removed timestamp and moved event 'Insert Fine Notification' within case S127652
+removed timestamp and moved event 'Create Fine' within case N77943
+removed timestamp and moved event 'Create Fine' within case S149228
+removed timestamp and moved event 'Create Fine' within case N30564
+removed timestamp and moved event 'Add penalty' within case P2887
+removed timestamp and moved event 'Send Fine' within case V8559
+removed timestamp and moved event 'Create Fine' within case N25835
+removed timestamp and moved event 'Create Fine' within case N71863
+removed timestamp and moved event 'Create Fine' within case N30611
+removed timestamp and moved event 'Create Fine' within case S154743
+removed timestamp and moved event 'Payment' within case S42739
+removed timestamp and moved event 'Send Fine' within case S136577
+removed timestamp and moved event 'Payment' within case N85227
+removed timestamp and moved event 'Payment' within case A41699
+removed timestamp and moved event 'Send for Credit Collection' within case V11216
+removed timestamp and moved event 'Send for Credit Collection' within case S86063
+removed timestamp and moved event 'Create Fine' within case S62607
+removed timestamp and moved event 'Insert Fine Notification' within case S155955
+removed timestamp and moved event 'Send for Credit Collection' within case C19337
+removed timestamp and moved event 'Payment' within case S51555
+removed timestamp and moved event 'Send Fine' within case A23271
+removed timestamp and moved event 'Payment' within case S43822
+removed timestamp and moved event 'Payment' within case N87737
+removed timestamp and moved event 'Send Fine' within case N44554
+removed timestamp and moved event 'Create Fine' within case S167226
+removed timestamp and moved event 'Send for Credit Collection' within case N73579
+removed timestamp and moved event 'Payment' within case N63306
+removed timestamp and moved event 'Insert Fine Notification' within case N33383
+removed timestamp and moved event 'Create Fine' within case N61290
+removed timestamp and moved event 'Insert Fine Notification' within case S39180
+removed timestamp and moved event 'Insert Fine Notification' within case S153697
+removed timestamp and moved event 'Payment' within case N55432
+removed timestamp and moved event 'Create Fine' within case N97709
+removed timestamp and moved event 'Send for Credit Collection' within case S149079
+removed timestamp and moved event 'Add penalty' within case S64214
+removed timestamp and moved event 'Send Fine' within case N36215
+removed timestamp and moved event 'Create Fine' within case C13862
+removed timestamp and moved event 'Payment' within case A15977
+removed timestamp and moved event 'Insert Fine Notification' within case N25300
+removed timestamp and moved event 'Send Fine' within case S76311
+removed timestamp and moved event 'Add penalty' within case S159882
+removed timestamp and moved event 'Add penalty' within case N51339
+removed timestamp and moved event 'Payment' within case S50107
+removed timestamp and moved event 'Send Fine' within case S74900
+removed timestamp and moved event 'Payment' within case S114139
+removed timestamp and moved event 'Payment' within case S190480
+removed timestamp and moved event 'Payment' within case S123301
+removed timestamp and moved event 'Insert Fine Notification' within case C19202
+removed timestamp and moved event 'Send for Credit Collection' within case A24688
+removed timestamp and moved event 'Add penalty' within case S145589
+removed timestamp and moved event 'Create Fine' within case S124645
+removed timestamp and moved event 'Create Fine' within case A31960
+removed timestamp and moved event 'Payment' within case N66385
+removed timestamp and moved event 'Send Fine' within case N29711
+removed timestamp and moved event 'Payment' within case C12825
+removed timestamp and moved event 'Create Fine' within case A29636
+removed timestamp and moved event 'Add penalty' within case S78463
+removed timestamp and moved event 'Create Fine' within case S75335
+removed timestamp and moved event 'Payment' within case S45197
+removed timestamp and moved event 'Send Fine' within case A27668
+removed timestamp and moved event 'Create Fine' within case N67389
+removed timestamp and moved event 'Payment' within case S174792
+removed timestamp and moved event 'Send Fine' within case A34423
+removed timestamp and moved event 'Insert Fine Notification' within case N35483
+removed timestamp and moved event 'Send Fine' within case S74619
+removed timestamp and moved event 'Payment' within case S70624
+removed timestamp and moved event 'Send Fine' within case S156781
+removed timestamp and moved event 'Send Fine' within case S169494
+removed timestamp and moved event 'Add penalty' within case S78555
+removed timestamp and moved event 'Payment' within case P3577
+removed timestamp and moved event 'Add penalty' within case S89260
+removed timestamp and moved event 'Send for Credit Collection' within case S68776
+removed timestamp and moved event 'Create Fine' within case N49041
+removed timestamp and moved event 'Add penalty' within case S52459
+removed timestamp and moved event 'Send Fine' within case N36171
+removed timestamp and moved event 'Insert Fine Notification' within case N51301
+removed timestamp and moved event 'Insert Fine Notification' within case S167359
+removed timestamp and moved event 'Send for Credit Collection' within case S49814
+removed timestamp and moved event 'Send for Credit Collection' within case N37336
+removed timestamp and moved event 'Create Fine' within case C14773
+removed timestamp and moved event 'Send for Credit Collection' within case S133350
+removed timestamp and moved event 'Create Fine' within case N97812
+removed timestamp and moved event 'Create Fine' within case S125364
+removed timestamp and moved event 'Send for Credit Collection' within case N40788
+removed timestamp and moved event 'Create Fine' within case S147262
+removed timestamp and moved event 'Create Fine' within case N51094
+removed timestamp and moved event 'Send Fine' within case A26548
+removed timestamp and moved event 'Payment' within case S138279
+removed timestamp and moved event 'Create Fine' within case S171889
+removed timestamp and moved event 'Send Fine' within case S150124
+removed timestamp and moved event 'Send for Credit Collection' within case S56977
+removed timestamp and moved event 'Create Fine' within case N34823
+removed timestamp and moved event 'Insert Fine Notification' within case A31519
+removed timestamp and moved event 'Insert Fine Notification' within case N21946
+removed timestamp and moved event 'Add penalty' within case A26725
+removed timestamp and moved event 'Create Fine' within case N41082
+removed timestamp and moved event 'Create Fine' within case N32085
+removed timestamp and moved event 'Create Fine' within case N96361
+removed timestamp and moved event 'Insert Fine Notification' within case C20009
+removed timestamp and moved event 'Create Fine' within case N44053
+removed timestamp and moved event 'Payment' within case S139355
+removed timestamp and moved event 'Payment' within case S65216
+removed timestamp and moved event 'Insert Fine Notification' within case S39583
+removed timestamp and moved event 'Create Fine' within case N78229
+removed timestamp and moved event 'Create Fine' within case S110501
+removed timestamp and moved event 'Payment' within case N85159
+removed timestamp and moved event 'Create Fine' within case N45784
+removed timestamp and moved event 'Send for Credit Collection' within case S69070
+removed timestamp and moved event 'Send for Credit Collection' within case S86125
+removed timestamp and moved event 'Create Fine' within case S172324
+removed timestamp and moved event 'Create Fine' within case A14032
+removed timestamp and moved event 'Add penalty' within case S160333
+removed timestamp and moved event 'Send Fine' within case V4983
+removed timestamp and moved event 'Insert Fine Notification' within case C10193
+removed timestamp and moved event 'Add penalty' within case S173756
+removed timestamp and moved event 'Create Fine' within case S183750
+removed timestamp and moved event 'Insert Fine Notification' within case S111967
+removed timestamp and moved event 'Insert Fine Notification' within case N22946
+removed timestamp and moved event 'Insert Fine Notification' within case N42445
+removed timestamp and moved event 'Insert Fine Notification' within case N30100
+removed timestamp and moved event 'Payment' within case A9782
+removed timestamp and moved event 'Create Fine' within case A21083
+removed timestamp and moved event 'Payment' within case N24311
+removed timestamp and moved event 'Create Fine' within case A13484
+removed timestamp and moved event 'Create Fine' within case S74890
+removed timestamp and moved event 'Payment' within case S166845
+removed timestamp and moved event 'Create Fine' within case S54072
+removed timestamp and moved event 'Create Fine' within case S149081
+removed timestamp and moved event 'Payment' within case S142902
+removed timestamp and moved event 'Add penalty' within case S66325
+removed timestamp and moved event 'Add penalty' within case S125419
+removed timestamp and moved event 'Create Fine' within case V6897
+removed timestamp and moved event 'Send for Credit Collection' within case S57068
+removed timestamp and moved event 'Create Fine' within case A43056
+removed timestamp and moved event 'Send Fine' within case A18426
+removed timestamp and moved event 'Send for Credit Collection' within case S53007
+removed timestamp and moved event 'Create Fine' within case A21313
+removed timestamp and moved event 'Create Fine' within case C10193
+removed timestamp and moved event 'Payment' within case N40421
+removed timestamp and moved event 'Send Fine' within case A28011
+removed timestamp and moved event 'Insert Fine Notification' within case S169901
+removed timestamp and moved event 'Send Fine' within case P785
+removed timestamp and moved event 'Add penalty' within case N28982
+removed timestamp and moved event 'Send for Credit Collection' within case N44327
+removed timestamp and moved event 'Send Fine' within case A27588
+removed timestamp and moved event 'Create Fine' within case S62558
+removed timestamp and moved event 'Create Fine' within case N25500
+removed timestamp and moved event 'Send Fine' within case S120080
+removed timestamp and moved event 'Payment' within case N80029
+removed timestamp and moved event 'Send Fine' within case C14118
+removed timestamp and moved event 'Add penalty' within case A15446
+removed timestamp and moved event 'Insert Fine Notification' within case C19202
+removed timestamp and moved event 'Payment' within case S174071
+removed timestamp and moved event 'Payment' within case A17751
+removed timestamp and moved event 'Add penalty' within case S146771
+removed timestamp and moved event 'Send for Credit Collection' within case C14903
+removed timestamp and moved event 'Create Fine' within case A25854
+removed timestamp and moved event 'Payment' within case N47237
+removed timestamp and moved event 'Insert Fine Notification' within case C17176
+removed timestamp and moved event 'Insert Fine Notification' within case A25585
+removed timestamp and moved event 'Insert Fine Notification' within case S122030
+removed timestamp and moved event 'Insert Fine Notification' within case S152402
+removed timestamp and moved event 'Payment' within case S158843
+removed timestamp and moved event 'Create Fine' within case S166552
+removed timestamp and moved event 'Insert Fine Notification' within case S169494
+removed timestamp and moved event 'Send Fine' within case N23534
+removed timestamp and moved event 'Add penalty' within case A14286
+removed timestamp and moved event 'Create Fine' within case N43393
+removed timestamp and moved event 'Send for Credit Collection' within case N31191
+removed timestamp and moved event 'Create Fine' within case S128666
+removed timestamp and moved event 'Create Fine' within case S54860
+removed timestamp and moved event 'Add penalty' within case S168633
+removed timestamp and moved event 'Add penalty' within case S82619
+removed timestamp and moved event 'Send for Credit Collection' within case N37851
+removed timestamp and moved event 'Insert Fine Notification' within case N30258
+removed timestamp and moved event 'Create Fine' within case S62692
+removed timestamp and moved event 'Create Fine' within case S145564
+removed timestamp and moved event 'Create Fine' within case S76143
+removed timestamp and moved event 'Create Fine' within case S152361
+removed timestamp and moved event 'Payment' within case S63552
+removed timestamp and moved event 'Create Fine' within case S50154
+removed timestamp and moved event 'Payment' within case S145746
+removed timestamp and moved event 'Send Fine' within case S153849
+removed timestamp and moved event 'Insert Fine Notification' within case V9946
+removed timestamp and moved event 'Create Fine' within case A28211
+removed timestamp and moved event 'Payment' within case S99090
+removed timestamp and moved event 'Create Fine' within case N28624
+removed timestamp and moved event 'Create Fine' within case N102539
+removed timestamp and moved event 'Create Fine' within case S97084
+removed timestamp and moved event 'Insert Fine Notification' within case V4276
+removed timestamp and moved event 'Add penalty' within case S56709
+removed timestamp and moved event 'Insert Fine Notification' within case S58126
+removed timestamp and moved event 'Create Fine' within case S147515
+removed timestamp and moved event 'Send Fine' within case A32452
+removed timestamp and moved event 'Payment' within case S155087
+removed timestamp and moved event 'Create Fine' within case A22023
+removed timestamp and moved event 'Send for Credit Collection' within case V9114
+removed timestamp and moved event 'Send Fine' within case V10100
+removed timestamp and moved event 'Create Fine' within case S70319
+removed timestamp and moved event 'Create Fine' within case N33231
+removed timestamp and moved event 'Create Fine' within case S137435
+removed timestamp and moved event 'Payment' within case S125364
+removed timestamp and moved event 'Insert Fine Notification' within case S155760
+removed timestamp and moved event 'Send for Credit Collection' within case S164279
+removed timestamp and moved event 'Payment' within case A40889
+removed timestamp and moved event 'Create Fine' within case A5639
+removed timestamp and moved event 'Send Fine' within case S62881
+removed timestamp and moved event 'Create Fine' within case N91222
+removed timestamp and moved event 'Send for Credit Collection' within case A15735
+removed timestamp and moved event 'Payment' within case V7131
+removed timestamp and moved event 'Send Fine' within case N28417
+removed timestamp and moved event 'Insert Fine Notification' within case S151701
+removed timestamp and moved event 'Send for Credit Collection' within case S120344
+removed timestamp and moved event 'Create Fine' within case S190406
+removed timestamp and moved event 'Insert Fine Notification' within case N31011
+removed timestamp and moved event 'Payment' within case S97567
+removed timestamp and moved event 'Payment' within case S66723
+removed timestamp and moved event 'Create Fine' within case N38197
+removed timestamp and moved event 'Send for Credit Collection' within case N30848
+removed timestamp and moved event 'Payment' within case V7314
+removed timestamp and moved event 'Create Fine' within case S147502
+removed timestamp and moved event 'Add penalty' within case N40247
+removed timestamp and moved event 'Create Fine' within case S62521
+removed timestamp and moved event 'Add penalty' within case N36864
+removed timestamp and moved event 'Create Fine' within case N44103
+removed timestamp and moved event 'Insert Fine Notification' within case N26538
+removed timestamp and moved event 'Send Fine' within case N40369
+removed timestamp and moved event 'Add penalty' within case S176384
+removed timestamp and moved event 'Add penalty' within case S74295
+removed timestamp and moved event 'Create Fine' within case S112585
+removed timestamp and moved event 'Payment' within case S56881
+removed timestamp and moved event 'Send for Credit Collection' within case S151250
+removed timestamp and moved event 'Send for Credit Collection' within case N36230
+removed timestamp and moved event 'Insert Fine Notification' within case N32810
+removed timestamp and moved event 'Add penalty' within case N26016
+removed timestamp and moved event 'Create Fine' within case S172377
+removed timestamp and moved event 'Add penalty' within case S60956
+removed timestamp and moved event 'Send Fine' within case S125875
+removed timestamp and moved event 'Add penalty' within case S169714
+removed timestamp and moved event 'Create Fine' within case A38835
+removed timestamp and moved event 'Create Fine' within case S39123
+removed timestamp and moved event 'Add penalty' within case N29080
+removed timestamp and moved event 'Add penalty' within case N25873
+removed timestamp and moved event 'Send Fine' within case S49386
+removed timestamp and moved event 'Add penalty' within case A42168
+removed timestamp and moved event 'Create Fine' within case S139847
+removed timestamp and moved event 'Add penalty' within case A26002
+removed timestamp and moved event 'Create Fine' within case A41931
+removed timestamp and moved event 'Send Fine' within case C21149
+removed timestamp and moved event 'Send for Credit Collection' within case S64032
+removed timestamp and moved event 'Send for Credit Collection' within case S48702
+removed timestamp and moved event 'Send Fine' within case S68757
+removed timestamp and moved event 'Send Fine' within case V10958
+removed timestamp and moved event 'Payment' within case S123280
+removed timestamp and moved event 'Payment' within case S178262
+removed timestamp and moved event 'Payment' within case V4629
+removed timestamp and moved event 'Create Fine' within case N47773
+removed timestamp and moved event 'Send Fine' within case S56736
+removed timestamp and moved event 'Send Fine' within case N23422
+removed timestamp and moved event 'Create Fine' within case N84840
+removed timestamp and moved event 'Create Fine' within case N24456
+removed timestamp and moved event 'Payment' within case S115047
+removed timestamp and moved event 'Send for Credit Collection' within case N33374
+removed timestamp and moved event 'Appeal to Judge' within case V18910
+removed timestamp and moved event 'Create Fine' within case S140521
+removed timestamp and moved event 'Send for Credit Collection' within case S78238
+removed timestamp and moved event 'Add penalty' within case S54081
+removed timestamp and moved event 'Payment' within case S50931
+removed timestamp and moved event 'Create Fine' within case N40763
+removed timestamp and moved event 'Payment' within case S170075
+removed timestamp and moved event 'Payment' within case S71398
+removed timestamp and moved event 'Add penalty' within case N19861
+removed timestamp and moved event 'Send for Credit Collection' within case V10047
+removed timestamp and moved event 'Payment' within case S90519
+removed timestamp and moved event 'Insert Fine Notification' within case N51301
+removed timestamp and moved event 'Send for Credit Collection' within case S166645
+removed timestamp and moved event 'Add penalty' within case S170094
+removed timestamp and moved event 'Payment' within case N62865
+removed timestamp and moved event 'Create Fine' within case C19460
+removed timestamp and moved event 'Create Fine' within case A23334
+removed timestamp and moved event 'Payment' within case N89297
+removed timestamp and moved event 'Add penalty' within case S126678
+removed timestamp and moved event 'Send Fine' within case S79514
+removed timestamp and moved event 'Payment' within case S172871
+removed timestamp and moved event 'Send for Credit Collection' within case S155504
+removed timestamp and moved event 'Send for Credit Collection' within case S65974
+removed timestamp and moved event 'Create Fine' within case S185459
+removed timestamp and moved event 'Create Fine' within case A11992
+removed timestamp and moved event 'Send for Credit Collection' within case S162148
+removed timestamp and moved event 'Create Fine' within case S192689
+removed timestamp and moved event 'Create Fine' within case N27536
+removed timestamp and moved event 'Send Fine' within case S85626
+removed timestamp and moved event 'Payment' within case N41533
+removed timestamp and moved event 'Send for Credit Collection' within case S154743
+removed timestamp and moved event 'Send Fine' within case S170523
+removed timestamp and moved event 'Create Fine' within case S193458
+removed timestamp and moved event 'Create Fine' within case S78816
+removed timestamp and moved event 'Insert Fine Notification' within case S157054
+removed timestamp and moved event 'Create Fine' within case C13526
+removed timestamp and moved event 'Payment' within case S137976
+removed timestamp and moved event 'Payment' within case S153061
+removed timestamp and moved event 'Add penalty' within case C17798
+removed timestamp and moved event 'Payment' within case S77269
+removed timestamp and moved event 'Send for Credit Collection' within case A21251
+removed timestamp and moved event 'Send for Credit Collection' within case P3576
+removed timestamp and moved event 'Payment' within case N92239
+removed timestamp and moved event 'Send for Credit Collection' within case A14276
+removed timestamp and moved event 'Add penalty' within case N35460
+removed timestamp and moved event 'Create Fine' within case S146833
+removed timestamp and moved event 'Send Fine' within case P1841
+removed timestamp and moved event 'Create Fine' within case S125186
+removed timestamp and moved event 'Payment' within case A7476
+removed timestamp and moved event 'Payment' within case S139052
+removed timestamp and moved event 'Insert Fine Notification' within case S76209
+removed timestamp and moved event 'Add penalty' within case N47529
+removed timestamp and moved event 'Create Fine' within case S47858
+removed timestamp and moved event 'Payment' within case S69759
+removed timestamp and moved event 'Create Fine' within case S85847
+removed timestamp and moved event 'Add penalty' within case S159734
+removed timestamp and moved event 'Payment' within case S98011
+removed timestamp and moved event 'Insert Fine Notification' within case V16225
+removed timestamp and moved event 'Send for Credit Collection' within case N31374
+removed timestamp and moved event 'Create Fine' within case A4873
+removed timestamp and moved event 'Payment' within case A26232
+removed timestamp and moved event 'Add penalty' within case S59390
+removed timestamp and moved event 'Payment' within case S191425
+removed timestamp and moved event 'Send for Credit Collection' within case S65038
+removed timestamp and moved event 'Insert Fine Notification' within case N24571
+removed timestamp and moved event 'Add penalty' within case N25336
+removed timestamp and moved event 'Insert Fine Notification' within case S174679
+removed timestamp and moved event 'Payment' within case N91429
+removed timestamp and moved event 'Create Fine' within case S167902
+removed timestamp and moved event 'Create Fine' within case S62994
+removed timestamp and moved event 'Payment' within case S101522
+removed timestamp and moved event 'Add penalty' within case S154277
+removed timestamp and moved event 'Send Fine' within case V4933
+removed timestamp and moved event 'Create Fine' within case N23854
+removed timestamp and moved event 'Payment' within case N71039
+removed timestamp and moved event 'Send for Credit Collection' within case A24360
+removed timestamp and moved event 'Payment' within case S180023
+removed timestamp and moved event 'Add penalty' within case A35792
+removed timestamp and moved event 'Create Fine' within case P5216
+removed timestamp and moved event 'Add penalty' within case S56187
+removed timestamp and moved event 'Insert Fine Notification' within case V6320
+removed timestamp and moved event 'Payment' within case S161675
+removed timestamp and moved event 'Payment' within case N84979
+removed timestamp and moved event 'Create Fine' within case A29214
+removed timestamp and moved event 'Send Fine' within case N43767
+removed timestamp and moved event 'Add penalty' within case S168649
+removed timestamp and moved event 'Send for Credit Collection' within case N27002
+removed timestamp and moved event 'Payment' within case S42992
+removed timestamp and moved event 'Create Fine' within case S77351
+removed timestamp and moved event 'Send Fine' within case S127055
+removed timestamp and moved event 'Send for Credit Collection' within case N41735
+removed timestamp and moved event 'Add penalty' within case S54676
+removed timestamp and moved event 'Create Fine' within case S77327
+removed timestamp and moved event 'Payment' within case N67571
+removed timestamp and moved event 'Create Fine' within case N45579
+removed timestamp and moved event 'Create Fine' within case N21917
+removed timestamp and moved event 'Add penalty' within case S78842
+removed timestamp and moved event 'Create Fine' within case A39362
+removed timestamp and moved event 'Create Fine' within case S56709
+removed timestamp and moved event 'Payment' within case N36698
+removed timestamp and moved event 'Add penalty' within case N32387
+removed timestamp and moved event 'Insert Fine Notification' within case N45622
+removed timestamp and moved event 'Payment' within case S43467
+removed timestamp and moved event 'Payment' within case S54860
+removed timestamp and moved event 'Insert Fine Notification' within case N33480
+removed timestamp and moved event 'Insert Fine Notification' within case S177377
+removed timestamp and moved event 'Create Fine' within case S122030
+removed timestamp and moved event 'Create Fine' within case N49378
+removed timestamp and moved event 'Create Fine' within case N32671
+removed timestamp and moved event 'Create Fine' within case S85607
+removed timestamp and moved event 'Add penalty' within case S158974
+removed timestamp and moved event 'Send Fine' within case N28047
+removed timestamp and moved event 'Create Fine' within case S98260
+removed timestamp and moved event 'Send for Credit Collection' within case N45132
+removed timestamp and moved event 'Create Fine' within case S60827
+removed timestamp and moved event 'Create Fine' within case S88817
+removed timestamp and moved event 'Send Fine' within case N45271
+removed timestamp and moved event 'Add penalty' within case N32396
+removed timestamp and moved event 'Payment' within case S105263
+removed timestamp and moved event 'Payment' within case N40717
+removed timestamp and moved event 'Create Fine' within case N26027
+removed timestamp and moved event 'Add penalty' within case N41542
+removed timestamp and moved event 'Send for Credit Collection' within case A28466
+removed timestamp and moved event 'Create Fine' within case A41098
+removed timestamp and moved event 'Send Fine' within case N38147
+removed timestamp and moved event 'Create Fine' within case P1014
+removed timestamp and moved event 'Insert Fine Notification' within case N37165
+removed timestamp and moved event 'Send for Credit Collection' within case S169901
+removed timestamp and moved event 'Payment' within case S167427
+removed timestamp and moved event 'Create Fine' within case S168075
+removed timestamp and moved event 'Payment' within case A11927
+removed timestamp and moved event 'Create Fine' within case N23044
+removed timestamp and moved event 'Create Fine' within case S169901
+removed timestamp and moved event 'Create Fine' within case N42825
+removed timestamp and moved event 'Send Fine' within case S72141
+removed timestamp and moved event 'Create Fine' within case N42425
+removed timestamp and moved event 'Create Fine' within case S113005
+removed timestamp and moved event 'Create Fine' within case C14310
+removed timestamp and moved event 'Payment' within case P5467
+removed timestamp and moved event 'Add penalty' within case S51070
+removed timestamp and moved event 'Insert Fine Notification' within case S136486
+removed timestamp and moved event 'Send Fine' within case S155549
+removed timestamp and moved event 'Add penalty' within case S57137
+removed timestamp and moved event 'Payment' within case A22668
+removed timestamp and moved event 'Create Fine' within case S171500
+removed timestamp and moved event 'Create Fine' within case N43686
+removed timestamp and moved event 'Payment' within case S163740
+removed timestamp and moved event 'Payment' within case A8806
+removed timestamp and moved event 'Send for Credit Collection' within case S158930
+removed timestamp and moved event 'Payment' within case N101025
+removed timestamp and moved event 'Create Fine' within case N30172
+removed timestamp and moved event 'Send for Credit Collection' within case S147135
+removed timestamp and moved event 'Add penalty' within case S147991
+removed timestamp and moved event 'Insert Fine Notification' within case S155955
+removed timestamp and moved event 'Create Fine' within case S146371
+removed timestamp and moved event 'Create Fine' within case N102051
+removed timestamp and moved event 'Create Fine' within case N28534
+removed timestamp and moved event 'Add penalty' within case S120377
+removed timestamp and moved event 'Payment' within case S190180
+removed timestamp and moved event 'Insert Fine Notification' within case S52532
+removed timestamp and moved event 'Send for Credit Collection' within case N42967
+removed timestamp and moved event 'Payment' within case S170941
+removed timestamp and moved event 'Send for Credit Collection' within case V10006
+removed timestamp and moved event 'Create Fine' within case S56633
+removed timestamp and moved event 'Payment' within case S51358
+removed timestamp and moved event 'Create Fine' within case S55780
+removed timestamp and moved event 'Add penalty' within case S160695
+removed timestamp and moved event 'Create Fine' within case N43760
+removed timestamp and moved event 'Payment' within case S89720
+removed timestamp and moved event 'Insert Fine Notification' within case N38177
+removed timestamp and moved event 'Payment' within case S157027
+removed timestamp and moved event 'Send Fine' within case V11084
+removed timestamp and moved event 'Send for Credit Collection' within case S77213
+removed timestamp and moved event 'Payment' within case N28267
+removed timestamp and moved event 'Payment' within case N39112
+removed timestamp and moved event 'Send Fine' within case N31018
+removed timestamp and moved event 'Payment' within case N53021
+removed timestamp and moved event 'Create Fine' within case S44935
+removed timestamp and moved event 'Create Fine' within case A30237
+removed timestamp and moved event 'Create Fine' within case N80861
+removed timestamp and moved event 'Add penalty' within case S58669
+removed timestamp and moved event 'Add penalty' within case V6751
+removed timestamp and moved event 'Create Fine' within case S86247
+removed timestamp and moved event 'Payment' within case N87646
+removed timestamp and moved event 'Payment' within case A21181
+removed timestamp and moved event 'Create Fine' within case S66279
+removed timestamp and moved event 'Create Fine' within case S39558
+removed timestamp and moved event 'Insert Fine Notification' within case S55432
+removed timestamp and moved event 'Insert Fine Notification' within case S123167
+removed timestamp and moved event 'Insert Fine Notification' within case S59947
+removed timestamp and moved event 'Payment' within case A25761
+removed timestamp and moved event 'Insert Fine Notification' within case S56954
+removed timestamp and moved event 'Send Fine' within case N51457
+removed timestamp and moved event 'Insert Fine Notification' within case P3576
+removed timestamp and moved event 'Create Fine' within case S145396
+removed timestamp and moved event 'Insert Fine Notification' within case S48980
+removed timestamp and moved event 'Send for Credit Collection' within case S79230
+removed timestamp and moved event 'Add penalty' within case S170898
+removed timestamp and moved event 'Send for Credit Collection' within case S70805
+removed timestamp and moved event 'Payment' within case S137919
+removed timestamp and moved event 'Payment' within case S80906
+removed timestamp and moved event 'Send Fine' within case V9964
+removed timestamp and moved event 'Add penalty' within case V11298
+removed timestamp and moved event 'Create Fine' within case C15531
+removed timestamp and moved event 'Insert Fine Notification' within case N24280
+removed timestamp and moved event 'Send Fine' within case V8718
+removed timestamp and moved event 'Add penalty' within case A28368
+removed timestamp and moved event 'Send for Credit Collection' within case S75430
+removed timestamp and moved event 'Send Fine' within case S54916
+removed timestamp and moved event 'Send Fine' within case S146942
+removed timestamp and moved event 'Create Fine' within case S135842
+removed timestamp and moved event 'Payment' within case N34610
+removed timestamp and moved event 'Send Fine' within case S79904
+removed timestamp and moved event 'Send Fine' within case S153679
+removed timestamp and moved event 'Send for Credit Collection' within case N25019
+removed timestamp and moved event 'Insert Fine Notification' within case S69642
+removed timestamp and moved event 'Send for Credit Collection' within case A13563
+removed timestamp and moved event 'Send for Credit Collection' within case V4426
+removed timestamp and moved event 'Create Fine' within case S132371
+removed timestamp and moved event 'Send for Credit Collection' within case S61190
+removed timestamp and moved event 'Payment' within case N53531
+removed timestamp and moved event 'Create Fine' within case A14833
+removed timestamp and moved event 'Insert Fine Notification' within case S62619
+removed timestamp and moved event 'Send for Credit Collection' within case N37729
+removed timestamp and moved event 'Payment' within case S92324
+removed timestamp and moved event 'Insert Fine Notification' within case N25228
+removed timestamp and moved event 'Send for Credit Collection' within case S155687
+removed timestamp and moved event 'Payment' within case A3733
+removed timestamp and moved event 'Payment' within case S103880
+removed timestamp and moved event 'Create Fine' within case S147377
+removed timestamp and moved event 'Create Fine' within case S54430
+removed timestamp and moved event 'Send Fine' within case S164085
+removed timestamp and moved event 'Payment' within case N28167
+removed timestamp and moved event 'Insert Fine Notification' within case S73326
+removed timestamp and moved event 'Insert Fine Notification' within case S67189
+removed timestamp and moved event 'Payment' within case A4090
+removed timestamp and moved event 'Create Fine' within case N38880
+removed timestamp and moved event 'Add penalty' within case N45784
+removed timestamp and moved event 'Create Fine' within case P1529
+removed timestamp and moved event 'Send for Credit Collection' within case S88969
+removed timestamp and moved event 'Send for Credit Collection' within case N29137
+removed timestamp and moved event 'Add penalty' within case N28677
+removed timestamp and moved event 'Send for Credit Collection' within case S43263
+removed timestamp and moved event 'Create Fine' within case S151989
+removed timestamp and moved event 'Create Fine' within case S55325
+removed timestamp and moved event 'Add penalty' within case S47677
+removed timestamp and moved event 'Add penalty' within case S126205
+removed timestamp and moved event 'Insert Fine Notification' within case S56733
+removed timestamp and moved event 'Payment' within case S114087
+removed timestamp and moved event 'Send for Credit Collection' within case C14591
+removed timestamp and moved event 'Create Fine' within case S153369
+removed timestamp and moved event 'Add penalty' within case S136486
+removed timestamp and moved event 'Create Fine' within case A9347
+removed timestamp and moved event 'Send Fine' within case A14843
+removed timestamp and moved event 'Create Fine' within case S88997
+removed timestamp and moved event 'Create Fine' within case S121985
+removed timestamp and moved event 'Create Fine' within case S50665
+removed timestamp and moved event 'Add penalty' within case S74619
+removed timestamp and moved event 'Send for Credit Collection' within case S175426
+removed timestamp and moved event 'Payment' within case N45956
+removed timestamp and moved event 'Payment' within case S63368
+removed timestamp and moved event 'Send for Credit Collection' within case C12329
+removed timestamp and moved event 'Create Fine' within case A2638
+removed timestamp and moved event 'Add penalty' within case V6265
+removed timestamp and moved event 'Payment' within case S144627
+removed timestamp and moved event 'Send Fine' within case S144387
+removed timestamp and moved event 'Send Fine' within case S75117
+removed timestamp and moved event 'Create Fine' within case A11528
+removed timestamp and moved event 'Create Fine' within case N32989
+removed timestamp and moved event 'Payment' within case S128229
+removed timestamp and moved event 'Send Fine' within case S61827
+removed timestamp and moved event 'Send for Credit Collection' within case V6799
+removed timestamp and moved event 'Create Fine' within case S84675
+removed timestamp and moved event 'Payment' within case S50319
+removed timestamp and moved event 'Create Fine' within case N30255
+removed timestamp and moved event 'Payment' within case S43187
+removed timestamp and moved event 'Payment' within case A32193
+removed timestamp and moved event 'Insert Fine Notification' within case V7679
+removed timestamp and moved event 'Send for Credit Collection' within case V17909
+removed timestamp and moved event 'Send for Credit Collection' within case A19026
+removed timestamp and moved event 'Send for Credit Collection' within case C16123
+removed timestamp and moved event 'Create Fine' within case S87134
+removed timestamp and moved event 'Insert Fine Notification' within case S163847
+removed timestamp and moved event 'Add penalty' within case C15625
+removed timestamp and moved event 'Insert Fine Notification' within case N27551
+removed timestamp and moved event 'Add penalty' within case N41867
+removed timestamp and moved event 'Insert Fine Notification' within case N29599
+removed timestamp and moved event 'Send Fine' within case S75990
+removed timestamp and moved event 'Send Fine' within case N46044
+removed timestamp and moved event 'Create Fine' within case N32298
+removed timestamp and moved event 'Create Fine' within case S163122
+removed timestamp and moved event 'Add penalty' within case S156916
+removed timestamp and moved event 'Create Fine' within case S156677
+removed timestamp and moved event 'Create Fine' within case S82415
+removed timestamp and moved event 'Send Fine' within case S39246
+removed timestamp and moved event 'Send Fine' within case S169221
+removed timestamp and moved event 'Insert Fine Notification' within case S155318
+removed timestamp and moved event 'Create Fine' within case S71611
+removed timestamp and moved event 'Payment' within case N21953
+removed timestamp and moved event 'Insert Fine Notification' within case A26548
+removed timestamp and moved event 'Create Fine' within case S103092
+removed timestamp and moved event 'Payment' within case S159057
+removed timestamp and moved event 'Payment' within case A33066
+removed timestamp and moved event 'Send for Credit Collection' within case V17434
+removed timestamp and moved event 'Insert Fine Notification' within case C18502
+removed timestamp and moved event 'Add penalty' within case S83472
+removed timestamp and moved event 'Payment' within case N54369
+removed timestamp and moved event 'Send Fine' within case N44891
+removed timestamp and moved event 'Send for Credit Collection' within case S164585
+removed timestamp and moved event 'Payment' within case S158097
+removed timestamp and moved event 'Payment' within case S114163
+removed timestamp and moved event 'Add penalty' within case N25707
+removed timestamp and moved event 'Payment' within case A28857
+removed timestamp and moved event 'Create Fine' within case V6893
+removed timestamp and moved event 'Create Fine' within case S110809
+removed timestamp and moved event 'Send Fine' within case N21969
+removed timestamp and moved event 'Create Fine' within case A30883
+removed timestamp and moved event 'Payment' within case A5209
+removed timestamp and moved event 'Insert Fine Notification' within case A16401
+removed timestamp and moved event 'Create Fine' within case S179277
+removed timestamp and moved event 'Create Fine' within case S179296
+removed timestamp and moved event 'Insert Fine Notification' within case S56977
+removed timestamp and moved event 'Insert Fine Notification' within case C18502
+removed timestamp and moved event 'Add penalty' within case S71612
+removed timestamp and moved event 'Send Fine' within case S61827
+removed timestamp and moved event 'Send Fine' within case A10437
+removed timestamp and moved event 'Payment' within case S124298
+removed timestamp and moved event 'Add penalty' within case S177721
+removed timestamp and moved event 'Payment' within case S189922
+removed timestamp and moved event 'Insert Fine Notification' within case V5918
+removed timestamp and moved event 'Send Fine' within case V4996
+removed timestamp and moved event 'Add penalty' within case S60561
+removed timestamp and moved event 'Create Fine' within case N26027
+removed timestamp and moved event 'Create Fine' within case A37798
+removed timestamp and moved event 'Insert Fine Notification' within case S161592
+removed timestamp and moved event 'Create Fine' within case S71398
+removed timestamp and moved event 'Add penalty' within case S175703
+removed timestamp and moved event 'Create Fine' within case N31165
+removed timestamp and moved event 'Send for Credit Collection' within case N25654
+removed timestamp and moved event 'Send for Credit Collection' within case S176074
+removed timestamp and moved event 'Add penalty' within case A26198
+removed timestamp and moved event 'Add penalty' within case A25787
+removed timestamp and moved event 'Payment' within case C22781
+removed timestamp and moved event 'Create Fine' within case N44485
+removed timestamp and moved event 'Insert Fine Notification' within case S84694
+removed timestamp and moved event 'Payment' within case V6751
+removed timestamp and moved event 'Create Fine' within case A5936
+removed timestamp and moved event 'Add penalty' within case C17380
+removed timestamp and moved event 'Send for Credit Collection' within case N21266
+removed timestamp and moved event 'Insert Fine Notification' within case S75430
+removed timestamp and moved event 'Payment' within case P2784
+removed timestamp and moved event 'Send for Credit Collection' within case S160888
+removed timestamp and moved event 'Create Fine' within case S173154
+removed timestamp and moved event 'Send for Credit Collection' within case S177744
+removed timestamp and moved event 'Add penalty' within case S122030
+removed timestamp and moved event 'Payment' within case S74039
+removed timestamp and moved event 'Create Fine' within case S106517
+removed timestamp and moved event 'Payment' within case S174744
+removed timestamp and moved event 'Payment' within case S186372
+removed timestamp and moved event 'Insert Fine Notification' within case S55821
+removed timestamp and moved event 'Insert Fine Notification' within case N29257
+removed timestamp and moved event 'Create Fine' within case N78840

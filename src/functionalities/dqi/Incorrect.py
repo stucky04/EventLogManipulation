@@ -6,7 +6,7 @@ from randomtimestamp import random_date, random_time
 
 
 def insert_I10(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many cases to insert
         number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
     else:
@@ -36,7 +36,7 @@ def insert_I10(self):
 # incorrect event
 # pick random event from other process and insert it at a random case of the regarded process at random position
 def insert_I11(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many cases to insert
         number_to_insert = int(self.relative_amount * len(self.root.findall(".//trace")))
     else:
@@ -71,7 +71,7 @@ def insert_I11(self):
 # incorrect relationship
 # pick a random event and move to another random trace at a random position
 def insert_I12(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many events to move
         number_to_move = int(self.relative_amount * len(self.root.findall(".//event")))
     else:
@@ -105,7 +105,7 @@ def insert_I12(self):
 # pick a random case attribute and change to random value
 # case attributes: concept:name, variant:count, variant:index
 def insert_I13(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many attributes to modify
         number_to_modify = int(
             self.relative_amount * len(self.root.findall(".//trace")) * self.number_of_case_attributes_per_case)
@@ -135,7 +135,7 @@ def insert_I13(self):
 # incorrect position
 # pick event within a trace and move to other position within the SAME trace
 def insert_I14(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many events to modify
         number_of_events_to_modify = int(
             self.relative_amount * len(self.root.findall(".//event")))
@@ -164,7 +164,7 @@ def insert_I14(self):
 # incorrect activity name
 # pick random event and set activity name to random string value
 def insert_I15(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many activity names to modify
         number_to_modify = int(
             self.relative_amount * len(self.root.findall(".//event/string[@key='concept:name']")))
@@ -188,7 +188,7 @@ def insert_I15(self):
 # incorrect timestamp
 # pick random timestamp and change to random value
 def insert_I16(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many timestamps to modify
         number_to_modify = int(self.relative_amount * len(self.root.findall(".//date")))
     else:
@@ -230,7 +230,7 @@ def insert_I16(self):
 # incorrect resource
 # pick random org:resource and change to random value
 def insert_I17(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many resources to modify
         number_to_modify = int(
             self.relative_amount * len(self.root.findall(".//event/string[@key='org:resource']")))
@@ -254,7 +254,7 @@ def insert_I17(self):
 # incorrect event attribute
 # pick random attribute within event and change to random value
 def insert_I18(self):
-    if self.relative_amount != "":
+    if self.relative_amount != "" and self.relative_amount != 0:
         # calculate how many attributes to modify
         number_to_modify = int(self.relative_amount * len(self.root.findall(".//event/")))
     else:

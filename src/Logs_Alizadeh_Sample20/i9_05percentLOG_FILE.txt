@@ -2,36 +2,51 @@
 Method insert_I9: 
 ----------------------------------------------------------------------------
 removed event attribute 'lifecycle:transition' of event 'Send for Credit Collection' within case S174071
+removed event attribute 'lifecycle:transition' of event 'Create Fine' within case S174071
+
 removed event attribute 'dismissal' of event 'Create Fine' within case S61468
+removed event attribute 'concept:name' of event 'Payment' within case S61468
+
 removed event attribute 'lifecycle:transition' of event 'Send Fine' within case S126633
+removed event attribute 'totalPaymentAmount' of event 'Payment' within case S126633
+removed event attribute 'concept:name' of event 'Payment' within case S126633
+
 removed event attribute 'concept:name' of event 'Create Fine' within case S85066
+removed event attribute 'totalPaymentAmount' of event 'Payment' within case S85066
+removed event attribute 'lifecycle:transition' of event 'Payment' within case S85066
+
+
 removed event attribute 'lifecycle:transition' of event 'Create Fine' within case C21281
+removed event attribute 'concept:name' of event 'Payment' within case C21281
+removed event attribute 'lifecycle:transition' of event 'Payment' within case C21281
+removed event attribute 'lifecycle:transition' of event '' within case C21281
+
+
 removed event attribute 'time:timestamp' of event 'Appeal to Judge' within case V18910
 removed delay_judge from case V18910 
-removed event attribute 'totalPaymentAmount' of event 'Payment' within case S126633
-removed event attribute 'concept:name' of event 'Payment' within case S61468
 removed event attribute 'time:timestamp' of event 'Add penalty' within case V18910
-removed event attribute 'concept:name' of event 'Payment' within case S126633
+removed event attribute 'org:resource' of event 'Appeal to Judge' within case V18910
+
 removed event attribute 'delay_judge' of event 'Insert Fine Notification' within case S152386
+
 removed event attribute 'expense' of event 'Send Fine' within case A28368
-removed event attribute 'lifecycle:transition' of event 'Payment' within case C21281
+
 removed event attribute 'lifecycle:transition' of event 'Create Fine' within case N48226
-removed event attribute 'totalPaymentAmount' of event 'Payment' within case S85066
+removed event attribute 'concept:name' of event 'Create Fine' within case N48226
+
 removed event attribute 'concept:name' of event 'Insert Fine Notification' within case S165283
+removed event attribute 'concept:name' of event 'Create Fine' within case S165283
+removed event attribute 'time:timestamp' of event 'Payment' within case S165283
+
+
 removed event attribute 'points' of event 'Create Fine' within case S62391
 removed event attribute 'paymentAmount' of event 'Payment' within case V9224
-removed event attribute 'org:resource' of event 'Appeal to Judge' within case V18910
-removed event attribute 'concept:name' of event 'Create Fine' within case S165283
+
 removed event attribute 'lifecycle:transition' of event 'Payment' within case S62391
-removed event attribute 'time:timestamp' of event 'Payment' within case S165283
 removed event attribute 'totalPaymentAmount' of event 'Create Fine' within case N40669
-removed event attribute 'concept:name' of event 'Create Fine' within case N48226
 removed event attribute 'concept:name' of event 'Payment' within case S62391
 removed event attribute 'dismissal' of event 'Create Fine' within case S48459
-removed event attribute 'lifecycle:transition' of event 'Payment' within case S85066
-removed event attribute 'concept:name' of event 'Payment' within case C21281
 removed event attribute 'points' of event 'Create Fine' within case S147012
-removed event attribute 'lifecycle:transition' of event 'Create Fine' within case S174071
+
 removed event attribute 'time:timestamp' of event 'Create Fine' within case S92113
 removed delay_send from case S92113 
-removed event attribute 'lifecycle:transition' of event '' within case C21281

@@ -1,8 +1,8 @@
 
 Method insert_I14: 
 ----------------------------------------------------------------------------
-moved event 'Payment' to another position within the same case N43873
-moved event 'Create Fine' to another position within the same case S61468
-moved event 'Create Fine' to another position within the same case S48459
-moved event 'Add penalty' to another position within the same case S152386
+moved event 'Payment' to another position within the same case N43873 	
+moved event 'Create Fine' to another position within the same case S61468	
+moved event 'Create Fine' to another position within the same case S48459		
+moved event 'Add penalty' to another position within the same case S152386		
 moved event 'Create Fine' to another position within the same case C17798

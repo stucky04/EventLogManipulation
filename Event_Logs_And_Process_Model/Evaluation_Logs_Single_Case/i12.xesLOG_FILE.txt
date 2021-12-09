@@ -1,0 +1,4 @@
+
+Method insert_I12: 
+----------------------------------------------------------------------------
+inserted event 'Send for Credit Collection' from other case into case S165283

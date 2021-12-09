@@ -1,0 +1,53 @@
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">	
+	<trace>
+		<string key="concept:name" value="S165283"/>
+		<int key="variant:count" value="2618"/>
+		<int key="variant:index" value="2"/>
+		<event>
+			<float key="amount" value="80.0"/>
+			<string key="org:resource" value="39"/>
+			<string key="dismissal" value="NIL"/>
+			<string key="concept:name" value="Create Fine"/>
+			<string key="vehicleClass" value="A"/>
+			<float key="totalPaymentAmount" value="0.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2011-08-04T00:00:00.000+02:00"/>
+			<int key="article" value="158"/>
+			<int key="points" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Send Fine"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<float key="expense" value="15.0"/>
+			<date key="time:timestamp" value="2011-09-21T00:00:00.000+02:00"/>
+		</event>
+		<event>
+			<float key="delay_judge" value="0.0"/>
+			<string key="concept:name" value="Insert Fine Notification"/>
+			<float key="delay_prefecture" value="0.0"/>
+			<string key="notificationType" value="P"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="lastSent" value="P"/>
+			<date key="time:timestamp" value="2011-11-16T00:00:00.000+01:00"/>
+		</event>
+		<event>
+			<float key="amount" value="159.0"/>
+			<string key="concept:name" value="Add penalty"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-01-15T00:00:00.000+01:00"/>
+		</event>
+		<event>
+			<float key="totalPaymentAmount" value="174.0"/>
+			<string key="concept:name" value="Payment"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<float key="paymentAmount" value="174.0"/>
+			<date key="time:timestamp" value="2012-05-29T00:00:00.000+02:00"/>
+		</event>
+	</trace>
+</log>

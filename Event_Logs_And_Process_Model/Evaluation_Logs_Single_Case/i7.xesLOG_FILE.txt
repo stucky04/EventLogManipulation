@@ -1,0 +1,5 @@
+
+Method insert_I7: 
+----------------------------------------------------------------------------
+removed timestamp of event 'Create Fine' within case S165283
+removed delay_send from case S165283 

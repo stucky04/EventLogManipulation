@@ -1,6 +1,6 @@
 # Event Logs and Process Model
 
-The event logs in the folder "Event_Logs_and_Process_Model" are modifications of the real-world event log published in [1]. The process model is built according to the descriptions in [2]. 
+The event logs in the folder "Event_Logs_And_Process_Model" are modifications of the real-world event log published in [1]. The process model is built according to the descriptions in [2]. 
 
 
 # Event Log Manipulation Tool
@@ -49,6 +49,8 @@ methods for DQI I26-I27
 # References
 
 [1] de Leoni, M. (Massimiliano); Mannhardt, Felix (2015): Road Traffic Fine Management Process. 4TU.ResearchData. Dataset. https://doi.org/10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5 
+
 [2] F. Mannhardt. Multi-perspective Process Mining: Proefschrift. SIKS Dissertation, Eindhoven. 2018.
+
 [3] R. J. C. Bose, R. S. Mans and Wil M. van der Aalst. Wanna improve process mining results? In IEEE (Ed.), IEEE Symposium on
 Computational Intelligence and Data Mining (CIDM). IEEE, 2013, pp. 127–134.
